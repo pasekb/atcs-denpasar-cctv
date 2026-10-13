@@ -63,7 +63,7 @@ export default function AdminLoginPage() {
             Login Administrator
           </h1>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            CCTV Denpasar by PasekB - Panel Administrator
+            CCTV Denpasar - Panel Administrator
           </p>
         </div>
 

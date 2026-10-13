@@ -139,7 +139,7 @@ export default function CctvCard({ location, onEnlarge }: CctvCardProps) {
 
         {/* Watermark Logo */}
         <div className="absolute bottom-2.5 right-2.5 z-10 pointer-events-none opacity-40 text-[10px] font-bold text-white tracking-wider uppercase bg-black/40 px-2 py-0.5 rounded">
-          CCTV DENPASAR BY PASEKB
+          CCTV DENPASAR
         </div>
       </div>
 

@@ -230,7 +230,7 @@ export default function AdminPage() {
             </Link>
             <div>
               <h1 className="text-lg font-bold flex items-center gap-2">
-                <span>Panel Admin CCTV Denpasar by PasekB</span>
+                <span>Panel Admin CCTV Denpasar</span>
               </h1>
               <p className="text-xs text-slate-500">
                 Modifikasi data titik CCTV & kategorisasi SPBU

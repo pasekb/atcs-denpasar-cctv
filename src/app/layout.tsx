@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CCTV Denpasar by PasekB",
-  description: "Pantau lalu lintas Kota Denpasar secara real-time - CCTV Denpasar by PasekB",
+  title: "CCTV Denpasar",
+  description: "Pantau lalu lintas Kota Denpasar secara real-time - CCTV Denpasar",
 };
 
 export default function RootLayout({

@@ -85,7 +85,7 @@ export default function CctvMap({
       });
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | CCTV Denpasar by PasekB',
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | CCTV Denpasar',
         maxZoom: 19,
       }).addTo(map);
 
