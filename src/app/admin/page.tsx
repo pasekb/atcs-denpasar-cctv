@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 import { CctvLocation } from "@/types/cctv";
 import {
   Video,
@@ -463,6 +464,8 @@ export default function AdminPage() {
           </div>
         </div>
       </main>
+
+      <Footer />
 
       {/* FORM MODAL (TAMBAH / EDIT) */}
       {isModalOpen && (

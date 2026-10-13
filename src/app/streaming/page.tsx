@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import SidebarList from "@/components/SidebarList";
 import CctvCard from "@/components/CctvCard";
 import CctvModal from "@/components/CctvModal";
+import Footer from "@/components/Footer";
 import { CctvLocation } from "@/types/cctv";
 import { Map, LayoutGrid, ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Loader2, Fuel } from "lucide-react";
 
@@ -293,6 +294,9 @@ export default function StreamingPage() {
           </div>
         </div>
       </main>
+
+      {/* Footer */}
+      <Footer />
 
       {/* Modal Enlarged / Fullscreen View */}
       <CctvModal
