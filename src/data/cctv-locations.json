@@ -1,0 +1,5019 @@
+{
+  "success": true,
+  "message": "Req. Success",
+  "data": [
+    {
+      "id_lokasi": 94,
+      "id_kota": 1,
+      "nomor_urut": 94,
+      "nama_lokasi": "TEUKU UMAR BARAT - PURA DEMAK",
+      "ket_lokasi": "TEUKU UMAR BARAT - PURA DEMAK",
+      "lat_lokasi": -8.681748,
+      "lon_lokasi": 115.192763,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU teuku umar barat",
+      "jarak_spbu_meter": 5,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 94,
+          "nama": "TEUKU UMAR BARAT - PURA DEMAK",
+          "nama_alias": "TEUKU UMAR BARAT - PURA DEMAK",
+          "deskripsi": "Kamera CCTV TEUKU UMAR BARAT - PURA DEMAK",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A100PURADEMAKPTZ/",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      }
+    },
+    {
+      "id_lokasi": 1,
+      "id_kota": 1,
+      "nomor_urut": 1,
+      "nama_lokasi": "GUNUNG AGUNG",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Wahidin - Gunung Agung",
+      "lon_lokasi": 115.208528,
+      "lat_lokasi": -8.654504,
+      "no_sp": 1,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 1,
+          "nama": "GUNUNG AGUNG",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/102",
+          "nama_alias": "SIMPANG GUNUNG AGUNG",
+          "deskripsi": "KAMERA PTZ SIMPANG GUNUNG AGUNG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A001GUNUNGAGUNGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A001GUNUNGAGUNGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A001GUNUNGAGUNGPTZ/ ",
+          "poster": "",
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 51.801.30 Gunung Agung",
+      "jarak_spbu_meter": 120
+    },
+    {
+      "id_lokasi": 2,
+      "id_kota": 1,
+      "nomor_urut": 2,
+      "nama_lokasi": "KAPTEN SUJANA",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Buluh indah - Gunung Agung",
+      "lon_lokasi": 115.195416,
+      "lat_lokasi": -8.651533,
+      "no_sp": 2,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 2,
+          "nama": "KAPTEN SUJANA",
+          "url_video": "rtsp://admin:Marktel2025@10.43.0.5/Streaming/Channels/202",
+          "nama_alias": "SIMPANG KAPTEN SUJANA",
+          "deskripsi": "KAMERA PTZ SIMPANG KAPTEN SUJANA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A002KAPTENSUJANAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A002KAPTENSUJANAPTZ/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A002KAPTENSUJANAPTZ/ ",
+          "poster": "",
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.12 Buluh Indah",
+      "jarak_spbu_meter": 150
+    },
+    {
+      "id_lokasi": 3,
+      "id_kota": 1,
+      "nomor_urut": 3,
+      "nama_lokasi": "GUNUNG SALAK",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Teuku Umar Barat - Gunung Salak",
+      "lon_lokasi": 115.180975,
+      "lat_lokasi": -8.673437,
+      "no_sp": 3,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 3,
+          "nama": "GUNUNG SALAK",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/402",
+          "nama_alias": "SIMPANG GUNUNG SALAK",
+          "deskripsi": "KAMERA PTZ SIMPANG GUNUNG SALAK",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A003GUNUNGSALAKPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A003GUNUNGSALAKPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A003GUNUNGSALAKPTZ/ ",
+          "poster": "",
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 4,
+      "id_kota": 1,
+      "nomor_urut": 4,
+      "nama_lokasi": "TEUKU UMAR",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Imam Bonjol -Teuku Umar",
+      "lon_lokasi": 115.197039,
+      "lat_lokasi": -8.681704,
+      "no_sp": 4,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 4,
+          "nama": "TEUKU UMAR 1",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/502",
+          "nama_alias": "SIMPANG TEUKU UMAR 1",
+          "deskripsi": "KAMERA PTZ 1 SIMPANG TEUKU UMAR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A004TEUKUUMARPTZ1",
+          "url_proxy_cam": "http://10.43.0.10/stream/A004TEUKUUMARPTZ1/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A004TEUKUUMARPTZ1/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        },
+        {
+          "id_lokasi": 4,
+          "nama": "TEUKU UMAR 2",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/602",
+          "nama_alias": "SIMPANG TEUKU UMAR 2",
+          "deskripsi": "KAMERA PTZ 2 SIMPANG TEUKU UMAR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A004TEUKUUMARPTZ2",
+          "url_proxy_cam": "http://10.43.0.10/stream/A004TEUKUUMARPTZ2/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A004TEUKUUMARPTZ2/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.11 Teuku Umar / Imam Bonjol",
+      "jarak_spbu_meter": 200
+    },
+    {
+      "id_lokasi": 5,
+      "id_kota": 1,
+      "nomor_urut": 5,
+      "nama_lokasi": "BATANTA",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Teuku Umar - Batanta",
+      "lon_lokasi": 115.201098,
+      "lat_lokasi": -8.681066,
+      "no_sp": 5,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 5,
+          "nama": "BATANTA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/702",
+          "nama_alias": "SIMPANG BATANTA",
+          "deskripsi": "KAMERA PTZ SIMPANG BATANTA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A005BATANTAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A005BATANTAPTZ/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A005BATANTAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 6,
+      "id_kota": 1,
+      "nomor_urut": 6,
+      "nama_lokasi": "SOPUTAN",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Imam Bonjol - Gunung Soputan",
+      "lon_lokasi": 115.191711,
+      "lat_lokasi": -8.68923,
+      "no_sp": 6,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 6,
+          "nama": "SOPUTAN",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/802",
+          "nama_alias": "SIMPANG SOPUTAN",
+          "deskripsi": "KAMERA PTZ SIMPANG SOPUTAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A006SOPUTANPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A006SOPUTANPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A006SOPUTANPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 7,
+      "id_kota": 1,
+      "nomor_urut": 7,
+      "nama_lokasi": "MAHENDRADATTA",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Teuku Umar Barat - Western Ring Road",
+      "lon_lokasi": 115.189278,
+      "lat_lokasi": -8.681271,
+      "no_sp": 8,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 7,
+          "nama": "MAHENDRADATTA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/902",
+          "nama_alias": "SIMPANG MAHENDRADATTA",
+          "deskripsi": "KAMERA PTZ SIMPANG MAHENDRADATTA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A008MAHENDRADATTAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A008MAHENDRADATTAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A008MAHENDRADATTAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.48 Mahendradatta",
+      "jarak_spbu_meter": 180
+    },
+    {
+      "id_lokasi": 8,
+      "id_kota": 1,
+      "nomor_urut": 8,
+      "nama_lokasi": "BALUN",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Cokroaminoto - Maruti",
+      "lon_lokasi": 115.20929,
+      "lat_lokasi": -8.644593,
+      "no_sp": 7,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 8,
+          "nama": "BALUN",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1002",
+          "nama_alias": "SIMPANG BALUN",
+          "deskripsi": "KAMERA PTZ SIMPANG BALUN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A007BALUNPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A007BALUNPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A007BALUNPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 9,
+      "id_kota": 1,
+      "nomor_urut": 9,
+      "nama_lokasi": "PERUMNAS",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Western Ring Road - Buana Raya",
+      "lon_lokasi": 115.190472,
+      "lat_lokasi": -8.668488,
+      "no_sp": 9,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 9,
+          "nama": "PERUMNAS",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1102",
+          "nama_alias": "SIMPANG PERUMNAS",
+          "deskripsi": "KAMERA PTZ SIMPANG PERUMNAS",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A009PERUMNASPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A009PERUMNASPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A009PERUMNASPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 10,
+      "id_kota": 1,
+      "nomor_urut": 10,
+      "nama_lokasi": "PERMATA HIJAU",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Western Ring Road - Permata Hijau ",
+      "lon_lokasi": 115.190896,
+      "lat_lokasi": -8.660082,
+      "no_sp": 10,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 10,
+          "nama": "PERMATA HIJAU",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1202",
+          "nama_alias": "SIMPANG PERMATA HIJAU",
+          "deskripsi": "KAMERA PTZ SIMPANG PERMATA HIJAU",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A010PERMATAHIJAUPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A010PERMATAHIJAUPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A010PERMATAHIJAUPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 11,
+      "id_kota": 1,
+      "nomor_urut": 11,
+      "nama_lokasi": "MERPATI",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Mahendradatta Utara - Merpati",
+      "lon_lokasi": 115.194837,
+      "lat_lokasi": -8.653811,
+      "no_sp": 11,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 11,
+          "nama": "MERPATI",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1302",
+          "nama_alias": "SIMPANG MERPATI",
+          "deskripsi": "KAMERA PTZ SIMPANG MERPATI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A011MERPATIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A011MERPATIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A011MERPATIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 12,
+      "id_kota": 1,
+      "nomor_urut": 12,
+      "nama_lokasi": "PULAU SAELUS",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Diponegoro - Pulau Saelus",
+      "lon_lokasi": 115.215794,
+      "lat_lokasi": -8.684409,
+      "no_sp": 12,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 12,
+          "nama": "PULAU SAELUS",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1402",
+          "nama_alias": "SIMPANG PULAU SAELUS",
+          "deskripsi": "KAMERA PTZ SIMPANG PULAU SAELUS",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A012PULAUSAELUSPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A012PULAUSAELUSPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A012PULAUSAELUSPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 13,
+      "id_kota": 1,
+      "nomor_urut": 13,
+      "nama_lokasi": "SIDAKARYA",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Diponegoro - Sidakarya",
+      "lon_lokasi": 115.219351,
+      "lat_lokasi": -8.700536,
+      "no_sp": 13,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 13,
+          "nama": "SIDAKARYA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1502",
+          "nama_alias": "SIMPANG SIDAKARYA",
+          "deskripsi": "KAMERA PTZ SIMPANG SIDAKARYA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A013SIDAKARYAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A013SIDAKARYAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A013SIDAKARYAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 14,
+      "id_kota": 1,
+      "nomor_urut": 14,
+      "nama_lokasi": "KAPTEN JAPA",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Hayam Wuruk - Kapten Japa",
+      "lon_lokasi": 115.225096,
+      "lat_lokasi": -8.65701,
+      "no_sp": 14,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 14,
+          "nama": "KAPTEN JAPA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1602",
+          "nama_alias": "SIMPANG KAPTEN JAPA",
+          "deskripsi": "KAMERA PTZ SIMPANG KAPTEN JAPA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A014KAPTENJAPAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A014KAPTENJAPAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A014KAPTENJAPAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 15,
+      "id_kota": 1,
+      "nomor_urut": 15,
+      "nama_lokasi": "MELATI",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Hayam Wuruk - Melati",
+      "lon_lokasi": 115.222208,
+      "lat_lokasi": -8.656731,
+      "no_sp": 15,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 15,
+          "nama": "MELATI",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1702",
+          "nama_alias": "SIMPANG MELATI",
+          "deskripsi": "KAMERA PTZ SIMPANG MELATI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A015MELATIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A015MELATIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A015MELATIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 16,
+      "id_kota": 1,
+      "nomor_urut": 16,
+      "nama_lokasi": "YOS SUDARSO",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang PB Sudirman - Yos Sudarso",
+      "lon_lokasi": 115.217885,
+      "lat_lokasi": -8.667677,
+      "no_sp": 16,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 16,
+          "nama": "YOS SUDARSO",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1802",
+          "nama_alias": "SIMPANG YOS SUDARSO",
+          "deskripsi": "KAMERA PTZ SIMPANG YOS SUDARSO",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A016YOSSUDARSOPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A016YOSSUDARSOPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A016YOSSUDARSOPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.07 PB Sudirman",
+      "jarak_spbu_meter": 90
+    },
+    {
+      "id_lokasi": 17,
+      "id_kota": 1,
+      "nomor_urut": 17,
+      "nama_lokasi": "PUPUTAN",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang PB Sudirman - Raya Puputan",
+      "lon_lokasi": 115.21807,
+      "lat_lokasi": -8.669779,
+      "no_sp": 17,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 17,
+          "nama": "PUPUTAN",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1902",
+          "nama_alias": "SIMPANG PUPUTAN",
+          "deskripsi": "KAMERA PTZ SIMPANG PUPUTAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A017PUPUTANPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A017PUPUTANPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A017PUPUTANPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.07 PB Sudirman",
+      "jarak_spbu_meter": 140
+    },
+    {
+      "id_lokasi": 18,
+      "id_kota": 1,
+      "nomor_urut": 18,
+      "nama_lokasi": "DEWI SARTIKA",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Diponegoro - Dewi Sartika",
+      "lon_lokasi": 115.215466,
+      "lat_lokasi": -8.669495,
+      "no_sp": 18,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 18,
+          "nama": "DEWI SARTIKA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2002",
+          "nama_alias": "SIMPANG DEWI SARTIKA",
+          "deskripsi": "KAMERA PTZ SIMPANG DEWI SARTIKA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A018DEWISARTIKAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A018DEWISARTIKAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A018DEWISARTIKAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 19,
+      "id_kota": 1,
+      "nomor_urut": 19,
+      "nama_lokasi": "FE UNUD",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang PB Sudirman - Serma Mendra",
+      "lon_lokasi": 115.217913,
+      "lat_lokasi": -8.673658,
+      "no_sp": 19,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 19,
+          "nama": "FE UNUD",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2102",
+          "nama_alias": "SIMPANG FE UNUD",
+          "deskripsi": "KAMERA PTZ SIMPANG FE UNUD",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A019FEUNUDPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A019FEUNUDPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A019FEUNUDPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 20,
+      "id_kota": 1,
+      "nomor_urut": 20,
+      "nama_lokasi": "WATURENGGONG",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang PB Sudirman - Waturenggong",
+      "lon_lokasi": 115.217383,
+      "lat_lokasi": -8.677048,
+      "no_sp": 20,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 20,
+          "nama": "WATURENGGONG",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2202",
+          "nama_alias": "SIMPANG WATURENGGONG",
+          "deskripsi": "KAMERA PTZ SIMPANG WATURENGGONG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A020WATURENGGONGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A020WATURENGGONGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A020WATURENGGONGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 21,
+      "id_kota": 1,
+      "nomor_urut": 21,
+      "nama_lokasi": "PULAU BUTON",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Diponegoro - Pulau Buton",
+      "lon_lokasi": 115.215227,
+      "lat_lokasi": -8.677417,
+      "no_sp": 21,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 21,
+          "nama": "PULAU BUTON",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2302",
+          "nama_alias": "SIMPANG PULAU BUTON",
+          "deskripsi": "KAMERA PTZ SIMPANG PULAU BUTON",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A021PULAUBUTONPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A021PULAUBUTONPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A021PULAUBUTONPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        },
+        {
+          "id_lokasi": 21,
+          "nama": "PULAU BUTON PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2302",
+          "nama_alias": "SIMPANG PULAU BUTON PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SIMPANG PULAU BUTON",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A021PULAUBUTONPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A021PULAUBUTONPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A021PULAUBUTONPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 22,
+      "id_kota": 1,
+      "nomor_urut": 22,
+      "nama_lokasi": "UBUNG",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Cokroaminoto",
+      "lon_lokasi": 115.207555,
+      "lat_lokasi": -8.638915,
+      "no_sp": 22,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 22,
+          "nama": "UBUNG 1",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2402",
+          "nama_alias": "SIMPANG UBUNG 1",
+          "deskripsi": "KAMERA PTZ 1 SIMPANG UBUNG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A022UBUNGPTZ1",
+          "url_proxy_cam": "http://10.43.0.10/stream/A022UBUNGPTZ1/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A022UBUNGPTZ1/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        },
+        {
+          "id_lokasi": 22,
+          "nama": "UBUNG 2",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2502",
+          "nama_alias": "SIMPANG UBUNG 2",
+          "deskripsi": "KAMERA PTZ 2 SIMPANG UBUNG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A022UBUNGPTZ2",
+          "url_proxy_cam": "http://10.43.0.10/stream/A022UBUNGPTZ2/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A022UBUNGPTZ2/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.18 Cokroaminoto Ubung",
+      "jarak_spbu_meter": 110
+    },
+    {
+      "id_lokasi": 23,
+      "id_kota": 1,
+      "nomor_urut": 23,
+      "nama_lokasi": "CATURMUKA",
+      "tahun": 2013,
+      "anggaran": "APBN",
+      "ket_lokasi": "Simpang Udayana - Surapati",
+      "lon_lokasi": 115.216935,
+      "lat_lokasi": -8.655997,
+      "no_sp": 23,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 23,
+          "nama": "CATURMUKA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2602",
+          "nama_alias": "SIMPANG CATURMUKA",
+          "deskripsi": "KAMERA PTZ SIMPANG CATURMUKA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A023CATURMUKAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A023CATURMUKAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A023CATURMUKAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 24,
+      "id_kota": 1,
+      "nomor_urut": 24,
+      "nama_lokasi": "ARJUNA",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gajah Mada - Arjuna",
+      "lon_lokasi": 115.214959,
+      "lat_lokasi": -8.655727,
+      "no_sp": 24,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 24,
+          "nama": "ARJUNA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2702",
+          "nama_alias": "SIMPANG ARJUNA",
+          "deskripsi": "KAMERA PTZ SIMPANG ARJUNA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A024ARJUNAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A024ARJUNAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A024ARJUNAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 25,
+      "id_kota": 1,
+      "nomor_urut": 25,
+      "nama_lokasi": "THAMRIN",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Imam Bonjol - Thamrin",
+      "lon_lokasi": 115.209792,
+      "lat_lokasi": -8.658417,
+      "no_sp": 25,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 25,
+          "nama": "THAMRIN",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2802",
+          "nama_alias": "SIMPANG THAMRIN",
+          "deskripsi": "KAMERA PTZ SIMPANG THAMRIN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A025THAMRINPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A025THAMRINPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A025THAMRINPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 26,
+      "id_kota": 1,
+      "nomor_urut": 26,
+      "nama_lokasi": "PULAU BIAK",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Imam Bonjol - Pulau Biak",
+      "lon_lokasi": 115.206455,
+      "lat_lokasi": -8.666804,
+      "no_sp": 26,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 26,
+          "nama": "PULAU BIAK",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/2902",
+          "nama_alias": "SIMPANG PULAU BIAK",
+          "deskripsi": "KAMERA PTZ SIMPANG PULAU BIAK",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A026PULAUBIAKPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A026PULAUBIAKPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A026PULAUBIAKPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 27,
+      "id_kota": 1,
+      "nomor_urut": 27,
+      "nama_lokasi": "GUNUNG SUBUR",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Imam Bonjol - Gunung Subur",
+      "lon_lokasi": 115.205273,
+      "lat_lokasi": -8.669307,
+      "no_sp": 27,
+      "input_date": null,
+      "update_date": "2016-12-05T11:48:41.000Z",
+      "input_by": null,
+      "update_by": 1,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 27,
+          "nama": "GUNUNG SUBUR",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3002",
+          "nama_alias": "SIMPANG GUNUNG SUBUR",
+          "deskripsi": "KAMERA PTZ SIMPANG GUNUNG SUBUR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A027GUNUNGSUBURPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A027GUNUNGSUBURPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A027GUNUNGSUBURPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 28,
+      "id_kota": 1,
+      "nomor_urut": 28,
+      "nama_lokasi": "PULAU GALANG",
+      "tahun": 2015,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Imam Bonjol - Pulau Galang",
+      "lon_lokasi": 115.187122,
+      "lat_lokasi": -8.695513,
+      "no_sp": 28,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": false,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 28,
+          "nama": "PULAU GALANG",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3102",
+          "nama_alias": "SIMPANG PULAU GALANG",
+          "deskripsi": "KAMERA PTZ SIMPANG PULAU GALANG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A028PULAUGALANGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A028PULAUGALANGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A028PULAUGALANGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 29,
+      "id_kota": 1,
+      "nomor_urut": 29,
+      "nama_lokasi": "TANGKUBAN PERAHU",
+      "tahun": 2015,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Teuku Umar Barat - Gunung Lumut",
+      "lon_lokasi": 115.182498,
+      "lat_lokasi": -8.673392,
+      "no_sp": 29,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 29,
+          "nama": "TANGKUBAN PERAHU",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3202",
+          "nama_alias": "SIMPANG TANGKUBAN PERAHU",
+          "deskripsi": "KAMERA PTZ SIMPANG TANGKUBAN PERAHU",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A029TANGKUBANPERAHUPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A029TANGKUBANPERAHUPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A029TANGKUBANPERAHUPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 30,
+      "id_kota": 1,
+      "nomor_urut": 30,
+      "nama_lokasi": "CARGO",
+      "tahun": 2012,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Cargo",
+      "lon_lokasi": 115.196699,
+      "lat_lokasi": -8.63684,
+      "no_sp": 30,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 30,
+          "nama": "CARGO",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3302",
+          "nama_alias": "SIMPANG CARGO",
+          "deskripsi": "KAMERA PTZ SIMPANG CARGO",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A030CARGOPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A030CARGOPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A030CARGOPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.28 Gatot Subroto Barat",
+      "jarak_spbu_meter": 160
+    },
+    {
+      "id_lokasi": 31,
+      "id_kota": 1,
+      "nomor_urut": 31,
+      "nama_lokasi": "PIDADA",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Pidada",
+      "lon_lokasi": 115.202483,
+      "lat_lokasi": -8.638815,
+      "no_sp": 31,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 31,
+          "nama": "PIDADA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3402",
+          "nama_alias": "SIMPANG PIDADA",
+          "deskripsi": "KAMERA PTZ SIMPANG PIDADA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A031PIDADAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A031PIDADAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A031PIDADAPTZ/ ",
+          "poster": "PIDADA_33_27.jpg",
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.28 Gatsu Barat - Pidada",
+      "jarak_spbu_meter": 130
+    },
+    {
+      "id_lokasi": 32,
+      "id_kota": 1,
+      "nomor_urut": 32,
+      "nama_lokasi": "AHMAD YANI",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Ahmad Yani",
+      "lon_lokasi": 115.210857,
+      "lat_lokasi": -8.637791,
+      "no_sp": 32,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 32,
+          "nama": "AHMAD YANI",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3502",
+          "nama_alias": "SIMPANG AHMAD YANI",
+          "deskripsi": "KAMERA PTZ SIMPANG AHMAD YANI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A032AHMADYANIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A032AHMADYANIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A032AHMADYANIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 33,
+      "id_kota": 1,
+      "nomor_urut": 33,
+      "nama_lokasi": "NANGKA",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Nangka",
+      "lon_lokasi": 115.22301,
+      "lat_lokasi": -8.635554,
+      "no_sp": 33,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 33,
+          "nama": "NANGKA 1",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3602",
+          "nama_alias": "SIMPANG NANGKA 1",
+          "deskripsi": "KAMERA PTZ 1 SIMPANG NANGKA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A033NANGKAPTZ1",
+          "url_proxy_cam": "http://10.43.0.10/stream/A033NANGKAPTZ1/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A033NANGKAPTZ1/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        },
+        {
+          "id_lokasi": 33,
+          "nama": "NANGKA 2",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3702",
+          "nama_alias": "SIMPANG NANGKA 2",
+          "deskripsi": "KAMERA PTZ 2 SIMPANG NANGKA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A033NANGKAPTZ2",
+          "url_proxy_cam": "http://10.43.0.10/stream/A033NANGKAPTZ2/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A033NANGKAPTZ2/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.05 Gatsu Tengah - Nangka",
+      "jarak_spbu_meter": 170
+    },
+    {
+      "id_lokasi": 34,
+      "id_kota": 1,
+      "nomor_urut": 34,
+      "nama_lokasi": "KENYERI",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Kenyeri",
+      "lon_lokasi": 115.229601,
+      "lat_lokasi": -8.635617,
+      "no_sp": 34,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 34,
+          "nama": "KENYERI",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3802",
+          "nama_alias": "SIMPANG KENYERI",
+          "deskripsi": "KAMERA PTZ SIMPANG KENYERI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A034KENYERIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A034KENYERIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A034KENYERIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 35,
+      "id_kota": 1,
+      "nomor_urut": 35,
+      "nama_lokasi": "NOJA",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Noja",
+      "lon_lokasi": 115.235335,
+      "lat_lokasi": -8.635957,
+      "no_sp": 35,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 35,
+          "nama": "NOJA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/3902",
+          "nama_alias": "SIMPANG NOJA",
+          "deskripsi": "KAMERA PTZ SIMPANG NOJA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A035NOJAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A035NOJAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A035NOJAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 36,
+      "id_kota": 1,
+      "nomor_urut": 36,
+      "nama_lokasi": "TRENGGULI",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Trenggana",
+      "lon_lokasi": 115.241562,
+      "lat_lokasi": -8.635862,
+      "no_sp": 36,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 36,
+          "nama": "TRENGGULI",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4002",
+          "nama_alias": "SIMPANG TRENGGULI",
+          "deskripsi": "KAMERA PTZ SIMPANG TRENGGULI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A036TRENGGULIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A036TRENGGULIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A036TRENGGULIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 37,
+      "id_kota": 1,
+      "nomor_urut": 37,
+      "nama_lokasi": "KEN AROK",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Ahmad Yani - Ken Arok",
+      "lon_lokasi": 115.208686,
+      "lat_lokasi": -8.628757,
+      "no_sp": 37,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 37,
+          "nama": "KEN AROK",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4102",
+          "nama_alias": "SIMPANG KEN AROK",
+          "deskripsi": "KAMERA PTZ SIMPANG KEN AROK",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A037KENAROKPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A037KENAROKPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A037KENAROKPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 38,
+      "id_kota": 1,
+      "nomor_urut": 38,
+      "nama_lokasi": "TOHPATI",
+      "tahun": 2013,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - WR Supratman",
+      "lon_lokasi": 115.253783,
+      "lat_lokasi": -8.639083,
+      "no_sp": 38,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 38,
+          "nama": "TOHPATI",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4202",
+          "nama_alias": "SIMPANG TOHPATI",
+          "deskripsi": "KAMERA PTZ SIMPANG TOHPATI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A038TOHPATIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A038TOHPATIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A038TOHPATIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.38 WR Supratman Tohpati",
+      "jarak_spbu_meter": 140
+    },
+    {
+      "id_lokasi": 39,
+      "id_kota": 1,
+      "nomor_urut": 39,
+      "nama_lokasi": "KEBO IWA",
+      "tahun": 2015,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gatot Subroto - Kebo Iwa",
+      "lon_lokasi": 115.185144,
+      "lat_lokasi": -8.63667,
+      "no_sp": 39,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 39,
+          "nama": "KEBO IWA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4302",
+          "nama_alias": "SIMPANG KEBO IWA",
+          "deskripsi": "KAMERA PTZ SIMPANG KEBO IWA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A039KEBOIWAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A039KEBOIWAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A039KEBOIWAPTZ/ ",
+          "poster": "KEBO_IWA_42_27.jpg",
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 40,
+      "id_kota": 1,
+      "nomor_urut": 40,
+      "nama_lokasi": "SEKARSARI",
+      "tahun": 2020,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang IB Mantra - Sekarsari ",
+      "lon_lokasi": 115.262936,
+      "lat_lokasi": -8.649191,
+      "no_sp": 40,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 40,
+          "nama": "SEKARSARI",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4402",
+          "nama_alias": "SIMPANG SEKARSARI",
+          "deskripsi": "KAMERA PTZ SIMPANG SEKARSARI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A040SEKARSARIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A040SEKARSARIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A040SEKARSARIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 41,
+      "id_kota": 1,
+      "nomor_urut": 41,
+      "nama_lokasi": "GEMITIR",
+      "tahun": 2015,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang IB Mantra - Gemitir",
+      "lon_lokasi": 115.269318,
+      "lat_lokasi": -8.648386,
+      "no_sp": 41,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 41,
+          "nama": "GEMITIR",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4502",
+          "nama_alias": "SIMPANG GEMITIR",
+          "deskripsi": "KAMERA PTZ SIMPANG GEMITIR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A041GEMITIRPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A041GEMITIRPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A041GEMITIRPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 42,
+      "id_kota": 1,
+      "nomor_urut": 42,
+      "nama_lokasi": "SEDAP MALAM",
+      "tahun": 2020,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Hang Tuah - Sedap Malam",
+      "lon_lokasi": 115.252166,
+      "lat_lokasi": -8.67415,
+      "no_sp": 42,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 42,
+          "nama": "SEDAP MALAM",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4602",
+          "nama_alias": "SIMPANG SEDAP MALAM",
+          "deskripsi": "KAMERA PTZ SIMPANG SEDAP MALAM",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A042SEDAPMALAMPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A042SEDAPMALAMPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A042SEDAPMALAMPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 43,
+      "id_kota": 1,
+      "nomor_urut": 43,
+      "nama_lokasi": "GUNUNG GALUNGGUNG",
+      "tahun": 2020,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Cokroaminoto - Gunung Galunggung",
+      "lon_lokasi": 115.194985,
+      "lat_lokasi": -8.617052,
+      "no_sp": 43,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 43,
+          "nama": "GUNUNG GALUNGGUNG",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4702",
+          "nama_alias": "SIMPANG GUNUNG GALUNGGUNG",
+          "deskripsi": "KAMERA PTZ SIMPANG GUNUNG GALUNGGUNG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A043GUNUNGGALUNGGUNGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A043GUNUNGGALUNGGUNGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A043GUNUNGGALUNGGUNGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 44,
+      "id_kota": 1,
+      "nomor_urut": 44,
+      "nama_lokasi": "WARIBANG",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang WR Supratman - Waribang",
+      "lon_lokasi": 115.245138,
+      "lat_lokasi": -8.646279,
+      "no_sp": 44,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 44,
+          "nama": "WARIBANG",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4802",
+          "nama_alias": "SIMPANG WARIBANG",
+          "deskripsi": "KAMERA PTZ SIMPANG WARIBANG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A044WARIBANGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A044WARIBANGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A044WARIBANGPTZ/ ",
+          "poster": "WARIBANG_47_27.jpg",
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.45 Waribang Kesiman",
+      "jarak_spbu_meter": 220
+    },
+    {
+      "id_lokasi": 45,
+      "id_kota": 1,
+      "nomor_urut": 45,
+      "nama_lokasi": "SURABI",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang WR Supratman - Surabi",
+      "lon_lokasi": 115.23987,
+      "lat_lokasi": -8.64813,
+      "no_sp": 45,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 45,
+          "nama": "SURABI",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/4902",
+          "nama_alias": "SIMPANG SURABI",
+          "deskripsi": "KAMERA PTZ SIMPANG SURABI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A045SURABIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A045SURABIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A045SURABIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 46,
+      "id_kota": 1,
+      "nomor_urut": 46,
+      "nama_lokasi": "SUBITA",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang WR Supratman - Subita",
+      "lon_lokasi": 115.23358,
+      "lat_lokasi": -8.648683,
+      "no_sp": 46,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 46,
+          "nama": "SUBITA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/5002",
+          "nama_alias": "SIMPANG SUBITA",
+          "deskripsi": "KAMERA PTZ SIMPANG SUBITA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A046SUBITAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A046SUBITAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A046SUBITAPTZ/ ",
+          "poster": "SUBITA_49_27.jpg",
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 47,
+      "id_kota": 1,
+      "nomor_urut": 47,
+      "nama_lokasi": "KECUBUNG",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang WR Supratman - Kecubung",
+      "lon_lokasi": 115.229862,
+      "lat_lokasi": -8.648971,
+      "no_sp": 47,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 47,
+          "nama": "KECUBUNG",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/5102",
+          "nama_alias": "SIMPANG KECUBUNG",
+          "deskripsi": "KAMERA PTZ SIMPANG KECUBUNG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A047KECUBUNGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A047KECUBUNGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A047KECUBUNGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 48,
+      "id_kota": 1,
+      "nomor_urut": 48,
+      "nama_lokasi": "NUSA INDAH",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Hayam Wuruk - Nusa Indah",
+      "lon_lokasi": 115.235051,
+      "lat_lokasi": -8.657105,
+      "no_sp": 48,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 48,
+          "nama": "NUSA INDAH",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/5202",
+          "nama_alias": "SIMPANG NUSA INDAH",
+          "deskripsi": "KAMERA PTZ SIMPANG NUSA INDAH",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A048NUSAINDAHPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A048NUSAINDAHPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A048NUSAINDAHPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 49,
+      "id_kota": 1,
+      "nomor_urut": 49,
+      "nama_lokasi": "TUKAD UNDA",
+      "tahun": 2021,
+      "anggaran": "APBN",
+      "ket_lokasi": "Simpang Raya Puputan - Tukad Unda",
+      "lon_lokasi": 115.232181,
+      "lat_lokasi": -8.673085,
+      "no_sp": 49,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 49,
+          "nama": "TUKAD UNDA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/5302",
+          "nama_alias": "SIMPANG TUKAD UNDA",
+          "deskripsi": "KAMERA PTZ SIMPANG TUKAD UNDA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A049TUKADUNDAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A049TUKADUNDAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A049TUKADUNDAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 3
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 50,
+      "id_kota": 1,
+      "nomor_urut": 50,
+      "nama_lokasi": "TUKAD BARITO",
+      "tahun": 2015,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Tukad Barito - Tukad Batanghari",
+      "lon_lokasi": 115.230308,
+      "lat_lokasi": -8.684425,
+      "no_sp": 50,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 50,
+          "nama": "TUKAD BARITO",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/102",
+          "nama_alias": "SIMPANG TUKAD BARITO",
+          "deskripsi": "KAMERA PTZ SIMPANG TUKAD BARITO",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A113TUKADBARITOPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A113TUKADBARITOPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A113TUKADBARITOPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 50,
+          "nama": "TUKAD BARITO PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/1802",
+          "nama_alias": "SIMPANG TUKAD BARITO PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SIMPANG TUKAD BARITO",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A113TUKADBARITOPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A113TUKADBARITOPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A113TUKADBARITOPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.22 Tukad Batanghari Panjer",
+      "jarak_spbu_meter": 160
+    },
+    {
+      "id_lokasi": 51,
+      "id_kota": 1,
+      "nomor_urut": 51,
+      "nama_lokasi": "SURADIPA",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Ahmad Yani Utara - Suradipa",
+      "lon_lokasi": 115.213186,
+      "lat_lokasi": -8.612413,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 51,
+          "nama": "SURADIPA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/202",
+          "nama_alias": "SIMPANG SURADIPA",
+          "deskripsi": "KAMERA PTZ SIMPANG SURADIPA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A114SURADIPAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A114SURADIPAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A114SURADIPAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 51,
+          "nama": "SURADIPA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/1902",
+          "nama_alias": "SIMPANG SURADIPA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SIMPANG SURADIPA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A114SURADIPAPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A114SURADIPAPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A114SURADIPAPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 52,
+      "id_kota": 1,
+      "nomor_urut": 52,
+      "nama_lokasi": "ANTASURA",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Antasura - Astasura",
+      "lon_lokasi": 115.22136,
+      "lat_lokasi": -8.6111,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 52,
+          "nama": "ANTASURA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/302",
+          "nama_alias": "SIMPANG ANTASURA",
+          "deskripsi": "KAMERA PTZ SIMPANG ANTASURA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A115ANTASURAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A115ANTASURAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A115ANTASURAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 52,
+          "nama": "ANTASURA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2002",
+          "nama_alias": "SIMPANG ANTASURA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SIMPANG ANTASURA ",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A115ANTASURAPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A115ANTASURAPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A115ANTASURAPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.39 Antasura Peguyangan",
+      "jarak_spbu_meter": 190
+    },
+    {
+      "id_lokasi": 53,
+      "id_kota": 1,
+      "nomor_urut": 53,
+      "nama_lokasi": "PEMOGAN",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Pemogan - Pulau Galang",
+      "lon_lokasi": 115.197449,
+      "lat_lokasi": -8.694226,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 53,
+          "nama": "PEMOGAN",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/402",
+          "nama_alias": "SIMPANG PEMOGAN",
+          "deskripsi": "KAMERA PTZ SIMPANG PEMOGAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A116PEMOGANPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A116PEMOGANPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A116PEMOGANPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 53,
+          "nama": "PEMOGAN PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2102",
+          "nama_alias": "SIMPANG PEMOGAN PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SIMPANG PEMOGAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A116PEMOGANPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A116PEMOGANPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A116PEMOGANPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.19 Raya Pemogan",
+      "jarak_spbu_meter": 150
+    },
+    {
+      "id_lokasi": 54,
+      "id_kota": 1,
+      "nomor_urut": 54,
+      "nama_lokasi": "GUNUNG SANGHYANG",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Gunung Agung - Gunung Tangkuban Perahu",
+      "lon_lokasi": 115.186492,
+      "lat_lokasi": -8.650745,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 54,
+          "nama": "GUNUNG SANGHYANG",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/502",
+          "nama_alias": "SIMPANG GUNUNG SANGHYANG",
+          "deskripsi": "KAMERA PTZ SIMPANG GUNUNG SANGHYANG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A117GUNUNGSANGHYANGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A117GUNUNGSANGHYANGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A117GUNUNGSANGHYANGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 54,
+          "nama": "GUNUNG SANGHYANG PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2202",
+          "nama_alias": "SIMPANG GUNUNG SANGHYANG PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SIMPANG GUNUNG SANGHYANG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A117GUNUNGSANGHYANGPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A117GUNUNGSANGHYANGPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A117GUNUNGSANGHYANGPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.31 Gn. Tangkuban Perahu",
+      "jarak_spbu_meter": 210
+    },
+    {
+      "id_lokasi": 55,
+      "id_kota": 1,
+      "nomor_urut": 55,
+      "nama_lokasi": "KAPTEN AGUNG",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Surapati - Kapten Agung",
+      "lon_lokasi": 115.220013,
+      "lat_lokasi": -8.656452,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 55,
+          "nama": "KAPTEN AGUNG",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/602",
+          "nama_alias": "SIMPANG KAPTEN AGUNG",
+          "deskripsi": "KAMERA PTZ SIMPANG KAPTEN AGUNG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A052KAPTENAGUNGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A052KAPTENAGUNGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A052KAPTENAGUNGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 56,
+      "id_kota": 1,
+      "nomor_urut": 56,
+      "nama_lokasi": "SIMPANG 6 TEUKU UMAR",
+      "tahun": 2021,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang 6 Teuku Umar",
+      "lon_lokasi": 115.206754,
+      "lat_lokasi": -8.676351,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 56,
+          "nama": "SIMPANG 6 TEUKU UMAR",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/702",
+          "nama_alias": "SIMPANG 6 TEUKU UMAR",
+          "deskripsi": "KAMERA PTZ SIMPANG 6 TEUKU UMAR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A053SIMPANG6TEUKUUMARPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A053SIMPANG6TEUKUUMARPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A053SIMPANG6TEUKUUMARPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 56,
+          "nama": "SIMPANG 6 TEUKU UMAR PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2402",
+          "nama_alias": "SIMPANG 6 TEUKU UMAR PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SIMPANG 6 TEUKU UMAR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A053SIMPANG6TEUKUUMARPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A053SIMPANG6TEUKUUMARPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A053SIMPANG6TEUKUUMARPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.09 Diponegoro / Simpang 6",
+      "jarak_spbu_meter": 130
+    },
+    {
+      "id_lokasi": 57,
+      "id_kota": 1,
+      "nomor_urut": 57,
+      "nama_lokasi": "GAJAH MADA BARAT",
+      "tahun": 2015,
+      "anggaran": "APBN",
+      "ket_lokasi": "Simpang Wahidin - Gajah Mada",
+      "lon_lokasi": 115.210509,
+      "lat_lokasi": -8.655006,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 57,
+          "nama": "GAJAH MADA BARAT",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/802",
+          "nama_alias": "SIMPANG GAJAH MADA BARAT",
+          "deskripsi": "KAMERA PTZ SIMPANG GAJAH MADA BARAT",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A054GAJAHMADATIMURPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A054GAJAHMADATIMURPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A054GAJAHMADATIMURPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 57,
+          "nama": "GAJAH MADA BARAT PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2502",
+          "nama_alias": "GAJAH MADA BARAT PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC GAJAH MADA BARAT",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A103GAJAHBADABARATPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A103GAJAHBADABARATPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A103GAJAHBADABARATPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 58,
+      "id_kota": 1,
+      "nomor_urut": 58,
+      "nama_lokasi": "PELABUHAN SANUR",
+      "tahun": 2015,
+      "anggaran": "APBN",
+      "ket_lokasi": "Pelabuhan Matahari Terbit",
+      "lon_lokasi": 115.261123,
+      "lat_lokasi": -8.67106,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": false,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 58,
+          "nama": "PELABUHAN SANUR 1",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/902",
+          "nama_alias": "PELABUHAN SANUR 1",
+          "deskripsi": "KAMERA PTZ 1 PELABUHAN SANUR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A063PANTAIMATAHARITERBITPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A063PANTAIMATAHARITERBITPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A063PANTAIMATAHARITERBITPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 58,
+          "nama": "PELABUHAN SANUR 2",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1002",
+          "nama_alias": "PELABUHAN SANUR 2",
+          "deskripsi": "KAMERA PTZ 2 PELABUHAN SANUR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A064PANTAIMATAHARITERBITPTZ2",
+          "url_proxy_cam": "http://10.43.0.10/stream/A064PANTAIMATAHARITERBITPTZ2/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A064PANTAIMATAHARITERBITPTZ2/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 59,
+      "id_kota": 1,
+      "nomor_urut": 59,
+      "nama_lokasi": "JALAN UDAYANA",
+      "tahun": 2020,
+      "anggaran": "APBN",
+      "ket_lokasi": "Jalan Udayana ",
+      "lon_lokasi": 115.216821,
+      "lat_lokasi": -8.657155,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 59,
+          "nama": "JALAN UDAYANA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1102",
+          "nama_alias": "RUAS JALAN UDAYANA",
+          "deskripsi": "KAMERA PTZ RUAS JALAN UDAYANA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A065UDAYANAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A065UDAYANAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A065UDAYANAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 60,
+      "id_kota": 1,
+      "nomor_urut": 60,
+      "nama_lokasi": "RAYA PUPUTAN - BAJRA SANDHI",
+      "tahun": 2015,
+      "anggaran": "APBN",
+      "ket_lokasi": "Jalan Raya Puputan",
+      "lon_lokasi": 115.234403,
+      "lat_lokasi": -8.673208,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 60,
+          "nama": "JALAN RAYA PUPUTAN",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1202",
+          "nama_alias": "RUAS JALAN RAYA PUPUTAN",
+          "deskripsi": "KAMERA PTZ RUAS JALAN RAYA PUPUTAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A066PUPUTANPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A066PUPUTANPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A066PUPUTANPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 61,
+      "id_kota": 1,
+      "nomor_urut": 61,
+      "nama_lokasi": "NANGKA - KEMUDA",
+      "tahun": 2024,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Nangka Utara - Kemuda",
+      "lon_lokasi": 115.223868,
+      "lat_lokasi": -8.625117,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 61,
+          "nama": "KEMUDA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1302",
+          "nama_alias": "SIMPANG NANGKA UTARA-KEMUDA",
+          "deskripsi": "KAMERA PTZ SIMPANG NANGKA UTARA-KEMUDA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A067NANGKAUTARAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A067NANGKAUTARAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A067NANGKAUTARAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 62,
+      "id_kota": 1,
+      "nomor_urut": 62,
+      "nama_lokasi": "SEROJA - KEMUDA",
+      "tahun": 2024,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Kemuda - Seroja",
+      "lon_lokasi": 115.226717,
+      "lat_lokasi": -8.625458,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 62,
+          "nama": "SEROJA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1402",
+          "nama_alias": "SIMPANG SEROJA-KEMUDA",
+          "deskripsi": "KAMERA PTZ SIMPANG SEROJA-KEMUDA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A068SEROJAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A068SEROJAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A068SEROJAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 63,
+      "id_kota": 1,
+      "nomor_urut": 63,
+      "nama_lokasi": "TRENGGULI - PADMA",
+      "tahun": 2024,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Trenggana - Padma",
+      "lon_lokasi": 115.241037,
+      "lat_lokasi": -8.623589,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 63,
+          "nama": "PADMA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1502",
+          "nama_alias": "SIMPANG TRENGGANA-PADMA",
+          "deskripsi": "KAMERA PTZ SIMPANG TRENGGANA-PADMA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A069PADMAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A069PADMAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A069PADMAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 64,
+      "id_kota": 1,
+      "nomor_urut": 64,
+      "nama_lokasi": "TITI BANDA",
+      "tahun": 2024,
+      "anggaran": "APBD",
+      "ket_lokasi": "Patung Titi Banda",
+      "lon_lokasi": 115.255443,
+      "lat_lokasi": -8.649487,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 64,
+          "nama": "TITI BANDA",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1602",
+          "nama_alias": "PATUNG TITI BANDA",
+          "deskripsi": "KAMERA PTZ PATUNG TITI BANDA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A070TITIBANDAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A070TITIBANDAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A070TITIBANDAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.36 Bypass IB Mantra Titi Banda",
+      "jarak_spbu_meter": 180
+    },
+    {
+      "id_lokasi": 65,
+      "id_kota": 1,
+      "nomor_urut": 65,
+      "nama_lokasi": "BUNDARAN HANG TUAH",
+      "tahun": 2024,
+      "anggaran": "APBD",
+      "ket_lokasi": "Bundaran Hang Tuah",
+      "lon_lokasi": 115.244644,
+      "lat_lokasi": -8.67353,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 65,
+          "nama": "BUNDARAN HANG TUAH",
+          "url_video": "rtsp://admin:Marktel12345@10.43.0.5/Streaming/Channels/1702",
+          "nama_alias": "BUNDARAN HANG TUAH",
+          "deskripsi": "KAMERA PTZ BUNDARAN HANG TUAH",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A071BUNDARANHANGTUAHPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A071BUNDARANHANGTUAHPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A071BUNDARANHANGTUAHPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 5
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 66,
+      "id_kota": 1,
+      "nomor_urut": 66,
+      "nama_lokasi": "DURIAN - KALIASEM",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Durian - Kaliasem",
+      "lon_lokasi": 115.218775,
+      "lat_lokasi": -8.654323,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 66,
+          "nama": "DURIAN - KALIASEM",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2602",
+          "nama_alias": "DURIAN - KALIASEM",
+          "deskripsi": "KAMERA PTZ SIMPANG DURIAN - KALIASEM",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A072DURIAN-KALIASEMPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A072DURIAN-KALIASEMPTZ/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A072DURIAN-KALIASEMPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 66,
+          "nama": "DURIAN - KALIASEM PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2702",
+          "nama_alias": "DURIAN - KALIASEM PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC DURIAN - KALIASEM",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "072DURIAN-KALIASEMPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A072DURIAN-KALIASEMPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/072DURIAN-KALIASEMPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 67,
+      "id_kota": 1,
+      "nomor_urut": 67,
+      "nama_lokasi": "AHMAD YANI - MARUTI",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Ahmad Yani - Maruti",
+      "lon_lokasi": 115.212768,
+      "lat_lokasi": -8.64478,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 67,
+          "nama": "AHMAD YANI - MARUTI",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2802",
+          "nama_alias": "AHMAD YANI - MARUTI",
+          "deskripsi": "KAMERA PTZ AHMAD YANI - MARUTI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A073AHMADYANI-MARUTIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A073AHMADYANI-MARUTIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A073AHMADYANI-MARUTIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 67,
+          "nama": "AHMAD YANI - MARUTI PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/2902",
+          "nama_alias": "AHMAD YANI - MARUTI PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC AHMAD YANI - MARUTI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A073AHMADYANI-MARUTIPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A073AHMADYANI-MARUTIPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A073AHMADYANI-MARUTIPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.14 Ahmad Yani Maruti",
+      "jarak_spbu_meter": 140
+    },
+    {
+      "id_lokasi": 68,
+      "id_kota": 1,
+      "nomor_urut": 68,
+      "nama_lokasi": "AHMAD YANI - MULAWARMAN",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Ahmad Yani - Mulawarman",
+      "lon_lokasi": 115.210516,
+      "lat_lokasi": -8.634948,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 68,
+          "nama": "AHMAD YANI - MULAWARMAN",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3002",
+          "nama_alias": "AHMAD YANI - MULAWARMAN",
+          "deskripsi": "KAMERA PTZ AHMAD YANI - MULAWARMAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A074AHMADYANI-MULAWARMANPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A074AHMADYANI-MULAWARMANPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A074AHMADYANI-MULAWARMANPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 68,
+          "nama": "AHMAD YANI - MULAWARMAN PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3102",
+          "nama_alias": "AHMAD YANI - MULAWARMAN PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC AHMAD YANI - MULAWARMAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A074AHMADYANI-MULAWARMANPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A074AHMADYANI-MULAWARMANPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A074AHMADYANI-MULAWARMANPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 69,
+      "id_kota": 1,
+      "nomor_urut": 69,
+      "nama_lokasi": "PASAR SATRIA",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Ruas Jalan Veteran",
+      "lon_lokasi": 115.217447,
+      "lat_lokasi": -8.650485,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 69,
+          "nama": "PASAR SATRIA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3202",
+          "nama_alias": "PASAR SATRIA",
+          "deskripsi": "KAMERA PTZ PASAR SATRIA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A075PASARSATRIAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A075PASARSATRIAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A075PASARSATRIAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 69,
+          "nama": "PASAR SATRIA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3302",
+          "nama_alias": "PASAR SATRIA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC PASAR SATRIA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A075PASARSATRIAPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A075PASARSATRIAPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A075PASARSATRIAPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 70,
+      "id_kota": 1,
+      "nomor_urut": 70,
+      "nama_lokasi": "BANJAR TAINSIAT",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Nangka Selatan - Pattimura",
+      "lon_lokasi": 115.217574,
+      "lat_lokasi": -8.649025,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 70,
+          "nama": "BANJAR TAINSIAT",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3402",
+          "nama_alias": "BANJAR TAINSIAT",
+          "deskripsi": "KAMERA PTZ BANJAR TAINSIAT",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A076BANJARTAINSIATPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A076BANJARTAINSIATPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A076BANJARTAINSIATPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 70,
+          "nama": "BANJAR TAINSIAT PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3502",
+          "nama_alias": "BANJAR TAINSIAT PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC BANJAR TAINSIAT",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A076BANJARTAINSIATPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A076BANJARTAINSIATPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A076BANJARTAINSIATPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 71,
+      "id_kota": 1,
+      "nomor_urut": 71,
+      "nama_lokasi": "BANJAR BALUN",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Setiabudi - Sutomo",
+      "lon_lokasi": 115.209338,
+      "lat_lokasi": -8.647429,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 71,
+          "nama": "BANJAR BALUN",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3602",
+          "nama_alias": "BANJAR BALUN",
+          "deskripsi": "KAMERA PTZ BANJAR BALUN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A077BANJARBALUNPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A077BANJARBALUNPTZ/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A077BANJARBALUNPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 71,
+          "nama": "BANJAR BALUN PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3702",
+          "nama_alias": "BANJAR BALUN PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC BANJAR BALUN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A077BANJARBALUNPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A077BANJARBALUNPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A077BANJARBALUNPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 72,
+      "id_kota": 1,
+      "nomor_urut": 72,
+      "nama_lokasi": "WIBISANA - SETIABUDI",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Setiabudi - Wibisana",
+      "lon_lokasi": 115.208828,
+      "lat_lokasi": -8.650645,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 72,
+          "nama": "WIBISANA - SETIABUDI",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3802",
+          "nama_alias": "WIBISANA - SETIABUDI",
+          "deskripsi": "KAMERA PTZ WIBISANA - SETIABUDI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A078WIBISANA-SETIABUDIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A078WIBISANA-SETIABUDIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A078WIBISANA-SETIABUDIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 72,
+          "nama": "WIBISANA - SETIABUDI PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/3902",
+          "nama_alias": "WIBISANA - SETIABUDI PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC WIBISANA - SETIABUDI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A078WIBISANA-SETIABUDIPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A078WIBISANA-SETIABUDIPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A078WIBISANA-SETIABUDIPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU setiabudi",
+      "jarak_spbu_meter": 1
+    },
+    {
+      "id_lokasi": 73,
+      "id_kota": 1,
+      "nomor_urut": 73,
+      "nama_lokasi": "LAPANGAN PUPUTAN UTARA",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Ruas Jalan Surapati",
+      "lon_lokasi": 115.217569,
+      "lat_lokasi": -8.656091,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 73,
+          "nama": "LAPANG PUPUTAN UTARA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4002",
+          "nama_alias": "LAPANG PUPUTAN UTARA",
+          "deskripsi": "KAMERA PTZ LAPANG PUPUTAN UTARA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A079LAPANGPUPUTANUTARAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A079LAPANGPUPUTANUTARAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A079LAPANGPUPUTANUTARAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 73,
+          "nama": "LAPANG PUPUTAN UTARA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4102",
+          "nama_alias": "LAPANG PUPUTAN UTARA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC LAPANG PUPUTAN UTARA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A079LAPANGPUPUTANUTARAPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A079LAPANGPUPUTANUTARAPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A079LAPANGPUPUTANUTARAPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 74,
+      "id_kota": 1,
+      "nomor_urut": 74,
+      "nama_lokasi": "SULI - SARI GADING",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Suli - Sari Gading",
+      "lon_lokasi": 115.225267,
+      "lat_lokasi": -8.636585,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 74,
+          "nama": "SULI - SARI GADING",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4202",
+          "nama_alias": "SULI - SARI GADING",
+          "deskripsi": "KAMERA PTZ SULI - SARI GADING",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A080SULI-SARIGADINGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A080SULI-SARIGADINGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A080SULI-SARIGADINGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 74,
+          "nama": "SULI - SARI GADING PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4302",
+          "nama_alias": "SULI - SARI GADING PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SULI - SARI GADING",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A080SULI-SARIGADINGPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A080SULI-SARIGADINGPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A080SULI-SARIGADINGPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 75,
+      "id_kota": 1,
+      "nomor_urut": 75,
+      "nama_lokasi": "BANJAR TAMPAK GANGSUL",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Nakula - Werkudara",
+      "lon_lokasi": 115.215655,
+      "lat_lokasi": -8.651422,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 75,
+          "nama": "BANJAR TAMPAK GANGSUL",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4402",
+          "nama_alias": "BANJAR TAMPAK GANGSUL",
+          "deskripsi": "KAMERA PTZ BANJAR TAMPAK GANGSUL",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A081BANJARTAMPAKGANGSULPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A081BANJARTAMPAKGANGSULPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A081BANJARTAMPAKGANGSULPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 75,
+          "nama": "BANJAR TAMPAK GANGSUL PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4502",
+          "nama_alias": "BANJAR TAMPAK GANGSUL PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC BANJAR TAMPAK GANGSUL",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A081BANJARTAMPAKGANGSULPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A081BANJARTAMPAKGANGSULPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A081BANJARTAMPAKGANGSULPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 76,
+      "id_kota": 1,
+      "nomor_urut": 76,
+      "nama_lokasi": "VETERAN - ABIMANYU",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Veteran - Abimanyu",
+      "lon_lokasi": 115.217356,
+      "lat_lokasi": -8.651511,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 76,
+          "nama": "VETERAN - ABIMANYU",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4602",
+          "nama_alias": "VETERAN - ABIMANYU",
+          "deskripsi": "KAMERA PTZ VETERAN - ABIMANYU",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A082VETERAN-ABIMANYUPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A082VETERAN-ABIMANYUPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A082VETERAN-ABIMANYUPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 76,
+          "nama": "VETERAN - ABIMANYU PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4702",
+          "nama_alias": "VETERAN - ABIMANYU PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC VETERAN - ABIMANYU",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A082VETERAN-ABIMANYUPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A082VETERAN-ABIMANYUPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A082VETERAN-ABIMANYUPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 77,
+      "id_kota": 1,
+      "nomor_urut": 77,
+      "nama_lokasi": "PURA DALEM YANG BATU",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Ruas Jalan Cok Agung Tresna",
+      "lon_lokasi": 115.224992,
+      "lat_lokasi": -8.666791,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 77,
+          "nama": "PURA DALEM YANG BATU",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4802",
+          "nama_alias": "PURA DALEM YANG BATU",
+          "deskripsi": "KAMERA PTZ PURA DALEM YANG BATU",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A083PURADALEMYANGBATUPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A083PURADALEMYANGBATUPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A083PURADALEMYANGBATUPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 77,
+          "nama": "PURA DALEM YANG BATU PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/4902",
+          "nama_alias": "PURA DALEM YANG BATU PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC PURA DALEM YANG BATU",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A083PURADALEMYANGBATUPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A083PURADALEMYANGBATUPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A083PURADALEMYANGBATUPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 78,
+      "id_kota": 1,
+      "nomor_urut": 78,
+      "nama_lokasi": "MUSEUM BALI",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Sugianyar - Mudita",
+      "lon_lokasi": 115.218274,
+      "lat_lokasi": -8.658257,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 78,
+          "nama": "POJOK SELATAN MUSEUM BALI",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5002",
+          "nama_alias": "POJOK SELATAN MUSEUM BALI",
+          "deskripsi": "KAMERA PTZ POJOK SELATAN MUSEUM BALI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A084POJOKSELATANMUSEUMBALIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A084POJOKSELATANMUSEUMBALIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A084POJOKSELATANMUSEUMBALIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 78,
+          "nama": "POJOK SELATAN MUSEUM BALI PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5102",
+          "nama_alias": "POJOK SELATAN MUSEUM BALI PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC POJOK SELATAN MUSEUM BALI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A084POJOKSELATANMUSEUMBALIPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A084POJOKSELATANMUSEUMBALIPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A084POJOKSELATANMUSEUMBALIPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 79,
+      "id_kota": 1,
+      "nomor_urut": 79,
+      "nama_lokasi": "PURA JAGATNATHA",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Surapati - Kaliasem",
+      "lon_lokasi": 115.218609,
+      "lat_lokasi": -8.656148,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 79,
+          "nama": "POJOK UTARA JAGATNATHA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5202",
+          "nama_alias": "POJOK UTARA JAGATNATHA",
+          "deskripsi": "KAMERA PTZ POJOK UTARA JAGATNATHA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A085POJOKUTARAJAGATNATHAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A085POJOKUTARAJAGATNATHAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A085POJOKUTARAJAGATNATHAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 79,
+          "nama": "POJOK UTARA JAGATNATHA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5302",
+          "nama_alias": "POJOK UTARA JAGATNATHA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC POJOK UTARA JAGATNATHA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A085POJOKUTARAJAGATNATHAPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A085POJOKUTARAJAGATNATHAPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A085POJOKUTARAJAGATNATHAPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 80,
+      "id_kota": 1,
+      "nomor_urut": 80,
+      "nama_lokasi": "TRENGGANA - SIULAN",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Trenggana - Siulan",
+      "lon_lokasi": 115.240702,
+      "lat_lokasi": -8.617573,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 80,
+          "nama": "TRENGGANA - SIULAN",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5402",
+          "nama_alias": "TRENGGANA - SIULAN",
+          "deskripsi": "KAMERA PTZ TRENGGANA - SIULAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A086TRENGGANA-SIULANPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A086TRENGGANA-SIULANPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A086TRENGGANA-SIULANPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 80,
+          "nama": "TRENGGANA - SIULAN PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5502",
+          "nama_alias": "TRENGGANA - SIULAN PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC TRENGGANA - SIULAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A086TRENGGANA-SIULANPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A086TRENGGANA-SIULANPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A086TRENGGANA-SIULANPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 81,
+      "id_kota": 1,
+      "nomor_urut": 81,
+      "nama_lokasi": "PASAR AGUNG PENINJOAN",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Padma - Cekomaria",
+      "lon_lokasi": 115.230313,
+      "lat_lokasi": -8.623191,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 81,
+          "nama": "PASAR AGUNG PENINJOAN",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5602",
+          "nama_alias": "PASAR AGUNG PENINJOAN",
+          "deskripsi": "KAMERA PTZ PASAR AGUNG PENINJOAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A087PASARAGUNGPENINJOANPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A087PASARAGUNGPENINJOANPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A087PASARAGUNGPENINJOANPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 81,
+          "nama": "PASAR AGUNG PENINJOAN PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5702",
+          "nama_alias": "PASAR AGUNG PENINJOAN PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC PASAR AGUNG PENINJOAN",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A087PASARAGUNGPENINJOANPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A087PASARAGUNGPENINJOANPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A087PASARAGUNGPENINJOANPANORAMICZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 82,
+      "id_kota": 1,
+      "nomor_urut": 82,
+      "nama_lokasi": "TERMINAL KERENENG",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Lely - Rampai",
+      "lon_lokasi": 115.224251,
+      "lat_lokasi": -8.655851,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 82,
+          "nama": "TERMINAL KERENENG",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5802",
+          "nama_alias": "TERMINAL KERENENG",
+          "deskripsi": "KAMERA PTZ TERMINAL KERENENG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A088TERMINALKERENENGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A088TERMINALKERENENGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A088TERMINALKERENENGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 82,
+          "nama": "TERMINAL KERENENG PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/5902",
+          "nama_alias": "TERMINAL KERENENG PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC TERMINAL KERENENG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A088TERMINALKERENENGPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A088TERMINALKERENENGPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A088TERMINALKERENENGPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 83,
+      "id_kota": 1,
+      "nomor_urut": 83,
+      "nama_lokasi": "RAYA PUPUTAN - TANTULAR",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Raya Puputan - Tantular",
+      "lon_lokasi": 115.228219,
+      "lat_lokasi": -8.672975,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 83,
+          "nama": "RAYA PUPUTAN - TANTULAR",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6002",
+          "nama_alias": "RAYA PUPUTAN - TANTULAR",
+          "deskripsi": "KAMERA PTZ RAYA PUPUTAN - TANTULAR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A089RAYAPUPUTAN-LETDATANTULARPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A089RAYAPUPUTAN-LETDATANTULARPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A089RAYAPUPUTAN-LETDATANTULARPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 83,
+          "nama": "RAYA PUPUTAN - TANTULAR PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6102",
+          "nama_alias": "RAYA PUPUTAN - TANTULAR PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC RAYA PUPUTAN - TANTULAR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A089RAYAPUPUTAN-LETDATANTULARPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A089RAYAPUPUTAN-LETDATANTULARPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A089RAYAPUPUTAN-LETDATANTULARPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU 54.801.07 Raya Puputan Renon",
+      "jarak_spbu_meter": 200
+    },
+    {
+      "id_lokasi": 84,
+      "id_kota": 1,
+      "nomor_urut": 84,
+      "nama_lokasi": "KAPTEN AGUNG - KAPTEN REGUG",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Kapten Agung - Kapten Regug",
+      "lon_lokasi": 115.219882,
+      "lat_lokasi": -8.658304,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 84,
+          "nama": "KAPTEN AGUNG - KAPTEN REGUG",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6202",
+          "nama_alias": "KAPTEN AGUNG - KAPTEN REGUG",
+          "deskripsi": "KAMERA PTZ KAPTEN AGUNG - KAPTEN REGUG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A090KAPTENAGUNG-KAPTENREGUGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A090KAPTENAGUNG-KAPTENREGUGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A090KAPTENAGUNG-KAPTENREGUGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 84,
+          "nama": "KAPTEN AGUNG - KAPTEN REGUG PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6302",
+          "nama_alias": "KAPTEN AGUNG - KAPTEN REGUG PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC KAPTEN AGUNG - KAPTEN REGUG PANORAMIC",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A090KAPTENAGUNG-KAPTENREGUGPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A090KAPTENAGUNG-KAPTENREGUGPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A090KAPTENAGUNG-KAPTENREGUGPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 85,
+      "id_kota": 1,
+      "nomor_urut": 85,
+      "nama_lokasi": "KAMBOJA - ANGSOKA",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Kamboja - Angsoka",
+      "lon_lokasi": 115.224543,
+      "lat_lokasi": -8.65211,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 85,
+          "nama": "KAMBOJA - ANGSOKA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6402",
+          "nama_alias": "KAMBOJA - ANGSOKA",
+          "deskripsi": "KAMERA PTZ KAMBOJA - ANGSOKA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A091KAMBOJA-ANGSOKAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A091KAMBOJA-ANGSOKAPTZ/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A091KAMBOJA-ANGSOKAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 85,
+          "nama": "KAMBOJA - ANGSOKA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6502",
+          "nama_alias": "KAMBOJA - ANGSOKA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC KAMBOJA - ANGSOKA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A091KAMBOJA-ANGSOKAPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A091KAMBOJA-ANGSOKAPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A091KAMBOJA-ANGSOKAPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 86,
+      "id_kota": 1,
+      "nomor_urut": 86,
+      "nama_lokasi": "KAMBOJA RIJASA",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Kamboja - Rijasa",
+      "lon_lokasi": 115.225563,
+      "lat_lokasi": -8.656227,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 86,
+          "nama": "KAMBOJA - RIJASA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6602",
+          "nama_alias": "KAMBOJA - RIJASA",
+          "deskripsi": "KAMERA PTZ KAMBOJA - RIJASA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A092KAMBOJA-RIJASAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A092KAMBOJA-RIJASAPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A092KAMBOJA-RIJASAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 86,
+          "nama": "KAMBOJA - RIJASA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6702",
+          "nama_alias": "KAMBOJA - RIJASA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC KAMBOJA - RIJASA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A092KAMBOJA-RIJASAPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A092KAMBOJA-RIJASAPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A092KAMBOJA-RIJASAPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 87,
+      "id_kota": 1,
+      "nomor_urut": 87,
+      "nama_lokasi": "DPRD KOTA DENPASAR",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Melati - Cempaka",
+      "lon_lokasi": 115.222527,
+      "lat_lokasi": -8.655554,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 87,
+          "nama": "DPRD KOTA DENPASAR",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6802",
+          "nama_alias": "DPRD KOTA DENPASAR",
+          "deskripsi": "KAMERA PTZ DPRD KOTA DENPASAR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A093DPRDKOTADENPASARPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A093DPRDKOTADENPASARPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A093DPRDKOTADENPASARPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 87,
+          "nama": "DPRD KOTA DENPASAR PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/6902",
+          "nama_alias": "DPRD KOTA DENPASAR PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC DPRD KOTA DENPASAR",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A093DPRDKOTADENPASARPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A093DPRDKOTADENPASARPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A093DPRDKOTADENPASARPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 88,
+      "id_kota": 1,
+      "nomor_urut": 88,
+      "nama_lokasi": "KAMBOJA RAMPAI",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Kamboja - Rampai",
+      "lon_lokasi": 115.225309,
+      "lat_lokasi": -8.654875,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 88,
+          "nama": "KAMBOJA - RAMPAI",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7002",
+          "nama_alias": "KAMBOJA - RAMPAI",
+          "deskripsi": "KAMERA PTZ KAMBOJA - RAMPAI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A094KAMBOJA-RAMPAIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A094KAMBOJA-RAMPAIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A094KAMBOJA-RAMPAIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 88,
+          "nama": "KAMBOJA - RAMPAI PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7102",
+          "nama_alias": "KAMBOJA - RAMPAI PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC KAMBOJA - RAMPAI",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A094KAMBOJA-RAMPAIPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A094KAMBOJA-RAMPAIPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A094KAMBOJA-RAMPAIPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 89,
+      "id_kota": 1,
+      "nomor_urut": 89,
+      "nama_lokasi": "HAYAM WURUK - LELY",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Hayam Wuruk - Lely",
+      "lon_lokasi": 115.224158,
+      "lat_lokasi": -8.65697,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 89,
+          "nama": "HAYAM WURUK - LELY",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7202",
+          "nama_alias": "HAYAM WURUK - LELY",
+          "deskripsi": "KAMERA PTZ HAYAM WURUK - LELY",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A095HAYAMWURUK-LELYPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A095HAYAMWURUK-LELYPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A095HAYAMWURUK-LELYPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 89,
+          "nama": "HAYAM WURUK - LELY PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7302",
+          "nama_alias": "HAYAM WURUK - LELY PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC HAYAM WURUK - LELY",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A095HAYAMWURUK-LELYPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A095HAYAMWURUK-LELYPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A095HAYAMWURUK-LELYPTZPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 90,
+      "id_kota": 1,
+      "nomor_urut": 90,
+      "nama_lokasi": "BEDUGUL - SIDAKARYA",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Bedugul - Sidakarya",
+      "lon_lokasi": 115.227192,
+      "lat_lokasi": -8.700615,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 90,
+          "nama": "SIDAKARYA - BEDUGUL",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7402",
+          "nama_alias": "SIDAKARYA - BEDUGUL",
+          "deskripsi": "KAMERA PTZ SIDAKARYA - BEDUGUL",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A096SIDAKARYA-BEDUGULPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A096SIDAKARYA-BEDUGULPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A096SIDAKARYA-BEDUGULPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 90,
+          "nama": "SIDAKARYA - BEDUGUL PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7502",
+          "nama_alias": "SIDAKARYA - BEDUGUL PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC SIDAKARYA - BEDUGUL",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A096SIDAKARYA-BEDUGULPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A096SIDAKARYA-BEDUGULPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A096SIDAKARYA-BEDUGULPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 91,
+      "id_kota": 1,
+      "nomor_urut": 91,
+      "nama_lokasi": "WATURENGGONG - TUKAD YEH AYA",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Waturenggong - Tukad Yeh Aya",
+      "lon_lokasi": 115.225824,
+      "lat_lokasi": -8.678759,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 91,
+          "nama": "WATURENGGONG - TUKAD YEH AYA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7602",
+          "nama_alias": "WATURENGGONG - TUKAD YEH AYA",
+          "deskripsi": "KAMERA PTZ WATURENGGONG - TUKAD YEH AYA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A097WATURENGGONG-TUKADYEHAYAPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A097WATURENGGONG-TUKADYEHAYAPTZ/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A097WATURENGGONG-TUKADYEHAYAPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 91,
+          "nama": "WATURENGGONG - TUKAD YEH AYA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7702",
+          "nama_alias": "WATURENGGONG - TUKAD YEH AYA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC WATURENGGONG - TUKAD YEH AYA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A097WATURENGGONG-TUKADYEHAYAPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A097WATURENGGONG-TUKADYEHAYAPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A097WATURENGGONG-TUKADYEHAYAPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 92,
+      "id_kota": 1,
+      "nomor_urut": 92,
+      "nama_lokasi": "TUKAD BARITO - TUKAD BADUNG",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Tukad Barito - Tukad Badung",
+      "lon_lokasi": 115.23789,
+      "lat_lokasi": -8.68415,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 92,
+          "nama": "TUKAD BARITO - TUKAD BADUNG",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7802",
+          "nama_alias": "TUKAD BARITO - TUKAD BADUNG",
+          "deskripsi": "KAMERA PTZ TUKAD BARITO - TUKAD BADUNG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A098TUKADBARITO-TUKADBADUNGPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A098TUKADBARITO-TUKADBADUNGPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A098TUKADBARITO-TUKADBADUNGPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 92,
+          "nama": "TUKAD BARITO - TUKAD BADUNG PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/7902",
+          "nama_alias": "TUKAD BARITO - TUKAD BADUNG PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC TUKAD BARITO - TUKAD BADUNG",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A098TUKADBARITO-TUKADBADUNGPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A098TUKADBARITO-TUKADBADUNGPANORAMIC/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A098TUKADBARITO-TUKADBADUNGPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    },
+    {
+      "id_lokasi": 93,
+      "id_kota": 1,
+      "nomor_urut": 93,
+      "nama_lokasi": "HASANUDIN - SUMATERA",
+      "tahun": 2025,
+      "anggaran": "APBD",
+      "ket_lokasi": "Simpang Hasanudin - Sumatera",
+      "lon_lokasi": 115.214574,
+      "lat_lokasi": -8.658713,
+      "no_sp": 0,
+      "input_date": null,
+      "update_date": null,
+      "input_by": null,
+      "update_by": null,
+      "is_active": true,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 93,
+          "nama": "HASANUDIN - SUMATERA",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/8002",
+          "nama_alias": "HASANUDIN - SUMATERA",
+          "deskripsi": "KAMERA PTZ HASANUDIN - SUMATERA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A099SUCIPTZ",
+          "url_proxy_cam": "http://10.43.0.10/stream/A099SUCIPTZ/\r\n",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A099SUCIPTZ/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        },
+        {
+          "id_lokasi": 93,
+          "nama": "HASANUDIN - SUMATERA PANORAMIC",
+          "url_video": "rtsp://admin:Marktel12025@10.43.0.7/Streaming/Channels/8102",
+          "nama_alias": "HASANUDIN - SUMATERA PANORAMIC",
+          "deskripsi": "KAMERA PANORAMIC HASANUDIN - SUMATERA",
+          "type_cam": 1,
+          "cam_mp": 1,
+          "name_proxy_cam": "A099SUCIPANORAMIC",
+          "url_proxy_cam": "http://10.43.0.10/stream/A099SUCIPANORAMIC/",
+          "url_proxy_hls": "https://atcs.denpasarkota.go.id/stream/A099SUCIPANORAMIC/ ",
+          "poster": null,
+          "capture_url": null,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null
+    }
+  ],
+  "meta": {
+    "pages": 16,
+    "paginate": 6,
+    "total": 94
+  }
+}
