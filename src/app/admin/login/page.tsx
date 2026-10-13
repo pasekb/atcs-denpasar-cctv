@@ -63,7 +63,7 @@ export default function AdminLoginPage() {
             Login Administrator
           </h1>
           <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-            Build by PasekB & AI - Data from ATCS Kota Denpasar
+            CCTV Denpasar by PasekB - Panel Administrator
           </p>
         </div>
 
