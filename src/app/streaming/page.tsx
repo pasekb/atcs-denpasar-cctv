@@ -102,6 +102,22 @@ export default function StreamingPage() {
     setModalDeviceIdx(deviceIndex);
   };
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      (window as any).__openCctvStream = (id: number | string) => {
+        const target = locations.find((l) => String(l.id_lokasi) === String(id));
+        if (target) {
+          handleEnlarge(target, 0);
+        }
+      };
+    }
+    return () => {
+      if (typeof window !== "undefined") {
+        delete (window as any).__openCctvStream;
+      }
+    };
+  }, [locations]);
+
   const handleSelectLocation = (id: number | null) => {
     setSelectedLocation(id);
     setCurrentPage(1);
@@ -186,6 +202,7 @@ export default function StreamingPage() {
               }}
               onSearchChange={setSearchQuery}
               onSelectLocation={handleSelectLocation}
+              onPlayStream={(loc) => handleEnlarge(loc, 0)}
             />
           </div>
 

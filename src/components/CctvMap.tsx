@@ -163,11 +163,16 @@ export default function CctvMap({
         </div>
       `;
 
-      marker.bindPopup(popupHtml);
+      marker.bindPopup(popupHtml, {
+        autoPan: true,
+        closeButton: true,
+        offset: [0, -10],
+      });
 
-      // On marker click: select location
+      // On marker click: select location and ensure popup opens
       marker.on("click", () => {
         onLocationSelect(loc.id_lokasi);
+        marker.openPopup();
       });
 
       markersRef.current[loc.id_lokasi] = marker;
@@ -206,11 +211,25 @@ export default function CctvMap({
       const selectedMarker = markersRef.current[selectedLocation];
       const targetLoc = locations.find((l) => l.id_lokasi === selectedLocation);
       if (targetLoc) {
-        mapInstanceRef.current.flyTo([targetLoc.lat_lokasi, targetLoc.lon_lokasi], 16, {
+        const map = mapInstanceRef.current;
+
+        const openPopupSafely = () => {
+          if (markersRef.current[selectedLocation]) {
+            markersRef.current[selectedLocation].openPopup();
+          }
+        };
+
+        // Buka popup saat animasi zoom/pan (flyTo) selesai
+        map.once("moveend", openPopupSafely);
+
+        map.flyTo([targetLoc.lat_lokasi, targetLoc.lon_lokasi], 16, {
           animate: true,
-          duration: 1.2,
+          duration: 0.8,
         });
-        selectedMarker.openPopup();
+
+        // Backup timer agar popup selalu terbuka
+        setTimeout(openPopupSafely, 200);
+        setTimeout(openPopupSafely, 900);
       }
     }
   }, [selectedLocation, locations]);

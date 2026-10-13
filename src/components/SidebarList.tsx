@@ -2,7 +2,7 @@
 
 import React from "react";
 import { CctvLocation } from "@/types/cctv";
-import { Search, MapPin, Video, CheckCircle2, Fuel } from "lucide-react";
+import { Search, MapPin, Video, CheckCircle2, Fuel, Play } from "lucide-react";
 
 interface SidebarListProps {
   locations: CctvLocation[];
@@ -12,6 +12,7 @@ interface SidebarListProps {
   onFilterSpbuToggle: () => void;
   onSearchChange: (q: string) => void;
   onSelectLocation: (id: number | null) => void;
+  onPlayStream?: (location: CctvLocation) => void;
 }
 
 export default function SidebarList({
@@ -22,6 +23,7 @@ export default function SidebarList({
   onFilterSpbuToggle,
   onSearchChange,
   onSelectLocation,
+  onPlayStream,
 }: SidebarListProps) {
   return (
     <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col h-[calc(100vh-220px)] min-h-[550px]">
@@ -64,7 +66,7 @@ export default function SidebarList({
       </div>
 
       {/* List items */}
-      <div className="flex-1 overflow-y-auto p-2 space-y-1.5">
+      <div className="flex-1 overflow-y-auto p-2 space-y-2">
         {/* All locations filter button */}
         <button
           onClick={() => onSelectLocation(null)}
@@ -91,55 +93,108 @@ export default function SidebarList({
               : null;
 
             return (
-              <button
+              <div
                 key={loc.id_lokasi}
                 onClick={() => onSelectLocation(loc.id_lokasi)}
-                className={`w-full text-left p-2.5 rounded-lg text-xs transition cursor-pointer flex items-start gap-3 border ${
+                className={`w-full text-left p-2.5 rounded-xl text-xs transition cursor-pointer flex flex-col gap-2 border ${
                   isSelected
-                    ? "bg-blue-50 dark:bg-blue-950/50 border-blue-500 text-blue-900 dark:text-blue-100 shadow-sm"
-                    : "bg-white dark:bg-slate-900/50 border-transparent hover:bg-slate-50 dark:hover:bg-slate-800/80 text-slate-700 dark:text-slate-300"
+                    ? "bg-blue-50 dark:bg-blue-950/60 border-blue-500 text-blue-900 dark:text-blue-100 shadow-md ring-1 ring-blue-500/30"
+                    : "bg-white dark:bg-slate-900/60 border-slate-200/80 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/70 text-slate-700 dark:text-slate-300"
                 }`}
               >
-                {/* Thumbnail / Pin icon */}
-                <div className="relative w-11 h-11 rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-800 flex-shrink-0 flex items-center justify-center text-slate-400">
-                  {posterUrl ? (
-                    <img
-                      src={posterUrl}
-                      alt={loc.nama_lokasi}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        (e.target as HTMLElement).style.display = "none";
-                      }}
-                    />
-                  ) : (
-                    <Video className="w-5 h-5 text-blue-500" />
-                  )}
-                  <span className="absolute bottom-0.5 right-0.5 px-1 py-0.2 rounded bg-black/70 text-[9px] font-bold text-white">
-                    #{loc.id_lokasi}
-                  </span>
-                </div>
+                {/* Main info row */}
+                <div className="flex items-start gap-2.5">
+                  {/* Thumbnail with quick play button */}
+                  <div
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      if (onPlayStream) onPlayStream(loc);
+                    }}
+                    className="relative w-12 h-12 rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-800 flex-shrink-0 flex items-center justify-center text-slate-400 group/thumb cursor-pointer shadow-sm"
+                    title="Klik untuk langsung putar streaming"
+                  >
+                    {posterUrl ? (
+                      <img
+                        src={posterUrl}
+                        alt={loc.nama_lokasi}
+                        className="w-full h-full object-cover group-hover/thumb:scale-105 transition duration-300"
+                        onError={(e) => {
+                          (e.target as HTMLElement).style.display = "none";
+                        }}
+                      />
+                    ) : (
+                      <Video className="w-5 h-5 text-blue-500" />
+                    )}
 
-                {/* Details */}
-                <div className="flex-1 min-w-0">
-                  <div className="font-bold truncate text-slate-900 dark:text-white flex items-center gap-1.5">
-                    <span className="truncate">{loc.nama_lokasi}</span>
-                    {loc.dekat_spbu && (
-                      <span className="px-1.5 py-0.2 rounded text-[9px] font-bold bg-amber-500 text-white flex-shrink-0" title={loc.nama_spbu || "Dekat SPBU"}>
-                        ⛽ SPBU
-                      </span>
+                    {/* Hover play icon overlay */}
+                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover/thumb:opacity-100 transition-opacity flex items-center justify-center text-white">
+                      <Play className="w-4 h-4 fill-white" />
+                    </div>
+
+                    <span className="absolute bottom-0.5 right-0.5 px-1 py-0.2 rounded bg-black/75 text-[9px] font-bold text-white">
+                      #{loc.id_lokasi}
+                    </span>
+                  </div>
+
+                  {/* Details */}
+                  <div className="flex-1 min-w-0">
+                    <div className="font-bold truncate text-slate-900 dark:text-white flex items-center gap-1.5">
+                      <span className="truncate">{loc.nama_lokasi}</span>
+                      {loc.dekat_spbu && (
+                        <span
+                          className="px-1.5 py-0.2 rounded text-[9px] font-bold bg-amber-500 text-white flex-shrink-0"
+                          title={loc.nama_spbu || "Dekat SPBU"}
+                        >
+                          ⛽ SPBU
+                        </span>
+                      )}
+                    </div>
+                    <div className="text-[11px] text-slate-500 dark:text-slate-400 truncate flex items-center gap-1 mt-0.5">
+                      <MapPin className="w-3 h-3 text-slate-400 flex-shrink-0" />
+                      <span className="truncate">{loc.ket_lokasi}</span>
+                    </div>
+                    {loc.dekat_spbu && loc.nama_spbu && (
+                      <div className="text-[10px] text-amber-600 dark:text-amber-400 font-medium truncate mt-0.5">
+                        ⛽ {loc.nama_spbu}
+                      </div>
                     )}
                   </div>
-                  <div className="text-[11px] text-slate-500 dark:text-slate-400 truncate flex items-center gap-1 mt-0.5">
-                    <MapPin className="w-3 h-3 text-slate-400 flex-shrink-0" />
-                    <span className="truncate">{loc.ket_lokasi}</span>
-                  </div>
-                  {loc.dekat_spbu && loc.nama_spbu && (
-                    <div className="text-[10px] text-amber-600 dark:text-amber-400 font-medium truncate mt-0.5">
-                      ⛽ {loc.nama_spbu}
-                    </div>
-                  )}
+
+                  {/* Quick Play Icon Button (on hover or always) */}
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      if (onPlayStream) onPlayStream(loc);
+                    }}
+                    className={`p-1.5 rounded-lg border transition cursor-pointer flex-shrink-0 ${
+                      isSelected
+                        ? "bg-blue-600 text-white border-blue-600 hover:bg-blue-700 shadow-sm"
+                        : "bg-slate-100 dark:bg-slate-800 text-blue-600 dark:text-blue-400 border-slate-200 dark:border-slate-700 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600"
+                    }`}
+                    title="Buka Streaming"
+                  >
+                    <Play className="w-3.5 h-3.5 fill-current" />
+                  </button>
                 </div>
-              </button>
+
+                {/* Tombol Buka Streaming saat lokasi dipilih */}
+                {isSelected && (
+                  <div className="pt-2 border-t border-blue-200 dark:border-blue-900/60 flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        if (onPlayStream) onPlayStream(loc);
+                      }}
+                      className="w-full py-1.5 px-3 rounded-lg bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition cursor-pointer"
+                    >
+                      <Play className="w-3.5 h-3.5 fill-current" />
+                      <span>Buka Streaming</span>
+                    </button>
+                  </div>
+                )}
+              </div>
             );
           })
         )}
