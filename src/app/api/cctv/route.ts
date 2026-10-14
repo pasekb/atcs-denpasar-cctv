@@ -41,6 +41,7 @@ export async function GET(request: NextRequest) {
     const query = (searchParams.get("q") || "").toLowerCase().trim();
     const idlok = searchParams.get("idlok");
     const spbuOnly = searchParams.get("spbu") === "true";
+    const sumberParam = (searchParams.get("sumber") || "").toLowerCase().trim();
 
     let locations: CctvLocation[] = [];
 
@@ -66,6 +67,8 @@ export async function GET(request: NextRequest) {
     }
 
     const totalSpbu = locations.filter((loc) => loc.dekat_spbu).length;
+    const totalAtcs = locations.filter((loc) => (loc.sumber || "").toLowerCase().includes("atcs")).length;
+    const totalBaliSatuData = locations.filter((loc) => (loc.sumber || "").toLowerCase().includes("bali")).length;
 
     // Filter berdasarkan idlok
     if (idlok) {
@@ -78,18 +81,29 @@ export async function GET(request: NextRequest) {
       locations = locations.filter((loc) => loc.dekat_spbu === true);
     }
 
+    // Filter Kategori Sumber (ATCS Denpasar / Bali Satu Data)
+    if (sumberParam) {
+      if (sumberParam === "atcs" || sumberParam.includes("atcs")) {
+        locations = locations.filter((loc) => (loc.sumber || "").toLowerCase().includes("atcs"));
+      } else if (sumberParam === "bali" || sumberParam.includes("bali")) {
+        locations = locations.filter((loc) => (loc.sumber || "").toLowerCase().includes("bali"));
+      }
+    }
+
     // Filter pencarian teks
     if (query) {
       locations = locations.filter((loc) => {
         const nameMatch = loc.nama_lokasi.toLowerCase().includes(query);
         const descMatch = (loc.ket_lokasi || "").toLowerCase().includes(query);
         const spbuMatch = (loc.nama_spbu || "").toLowerCase().includes(query);
+        const cityMatch = (loc.tb_lokasi_kota?.nama_kota || "").toLowerCase().includes(query);
+        const sourceMatch = (loc.sumber || "").toLowerCase().includes(query);
         const devMatch = loc.tb_device_lokasi?.some(
           (d) =>
             (d.nama && d.nama.toLowerCase().includes(query)) ||
             (d.nama_alias && d.nama_alias.toLowerCase().includes(query))
         );
-        return nameMatch || descMatch || spbuMatch || devMatch;
+        return nameMatch || descMatch || spbuMatch || cityMatch || sourceMatch || devMatch;
       });
     }
 
@@ -112,6 +126,8 @@ export async function GET(request: NextRequest) {
         paginate: paginate > 0 ? paginate : total,
         total: total,
         total_spbu: totalSpbu,
+        total_atcs: totalAtcs,
+        total_bali_satu_data: totalBaliSatuData,
       },
     };
 

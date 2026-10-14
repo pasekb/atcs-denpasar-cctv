@@ -16,7 +16,7 @@ const CctvMap = dynamic(() => import("@/components/CctvMap"), {
     <div className="w-full h-full min-h-[500px] flex items-center justify-center bg-slate-100 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800">
       <div className="flex flex-col items-center gap-3 text-slate-400">
         <Loader2 className="w-8 h-8 animate-spin text-blue-600" />
-        <span className="text-xs font-medium">Memuat Peta Denpasar...</span>
+        <span className="text-xs font-medium">Memuat Peta Bali...</span>
       </div>
     </div>
   ),
@@ -25,11 +25,14 @@ const CctvMap = dynamic(() => import("@/components/CctvMap"), {
 export default function StreamingPage() {
   const [locations, setLocations] = useState<CctvLocation[]>([]);
   const [totalSpbu, setTotalSpbu] = useState(0);
+  const [totalAtcs, setTotalAtcs] = useState(0);
+  const [totalBaliSatuData, setTotalBaliSatuData] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<"map" | "grid">("map");
   const [selectedLocation, setSelectedLocation] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [filterSpbuOnly, setFilterSpbuOnly] = useState(false);
+  const [sumberFilter, setSumberFilter] = useState<"all" | "atcs" | "balisatudata">("all");
 
   // Pagination for grid
   const [currentPage, setCurrentPage] = useState(1);
@@ -47,10 +50,14 @@ export default function StreamingPage() {
         const json = await res.json();
         if (json.success && json.data) {
           setLocations(json.data);
-          if (json.meta && json.meta.total_spbu !== undefined) {
-            setTotalSpbu(json.meta.total_spbu);
+          if (json.meta) {
+            if (json.meta.total_spbu !== undefined) setTotalSpbu(json.meta.total_spbu);
+            if (json.meta.total_atcs !== undefined) setTotalAtcs(json.meta.total_atcs);
+            if (json.meta.total_bali_satu_data !== undefined) setTotalBaliSatuData(json.meta.total_bali_satu_data);
           } else {
             setTotalSpbu(json.data.filter((l: any) => l.dekat_spbu).length);
+            setTotalAtcs(json.data.filter((l: any) => (l.sumber || "").includes("ATCS")).length);
+            setTotalBaliSatuData(json.data.filter((l: any) => (l.sumber || "").includes("Bali")).length);
           }
         }
       } catch (err) {
@@ -62,26 +69,34 @@ export default function StreamingPage() {
     fetchData();
   }, []);
 
-  // Filter locations by search query and SPBU
+  // Filter locations by search query, SPBU, and sumber
   const filteredLocations = useMemo(() => {
     let list = locations;
     if (filterSpbuOnly) {
       list = list.filter((l) => l.dekat_spbu === true);
     }
+    if (sumberFilter === "atcs") {
+      list = list.filter((l) => (l.sumber || "").toLowerCase().includes("atcs"));
+    } else if (sumberFilter === "balisatudata") {
+      list = list.filter((l) => (l.sumber || "").toLowerCase().includes("bali"));
+    }
+
     const q = searchQuery.toLowerCase().trim();
     if (!q) return list;
     return list.filter((loc) => {
       const nameMatch = loc.nama_lokasi.toLowerCase().includes(q);
       const descMatch = (loc.ket_lokasi || "").toLowerCase().includes(q);
       const spbuMatch = (loc.nama_spbu || "").toLowerCase().includes(q);
+      const cityMatch = (loc.tb_lokasi_kota?.nama_kota || "").toLowerCase().includes(q);
+      const sourceMatch = (loc.sumber || "").toLowerCase().includes(q);
       const devMatch = loc.tb_device_lokasi?.some(
         (d) =>
           (d.nama && d.nama.toLowerCase().includes(q)) ||
           (d.nama_alias && d.nama_alias.toLowerCase().includes(q))
       );
-      return nameMatch || descMatch || spbuMatch || devMatch;
+      return nameMatch || descMatch || spbuMatch || cityMatch || sourceMatch || devMatch;
     });
-  }, [locations, searchQuery, filterSpbuOnly]);
+  }, [locations, searchQuery, filterSpbuOnly, sumberFilter]);
 
   // Grid filtered locations
   const gridLocations = useMemo(() => {
@@ -196,6 +211,11 @@ export default function StreamingPage() {
               selectedLocation={selectedLocation}
               searchQuery={searchQuery}
               filterSpbuOnly={filterSpbuOnly}
+              sumberFilter={sumberFilter}
+              onSumberFilterChange={(val) => {
+                setSumberFilter(val);
+                setCurrentPage(1);
+              }}
               onFilterSpbuToggle={() => {
                 setFilterSpbuOnly(!filterSpbuOnly);
                 setCurrentPage(1);

@@ -40,6 +40,8 @@ export interface CctvLocation {
   dekat_spbu?: boolean;
   nama_spbu?: string;
   jarak_spbu_meter?: number;
+  sumber?: "ATCS Denpasar" | "Bali Satu Data" | string;
+  kategori_sumber?: "ATCS Denpasar" | "Bali Satu Data" | string;
   tb_device_lokasi: DeviceLokasi[];
   tb_lokasi_kota?: LokasiKota;
 }
@@ -53,6 +55,8 @@ export interface CctvApiResponse {
     paginate: number;
     total: number;
     total_spbu?: number;
+    total_atcs?: number;
+    total_bali_satu_data?: number;
   };
 }
 

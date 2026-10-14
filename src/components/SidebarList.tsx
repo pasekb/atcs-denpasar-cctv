@@ -9,6 +9,8 @@ interface SidebarListProps {
   selectedLocation: number | null;
   searchQuery: string;
   filterSpbuOnly: boolean;
+  sumberFilter?: "all" | "atcs" | "balisatudata";
+  onSumberFilterChange?: (s: "all" | "atcs" | "balisatudata") => void;
   onFilterSpbuToggle: () => void;
   onSearchChange: (q: string) => void;
   onSelectLocation: (id: number | null) => void;
@@ -20,6 +22,8 @@ export default function SidebarList({
   selectedLocation,
   searchQuery,
   filterSpbuOnly,
+  sumberFilter = "all",
+  onSumberFilterChange,
   onFilterSpbuToggle,
   onSearchChange,
   onSelectLocation,
@@ -36,6 +40,43 @@ export default function SidebarList({
           <span className="px-2 py-0.5 rounded-full text-xs font-semibold bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400">
             {locations.length}
           </span>
+        </div>
+
+        {/* Filter Kategori Sumber (Semua, ATCS Denpasar, Bali Satu Data) */}
+        <div className="grid grid-cols-3 gap-1 bg-slate-100 dark:bg-slate-800 p-1 rounded-lg text-[11px] font-bold">
+          <button
+            type="button"
+            onClick={() => onSumberFilterChange && onSumberFilterChange("all")}
+            className={`py-1.5 rounded-md transition text-center cursor-pointer ${
+              sumberFilter === "all"
+                ? "bg-white dark:bg-slate-700 text-blue-600 dark:text-blue-400 shadow-sm"
+                : "text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
+            }`}
+          >
+            Semua
+          </button>
+          <button
+            type="button"
+            onClick={() => onSumberFilterChange && onSumberFilterChange("atcs")}
+            className={`py-1.5 rounded-md transition text-center cursor-pointer ${
+              sumberFilter === "atcs"
+                ? "bg-white dark:bg-slate-700 text-blue-600 dark:text-blue-400 shadow-sm"
+                : "text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
+            }`}
+          >
+            ATCS Dps
+          </button>
+          <button
+            type="button"
+            onClick={() => onSumberFilterChange && onSumberFilterChange("balisatudata")}
+            className={`py-1.5 rounded-md transition text-center cursor-pointer ${
+              sumberFilter === "balisatudata"
+                ? "bg-white dark:bg-slate-700 text-emerald-600 dark:text-emerald-400 shadow-sm"
+                : "text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
+            }`}
+          >
+            Bali 1 Data
+          </button>
         </div>
 
         {/* Filter Chip SPBU */}
@@ -140,6 +181,15 @@ export default function SidebarList({
                   <div className="flex-1 min-w-0">
                     <div className="font-bold truncate text-slate-900 dark:text-white flex items-center gap-1.5">
                       <span className="truncate">{loc.nama_lokasi}</span>
+                      {loc.sumber === "ATCS Denpasar" ? (
+                        <span className="px-1.5 py-0.2 rounded text-[9px] font-semibold bg-blue-100 text-blue-700 dark:bg-blue-900/60 dark:text-blue-300 flex-shrink-0">
+                          ATCS
+                        </span>
+                      ) : (
+                        <span className="px-1.5 py-0.2 rounded text-[9px] font-semibold bg-emerald-100 text-emerald-700 dark:bg-emerald-900/60 dark:text-emerald-300 flex-shrink-0">
+                          Bali 1 Data
+                        </span>
+                      )}
                       {loc.dekat_spbu && (
                         <span
                           className="px-1.5 py-0.2 rounded text-[9px] font-bold bg-amber-500 text-white flex-shrink-0"

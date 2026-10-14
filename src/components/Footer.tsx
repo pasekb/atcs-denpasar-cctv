@@ -7,18 +7,6 @@ export default function Footer() {
         <span>
           build by <strong className="font-semibold text-slate-700 dark:text-slate-200">@pasekberatha</strong>
         </span>
-        <span className="hidden sm:inline text-slate-300 dark:text-slate-600">•</span>
-        <span>
-          data from{" "}
-          <a
-            href="https://atcs.denpasarkota.go.id/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-700 dark:text-blue-400 hover:underline font-medium transition"
-          >
-            ATCS Denpasar
-          </a>
-        </span>
       </div>
     </footer>
   );

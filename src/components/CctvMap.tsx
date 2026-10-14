@@ -27,8 +27,8 @@ export default function CctvMap({
   const locationsRef = useRef(locations);
   locationsRef.current = locations;
 
-  const DENPASAR_LAT = -8.6726833;
-  const DENPASAR_LON = 115.2242733;
+  const BALI_LAT = -8.50;
+  const BALI_LON = 115.18;
 
   // Expose global window handler for popup button click
   useEffect(() => {
@@ -48,8 +48,15 @@ export default function CctvMap({
   }, []);
 
   // Helper for generating custom marker pin HTML
-  const createMarkerHtml = (isActive: boolean, isNearSpbu: boolean) => {
-    const bgColor = isActive ? "#ef4444" : isNearSpbu ? "#f59e0b" : "#2563eb";
+  const createMarkerHtml = (isActive: boolean, isNearSpbu: boolean, sumber?: string) => {
+    const isBaliSatuData = (sumber || "").toLowerCase().includes("bali");
+    const bgColor = isActive
+      ? "#ef4444"
+      : isNearSpbu
+      ? "#f59e0b"
+      : isBaliSatuData
+      ? "#059669"
+      : "#2563eb";
     const pulseClass = isActive ? "animate-ping opacity-75" : "";
     return `
       <div style="position: relative; width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;">
@@ -79,13 +86,13 @@ export default function CctvMap({
 
     if (!mapInstanceRef.current) {
       const map = L.map(mapContainerRef.current, {
-        center: [DENPASAR_LAT, DENPASAR_LON],
-        zoom: 13,
+        center: [BALI_LAT, BALI_LON],
+        zoom: 10,
         zoomControl: true,
       });
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | CCTV Denpasar',
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | CCTV Bali',
         maxZoom: 19,
       }).addTo(map);
 
@@ -111,7 +118,7 @@ export default function CctvMap({
 
       const customIcon = L.divIcon({
         className: "cctv-custom-marker",
-        html: createMarkerHtml(isSelected, isNearSpbu),
+        html: createMarkerHtml(isSelected, isNearSpbu, loc.sumber),
         iconSize: [34, 34],
         iconAnchor: [17, 17],
         popupAnchor: [0, -18],
@@ -123,9 +130,14 @@ export default function CctvMap({
       const popupHtml = `
         <div style="min-width: 230px; font-family: system-ui, sans-serif; padding: 4px;">
           <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
-            <span style="font-size: 10px; font-weight: 700; background-color: #dbeafe; color: #1e40af; padding: 2px 6px; border-radius: 9999px;">
-              ID #${loc.id_lokasi}
-            </span>
+            <div style="display: flex; gap: 4px; align-items: center;">
+              <span style="font-size: 10px; font-weight: 700; background-color: #f1f5f9; color: #475569; padding: 2px 6px; border-radius: 9999px;">
+                #${loc.id_lokasi}
+              </span>
+              <span style="font-size: 10px; font-weight: 700; background-color: ${loc.sumber === 'Bali Satu Data' ? '#d1fae5' : '#dbeafe'}; color: ${loc.sumber === 'Bali Satu Data' ? '#065f46' : '#1e40af'}; padding: 2px 6px; border-radius: 9999px;">
+                ${loc.sumber || 'ATCS Denpasar'}
+              </span>
+            </div>
             <div style="display: flex; gap: 4px;">
               ${
                 isNearSpbu
@@ -198,7 +210,7 @@ export default function CctvMap({
         const isNearSpbu = Boolean(loc.dekat_spbu);
         const updatedIcon = L.divIcon({
           className: "cctv-custom-marker",
-          html: createMarkerHtml(isSelected, isNearSpbu),
+          html: createMarkerHtml(isSelected, isNearSpbu, loc.sumber),
           iconSize: [34, 34],
           iconAnchor: [17, 17],
           popupAnchor: [0, -18],
@@ -242,7 +254,11 @@ export default function CctvMap({
       <div className="absolute bottom-4 left-4 z-[400] bg-white/95 dark:bg-slate-900/95 backdrop-blur px-3 py-2 rounded-lg shadow-md border border-slate-200 dark:border-slate-800 text-xs flex flex-wrap items-center gap-3">
         <div className="flex items-center gap-1.5">
           <span className="w-3 h-3 rounded-full bg-blue-600 inline-block" />
-          <span className="text-slate-600 dark:text-slate-300 font-medium">CCTV Simpang</span>
+          <span className="text-slate-600 dark:text-slate-300 font-medium">ATCS Denpasar</span>
+        </div>
+        <div className="flex items-center gap-1.5">
+          <span className="w-3 h-3 rounded-full bg-emerald-600 inline-block" />
+          <span className="text-slate-600 dark:text-slate-300 font-medium">Bali Satu Data</span>
         </div>
         <div className="flex items-center gap-1.5">
           <span className="w-3 h-3 rounded-full bg-amber-500 inline-block" />

@@ -45,7 +45,7 @@ export default function Navbar({ totalCount, totalSpbu, isLoading }: NavbarProps
             <div>
               <div className="flex items-center gap-2">
                 <Link href="/streaming" className="text-xl font-bold tracking-tight text-slate-900 dark:text-white hover:text-blue-600 transition">
-                  CCTV Denpasar
+                  CCTV BALI
                 </Link>
                 <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
                   <ShieldCheck className="w-3 h-3" /> Live Stream
@@ -57,7 +57,7 @@ export default function Navbar({ totalCount, totalSpbu, isLoading }: NavbarProps
                 )}
               </div>
               <p className="text-xs text-slate-500 dark:text-slate-400">
-                {isLoading ? "Memuat data CCTV..." : `${totalCount} CCTV Terpasang di Kota Denpasar`}
+                {isLoading ? "Memuat CCTV Terpasang di Bali..." : `${totalCount} CCTV Terpasang di Bali`}
               </p>
             </div>
           </div>

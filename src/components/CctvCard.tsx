@@ -67,6 +67,17 @@ export default function CctvCard({ location, onEnlarge }: CctvCardProps) {
             </span>
           )}
 
+          {/* Source Category Badge */}
+          <span
+            className={`inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold shadow-sm ${
+              location.sumber === "ATCS Denpasar"
+                ? "bg-blue-600/90 text-white"
+                : "bg-emerald-600/90 text-white"
+            }`}
+          >
+            {location.sumber || "ATCS Denpasar"}
+          </span>
+
           <span className="px-2 py-0.5 rounded-full text-[10px] font-medium bg-black/60 text-white/90 backdrop-blur">
             #{location.id_lokasi}
           </span>
@@ -75,14 +86,26 @@ export default function CctvCard({ location, onEnlarge }: CctvCardProps) {
         {/* Video stream rendering */}
         {isPlaying && streamUrl && !hasError ? (
           <div className="relative w-full h-full">
-            <iframe
-              src={streamUrl}
-              className="w-full h-full border-0 object-cover"
-              allow="autoplay; fullscreen"
-              allowFullScreen
-              onError={() => setHasError(true)}
-              title={cameraName}
-            />
+            {streamUrl.endsWith(".mp4") || streamUrl.includes(".mp4") ? (
+              <video
+                src={streamUrl}
+                className="w-full h-full object-cover"
+                autoPlay
+                controls
+                playsInline
+                muted
+                onError={() => setHasError(true)}
+              />
+            ) : (
+              <iframe
+                src={streamUrl}
+                className="w-full h-full border-0 object-cover"
+                allow="autoplay; fullscreen"
+                allowFullScreen
+                onError={() => setHasError(true)}
+                title={cameraName}
+              />
+            )}
             {/* Hover overlay to stop streaming */}
             <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
               <button

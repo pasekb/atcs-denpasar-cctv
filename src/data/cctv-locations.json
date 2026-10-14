@@ -37,7 +37,9 @@
           "kode_provinsi": "57",
           "nama_provinsi": "BALI"
         }
-      }
+      },
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 1,
@@ -84,7 +86,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 51.801.30 Gunung Agung",
-      "jarak_spbu_meter": 120
+      "jarak_spbu_meter": 120,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 2,
@@ -131,7 +135,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.12 Buluh Indah",
-      "jarak_spbu_meter": 150
+      "jarak_spbu_meter": 150,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 3,
@@ -178,7 +184,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 4,
@@ -240,7 +248,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.11 Teuku Umar / Imam Bonjol",
-      "jarak_spbu_meter": 200
+      "jarak_spbu_meter": 200,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 5,
@@ -287,7 +297,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 6,
@@ -334,7 +346,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 7,
@@ -381,7 +395,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.48 Mahendradatta",
-      "jarak_spbu_meter": 180
+      "jarak_spbu_meter": 180,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 8,
@@ -428,7 +444,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 9,
@@ -475,7 +493,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 10,
@@ -522,7 +542,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 11,
@@ -569,7 +591,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 12,
@@ -616,7 +640,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 13,
@@ -663,7 +689,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 14,
@@ -710,7 +738,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 15,
@@ -757,7 +787,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 16,
@@ -804,7 +836,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.07 PB Sudirman",
-      "jarak_spbu_meter": 90
+      "jarak_spbu_meter": 90,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 17,
@@ -851,7 +885,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.07 PB Sudirman",
-      "jarak_spbu_meter": 140
+      "jarak_spbu_meter": 140,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 18,
@@ -898,7 +934,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 19,
@@ -945,7 +983,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 20,
@@ -992,7 +1032,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 21,
@@ -1054,7 +1096,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 22,
@@ -1116,7 +1160,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.18 Cokroaminoto Ubung",
-      "jarak_spbu_meter": 110
+      "jarak_spbu_meter": 110,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 23,
@@ -1163,7 +1209,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 24,
@@ -1210,7 +1258,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 25,
@@ -1257,7 +1307,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 26,
@@ -1304,7 +1356,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 27,
@@ -1351,7 +1405,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 28,
@@ -1398,7 +1454,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 29,
@@ -1445,7 +1503,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 30,
@@ -1492,7 +1552,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.28 Gatot Subroto Barat",
-      "jarak_spbu_meter": 160
+      "jarak_spbu_meter": 160,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 31,
@@ -1539,7 +1601,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.28 Gatsu Barat - Pidada",
-      "jarak_spbu_meter": 130
+      "jarak_spbu_meter": 130,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 32,
@@ -1586,7 +1650,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 33,
@@ -1648,7 +1714,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.05 Gatsu Tengah - Nangka",
-      "jarak_spbu_meter": 170
+      "jarak_spbu_meter": 170,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 34,
@@ -1695,7 +1763,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 35,
@@ -1742,7 +1812,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 36,
@@ -1789,7 +1861,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 37,
@@ -1836,7 +1910,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 38,
@@ -1883,7 +1959,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.38 WR Supratman Tohpati",
-      "jarak_spbu_meter": 140
+      "jarak_spbu_meter": 140,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 39,
@@ -1930,7 +2008,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 40,
@@ -1977,7 +2057,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 41,
@@ -2024,7 +2106,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 42,
@@ -2071,7 +2155,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 43,
@@ -2118,7 +2204,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 44,
@@ -2165,7 +2253,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.45 Waribang Kesiman",
-      "jarak_spbu_meter": 220
+      "jarak_spbu_meter": 220,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 45,
@@ -2212,7 +2302,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 46,
@@ -2259,7 +2351,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 47,
@@ -2306,7 +2400,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 48,
@@ -2353,7 +2449,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 49,
@@ -2400,7 +2498,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 50,
@@ -2462,7 +2562,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.22 Tukad Batanghari Panjer",
-      "jarak_spbu_meter": 160
+      "jarak_spbu_meter": 160,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 51,
@@ -2524,7 +2626,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 52,
@@ -2586,7 +2690,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.39 Antasura Peguyangan",
-      "jarak_spbu_meter": 190
+      "jarak_spbu_meter": 190,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 53,
@@ -2648,7 +2754,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.19 Raya Pemogan",
-      "jarak_spbu_meter": 150
+      "jarak_spbu_meter": 150,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 54,
@@ -2710,7 +2818,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.31 Gn. Tangkuban Perahu",
-      "jarak_spbu_meter": 210
+      "jarak_spbu_meter": 210,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 55,
@@ -2757,7 +2867,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 56,
@@ -2819,7 +2931,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.09 Diponegoro / Simpang 6",
-      "jarak_spbu_meter": 130
+      "jarak_spbu_meter": 130,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 57,
@@ -2881,7 +2995,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 58,
@@ -2943,7 +3059,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 59,
@@ -2990,7 +3108,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 60,
@@ -3037,7 +3157,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 61,
@@ -3084,7 +3206,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 62,
@@ -3131,7 +3255,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 63,
@@ -3178,7 +3304,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 64,
@@ -3225,7 +3353,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.36 Bypass IB Mantra Titi Banda",
-      "jarak_spbu_meter": 180
+      "jarak_spbu_meter": 180,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 65,
@@ -3272,7 +3402,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 66,
@@ -3334,7 +3466,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 67,
@@ -3396,7 +3530,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.14 Ahmad Yani Maruti",
-      "jarak_spbu_meter": 140
+      "jarak_spbu_meter": 140,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 68,
@@ -3458,7 +3594,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 69,
@@ -3520,7 +3658,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 70,
@@ -3582,7 +3722,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 71,
@@ -3644,7 +3786,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 72,
@@ -3706,7 +3850,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU setiabudi",
-      "jarak_spbu_meter": 1
+      "jarak_spbu_meter": 1,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 73,
@@ -3768,7 +3914,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 74,
@@ -3830,7 +3978,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 75,
@@ -3892,7 +4042,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 76,
@@ -3954,7 +4106,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 77,
@@ -4016,7 +4170,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 78,
@@ -4078,7 +4234,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 79,
@@ -4140,7 +4298,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 80,
@@ -4202,7 +4362,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 81,
@@ -4264,7 +4426,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 82,
@@ -4326,7 +4490,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 83,
@@ -4388,7 +4554,9 @@
       },
       "dekat_spbu": true,
       "nama_spbu": "SPBU 54.801.07 Raya Puputan Renon",
-      "jarak_spbu_meter": 200
+      "jarak_spbu_meter": 200,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 84,
@@ -4450,7 +4618,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 85,
@@ -4512,7 +4682,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 86,
@@ -4574,7 +4746,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 87,
@@ -4636,7 +4810,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 88,
@@ -4698,7 +4874,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 89,
@@ -4760,7 +4938,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 90,
@@ -4822,7 +5002,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 91,
@@ -4884,7 +5066,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 92,
@@ -4946,7 +5130,9 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
     },
     {
       "id_lokasi": 93,
@@ -5008,12 +5194,3566 @@
       },
       "dekat_spbu": false,
       "nama_spbu": null,
-      "jarak_spbu_meter": null
+      "jarak_spbu_meter": null,
+      "sumber": "ATCS Denpasar",
+      "kategori_sumber": "ATCS Denpasar"
+    },
+    {
+      "id_lokasi": 297,
+      "id_kota": 5171,
+      "nomor_urut": 297,
+      "nama_lokasi": "Simpang Padang Galak",
+      "ket_lokasi": "Simpang Padang Galak, KOTA DENPASAR",
+      "lat_lokasi": -8.6569866,
+      "lon_lokasi": 115.2607693,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 297,
+          "nama": "Simpang Padang Galak",
+          "nama_alias": "Simpang Padang Galak",
+          "deskripsi": "Kamera CCTV Simpang Padang Galak",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-padang-galak",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 299,
+      "id_kota": 5171,
+      "nomor_urut": 299,
+      "nama_lokasi": "Simpang Bali Beach",
+      "ket_lokasi": "Simpang Bali Beach, KOTA DENPASAR",
+      "lat_lokasi": -8.682136,
+      "lon_lokasi": 115.259288,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 299,
+          "nama": "Simpang Bali Beach",
+          "nama_alias": "Simpang Bali Beach",
+          "deskripsi": "Kamera CCTV Simpang Bali Beach",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-bali-beach",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 300,
+      "id_kota": 5107,
+      "nomor_urut": 300,
+      "nama_lokasi": "Pertigaan Subagan",
+      "ket_lokasi": "Pertigaan Subagan, KABUPATEN KARANGASEM",
+      "lat_lokasi": -8.501743,
+      "lon_lokasi": 115.5854217,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 300,
+          "nama": "Pertigaan Subagan",
+          "nama_alias": "Pertigaan Subagan",
+          "deskripsi": "Kamera CCTV Pertigaan Subagan",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pertigaan-subagan",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5107",
+        "nama_kota": "KABUPATEN KARANGASEM",
+        "lat_kota": "-8.448",
+        "lon_kota": "115.608",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 301,
+      "id_kota": 5107,
+      "nomor_urut": 301,
+      "nama_lokasi": "Pertigaan Kodim",
+      "ket_lokasi": "Pertigaan Kodim, KABUPATEN KARANGASEM",
+      "lat_lokasi": -8.4501606,
+      "lon_lokasi": 115.602158,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 301,
+          "nama": "Pertigaan Kodim",
+          "nama_alias": "Pertigaan Kodim",
+          "deskripsi": "Kamera CCTV Pertigaan Kodim",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pertigaan-kodim",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5107",
+        "nama_kota": "KABUPATEN KARANGASEM",
+        "lat_kota": "-8.448",
+        "lon_kota": "115.608",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 302,
+      "id_kota": 5101,
+      "nomor_urut": 302,
+      "nama_lokasi": "Perempatan Sudirman",
+      "ket_lokasi": "Perempatan Sudirman, KABUPATEN JEMBRANA",
+      "lat_lokasi": -8.3567369,
+      "lon_lokasi": 114.6247737,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina 54.822.16 Sudirman Negara",
+      "jarak_spbu_meter": 95,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 302,
+          "nama": "Perempatan Sudirman",
+          "nama_alias": "Perempatan Sudirman",
+          "deskripsi": "Kamera CCTV Perempatan Sudirman",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=perempatan-sudirman",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5101",
+        "nama_kota": "KABUPATEN JEMBRANA",
+        "lat_kota": "-8.358",
+        "lon_kota": "114.628",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 303,
+      "id_kota": 5101,
+      "nomor_urut": 303,
+      "nama_lokasi": "Terminal Cargo Jembrana",
+      "ket_lokasi": "Terminal Cargo Jembrana, KABUPATEN JEMBRANA",
+      "lat_lokasi": -8.3556559,
+      "lon_lokasi": 114.6066998,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 303,
+          "nama": "Terminal Cargo Jembrana",
+          "nama_alias": "Terminal Cargo Jembrana",
+          "deskripsi": "Kamera CCTV Terminal Cargo Jembrana",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=terminal-cargo",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5101",
+        "nama_kota": "KABUPATEN JEMBRANA",
+        "lat_kota": "-8.358",
+        "lon_kota": "114.628",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 304,
+      "id_kota": 5105,
+      "nomor_urut": 304,
+      "nama_lokasi": "Simpang Lepang",
+      "ket_lokasi": "Simpang Lepang, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5739445,
+      "lon_lokasi": 115.3771148,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 304,
+          "nama": "Simpang Lepang",
+          "nama_alias": "Simpang Lepang",
+          "deskripsi": "Kamera CCTV Simpang Lepang",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-lepang",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 305,
+      "id_kota": 5105,
+      "nomor_urut": 305,
+      "nama_lokasi": "Simpang Lima",
+      "ket_lokasi": "Simpang Lima, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5343064,
+      "lon_lokasi": 115.394877,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 305,
+          "nama": "Simpang Lima",
+          "nama_alias": "Simpang Lima",
+          "deskripsi": "Kamera CCTV Simpang Lima",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-lima",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 306,
+      "id_kota": 5105,
+      "nomor_urut": 306,
+      "nama_lokasi": "Pertigaan SMAN Satu Semarapura",
+      "ket_lokasi": "Pertigaan SMAN Satu Semarapura, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5414345,
+      "lon_lokasi": 115.3925883,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 306,
+          "nama": "Pertigaan SMAN Satu Semarapura",
+          "nama_alias": "Pertigaan SMAN Satu Semarapura",
+          "deskripsi": "Kamera CCTV Pertigaan SMAN Satu Semarapura",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pertigaan-sman-satu-semarapura",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 307,
+      "id_kota": 5105,
+      "nomor_urut": 307,
+      "nama_lokasi": "Pasar Senggol",
+      "ket_lokasi": "Pasar Senggol, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5348433,
+      "lon_lokasi": 115.3992233,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 307,
+          "nama": "Pasar Senggol",
+          "nama_alias": "Pasar Senggol",
+          "deskripsi": "Kamera CCTV Pasar Senggol",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pasar-senggol",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 308,
+      "id_kota": 5105,
+      "nomor_urut": 308,
+      "nama_lokasi": "Perempatan Pasar Satria",
+      "ket_lokasi": "Perempatan Pasar Satria, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5374067,
+      "lon_lokasi": 115.4122485,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 308,
+          "nama": "Perempatan Pasar Satria",
+          "nama_alias": "Perempatan Pasar Satria",
+          "deskripsi": "Kamera CCTV Perempatan Pasar Satria",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=perempatan-pasar-satria",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 309,
+      "id_kota": 5105,
+      "nomor_urut": 309,
+      "nama_lokasi": "Perempatan Tojan",
+      "ket_lokasi": "Perempatan Tojan, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5570024,
+      "lon_lokasi": 115.3794847,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 309,
+          "nama": "Perempatan Tojan",
+          "nama_alias": "Perempatan Tojan",
+          "deskripsi": "Kamera CCTV Perempatan Tojan",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=perempatan-tojan",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 310,
+      "id_kota": 5105,
+      "nomor_urut": 310,
+      "nama_lokasi": "Perempatan Banjarangkan-Tusan",
+      "ket_lokasi": "Perempatan Banjarangkan-Tusan, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5418174,
+      "lon_lokasi": 115.3612613,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 310,
+          "nama": "Perempatan Banjarangkan-Tusan",
+          "nama_alias": "Perempatan Banjarangkan-Tusan",
+          "deskripsi": "Kamera CCTV Perempatan Banjarangkan-Tusan",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=perempatan-banjarangkan-tusan",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 311,
+      "id_kota": 5105,
+      "nomor_urut": 311,
+      "nama_lokasi": "Catus Pata",
+      "ket_lokasi": "Catus Pata, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5353143,
+      "lon_lokasi": 115.4011524,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 311,
+          "nama": "Catus Pata",
+          "nama_alias": "Catus Pata",
+          "deskripsi": "Kamera CCTV Catus Pata",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=catus-pata",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 312,
+      "id_kota": 5105,
+      "nomor_urut": 312,
+      "nama_lokasi": "Depan Pura Goa Lawah",
+      "ket_lokasi": "Depan Pura Goa Lawah, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5520141,
+      "lon_lokasi": 115.4671352,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 312,
+          "nama": "Depan Pura Goa Lawah",
+          "nama_alias": "Depan Pura Goa Lawah",
+          "deskripsi": "Kamera CCTV Depan Pura Goa Lawah",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=depan-pura-goa-lawah",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 313,
+      "id_kota": 5105,
+      "nomor_urut": 313,
+      "nama_lokasi": "Perempatan Galiran",
+      "ket_lokasi": "Perempatan Galiran, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5450835,
+      "lon_lokasi": 115.3996069,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 313,
+          "nama": "Perempatan Galiran",
+          "nama_alias": "Perempatan Galiran",
+          "deskripsi": "Kamera CCTV Perempatan Galiran",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=perempatan-galiran",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 314,
+      "id_kota": 5105,
+      "nomor_urut": 314,
+      "nama_lokasi": "Perbatasan Klungkung-Gianyar",
+      "ket_lokasi": "Perbatasan Klungkung-Gianyar, KABUPATEN KLUNGKUNG",
+      "lat_lokasi": -8.5434498,
+      "lon_lokasi": 115.3611623,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 314,
+          "nama": "Perbatasan Klungkung-Gianyar",
+          "nama_alias": "Perbatasan Klungkung-Gianyar",
+          "deskripsi": "Kamera CCTV Perbatasan Klungkung-Gianyar",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=perbatasan-klungkung-gianyar",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5105",
+        "nama_kota": "KABUPATEN KLUNGKUNG",
+        "lat_kota": "-8.535",
+        "lon_kota": "115.401",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 315,
+      "id_kota": 5102,
+      "nomor_urut": 315,
+      "nama_lokasi": "Taman Kota",
+      "ket_lokasi": "Taman Kota, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5375277,
+      "lon_lokasi": 115.1238005,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 315,
+          "nama": "Taman Kota",
+          "nama_alias": "Taman Kota",
+          "deskripsi": "Kamera CCTV Taman Kota",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=taman-kota",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 316,
+      "id_kota": 5103,
+      "nomor_urut": 316,
+      "nama_lokasi": "Parkiran Pantai Legian",
+      "ket_lokasi": "Parkiran Pantai Legian, KABUPATEN BADUNG",
+      "lat_lokasi": -8.706469,
+      "lon_lokasi": 115.16605,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 316,
+          "nama": "Parkiran Pantai Legian",
+          "nama_alias": "Parkiran Pantai Legian",
+          "deskripsi": "Kamera CCTV Parkiran Pantai Legian",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=parkiran-pantai-legian",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 317,
+      "id_kota": 5103,
+      "nomor_urut": 317,
+      "nama_lokasi": "Kantor Lurah Seminyak",
+      "ket_lokasi": "Kantor Lurah Seminyak, KABUPATEN BADUNG",
+      "lat_lokasi": -8.687924,
+      "lon_lokasi": 115.175745,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 317,
+          "nama": "Kantor Lurah Seminyak",
+          "nama_alias": "Kantor Lurah Seminyak",
+          "deskripsi": "Kamera CCTV Kantor Lurah Seminyak",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=kantor-lurah-seminyak",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 318,
+      "id_kota": 5103,
+      "nomor_urut": 318,
+      "nama_lokasi": "Jl. Pantai Kuta, Depan Hardrock",
+      "ket_lokasi": "Jl. Pantai Kuta, Depan Hardrock, KABUPATEN BADUNG",
+      "lat_lokasi": -8.721987,
+      "lon_lokasi": 115.169737,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 318,
+          "nama": "Jl. Pantai Kuta, Depan Hardrock",
+          "nama_alias": "Jl. Pantai Kuta, Depan Hardrock",
+          "deskripsi": "Kamera CCTV Jl. Pantai Kuta, Depan Hardrock",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=jl-pantai-kuta-depan-hardrock",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 319,
+      "id_kota": 5103,
+      "nomor_urut": 319,
+      "nama_lokasi": "Pertigaan Jl. Patih Jelantik - Jl. Dewi Sri",
+      "ket_lokasi": "Pertigaan Jl. Patih Jelantik - Jl. Dewi Sri, KABUPATEN BADUNG",
+      "lat_lokasi": -8.706305,
+      "lon_lokasi": 115.1741004,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 319,
+          "nama": "Pertigaan Jl. Patih Jelantik - Jl. Dewi Sri",
+          "nama_alias": "Pertigaan Jl. Patih Jelantik - Jl. Dewi Sri",
+          "deskripsi": "Kamera CCTV Pertigaan Jl. Patih Jelantik - Jl. Dewi Sri",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pertigaan-jl-patih-jelantik---jl-dewi-sri",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 320,
+      "id_kota": 5103,
+      "nomor_urut": 320,
+      "nama_lokasi": "Pantai Jerman-CO1 CCTV1",
+      "ket_lokasi": "Pantai Jerman-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7353252,
+      "lon_lokasi": 115.1606467,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 320,
+          "nama": "Pantai Jerman-CO1 CCTV1",
+          "nama_alias": "Pantai Jerman-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Pantai Jerman-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-jerman-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 321,
+      "id_kota": 5103,
+      "nomor_urut": 321,
+      "nama_lokasi": "Jl Raya Tuban, Jl Kediri",
+      "ket_lokasi": "Jl Raya Tuban, Jl Kediri, KABUPATEN BADUNG",
+      "lat_lokasi": -8.737453,
+      "lon_lokasi": 115.178163,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina 54.803.22 Raya Tuban",
+      "jarak_spbu_meter": 250,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 321,
+          "nama": "Jl Raya Tuban, Jl Kediri",
+          "nama_alias": "Jl Raya Tuban, Jl Kediri",
+          "deskripsi": "Kamera CCTV Jl Raya Tuban, Jl Kediri",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=jl-raya-tuban-jl-kediri",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 322,
+      "id_kota": 5103,
+      "nomor_urut": 322,
+      "nama_lokasi": "Jalan Seminyak Depan Swalayan Bintang/Gg Keraton",
+      "ket_lokasi": "Jalan Seminyak Depan Swalayan Bintang/Gg Keraton, KABUPATEN BADUNG",
+      "lat_lokasi": -8.6930627,
+      "lon_lokasi": 115.1639173,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 322,
+          "nama": "Jalan Seminyak Depan Swalayan Bintang/Gg Keraton",
+          "nama_alias": "Jalan Seminyak Depan Swalayan Bintang/Gg Keraton",
+          "deskripsi": "Kamera CCTV Jalan Seminyak Depan Swalayan Bintang/Gg Keraton",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=jalan-seminyak-depan-swalayan-bintanggg-keraton",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 323,
+      "id_kota": 5103,
+      "nomor_urut": 323,
+      "nama_lokasi": "Jl Arjuna Parkiran Pantai DoubleSix",
+      "ket_lokasi": "Jl Arjuna Parkiran Pantai DoubleSix, KABUPATEN BADUNG",
+      "lat_lokasi": -8.6930495,
+      "lon_lokasi": 115.1600549,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 323,
+          "nama": "Jl Arjuna Parkiran Pantai DoubleSix",
+          "nama_alias": "Jl Arjuna Parkiran Pantai DoubleSix",
+          "deskripsi": "Kamera CCTV Jl Arjuna Parkiran Pantai DoubleSix",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=jl-arjuna-parkiran-pantai-doublesix",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 324,
+      "id_kota": 5103,
+      "nomor_urut": 324,
+      "nama_lokasi": "Patih Jelantik Majapahit",
+      "ket_lokasi": "Patih Jelantik Majapahit, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7159271,
+      "lon_lokasi": 115.176396,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 324,
+          "nama": "Patih Jelantik Majapahit",
+          "nama_alias": "Patih Jelantik Majapahit",
+          "deskripsi": "Kamera CCTV Patih Jelantik Majapahit",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=patih-jelantik-majapahit",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 325,
+      "id_kota": 5103,
+      "nomor_urut": 325,
+      "nama_lokasi": "Pasar Seni, Jl Dewi Sartika, Kuta",
+      "ket_lokasi": "Pasar Seni, Jl Dewi Sartika, Kuta, KABUPATEN BADUNG",
+      "lat_lokasi": -8.724606,
+      "lon_lokasi": 115.171491,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 325,
+          "nama": "Pasar Seni, Jl Dewi Sartika, Kuta",
+          "nama_alias": "Pasar Seni, Jl Dewi Sartika, Kuta",
+          "deskripsi": "Kamera CCTV Pasar Seni, Jl Dewi Sartika, Kuta",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pasar-seni-jl-dewi-sartika-kuta",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 326,
+      "id_kota": 5103,
+      "nomor_urut": 326,
+      "nama_lokasi": "Monumen Ground Zero/Pojok Panin",
+      "ket_lokasi": "Monumen Ground Zero/Pojok Panin, KABUPATEN BADUNG",
+      "lat_lokasi": -8.717386,
+      "lon_lokasi": 115.174562,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 326,
+          "nama": "Monumen Ground Zero/Pojok Panin",
+          "nama_alias": "Monumen Ground Zero/Pojok Panin",
+          "deskripsi": "Kamera CCTV Monumen Ground Zero/Pojok Panin",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=monumen-ground-zeropojok-panin",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 327,
+      "id_kota": 5103,
+      "nomor_urut": 327,
+      "nama_lokasi": "Depan Popies 2 / Sky Garden",
+      "ket_lokasi": "Depan Popies 2 / Sky Garden, KABUPATEN BADUNG",
+      "lat_lokasi": -8.717571,
+      "lon_lokasi": 115.174464,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 327,
+          "nama": "Depan Popies 2 / Sky Garden",
+          "nama_alias": "Depan Popies 2 / Sky Garden",
+          "deskripsi": "Kamera CCTV Depan Popies 2 / Sky Garden",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=depan-popies-2--sky-garden",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 328,
+      "id_kota": 5103,
+      "nomor_urut": 328,
+      "nama_lokasi": "Kantor Lurah Legian-CO1 CCTV1",
+      "ket_lokasi": "Kantor Lurah Legian-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7060327,
+      "lon_lokasi": 115.1728701,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 328,
+          "nama": "Kantor Lurah Legian-CO1 CCTV1",
+          "nama_alias": "Kantor Lurah Legian-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Kantor Lurah Legian-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=kantor-lurah-legian-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 329,
+      "id_kota": 5103,
+      "nomor_urut": 329,
+      "nama_lokasi": "Pantai Kuta-C01 CCTV2",
+      "ket_lokasi": "Pantai Kuta-C01 CCTV2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.706006,
+      "lon_lokasi": 115.1651453,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 329,
+          "nama": "Pantai Kuta-C01 CCTV2",
+          "nama_alias": "Pantai Kuta-C01 CCTV2",
+          "deskripsi": "Kamera CCTV Pantai Kuta-C01 CCTV2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-kuta-c01-cctv2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 330,
+      "id_kota": 5103,
+      "nomor_urut": 330,
+      "nama_lokasi": "Pantai Jerman-CO1 CCTV2",
+      "ket_lokasi": "Pantai Jerman-CO1 CCTV2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.736187,
+      "lon_lokasi": 115.16267,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 330,
+          "nama": "Pantai Jerman-CO1 CCTV2",
+          "nama_alias": "Pantai Jerman-CO1 CCTV2",
+          "deskripsi": "Kamera CCTV Pantai Jerman-CO1 CCTV2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-jerman-co1-cctv2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 331,
+      "id_kota": 5103,
+      "nomor_urut": 331,
+      "nama_lokasi": "Pantai Kuta-C01 CCTV3",
+      "ket_lokasi": "Pantai Kuta-C01 CCTV3, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7059633,
+      "lon_lokasi": 115.1651453,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 331,
+          "nama": "Pantai Kuta-C01 CCTV3",
+          "nama_alias": "Pantai Kuta-C01 CCTV3",
+          "deskripsi": "Kamera CCTV Pantai Kuta-C01 CCTV3",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-kuta-c01-cctv3",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 332,
+      "id_kota": 5103,
+      "nomor_urut": 332,
+      "nama_lokasi": "Abiansemal-CO1 CCTV1",
+      "ket_lokasi": "Abiansemal-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.5304907,
+      "lon_lokasi": 115.1449848,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 332,
+          "nama": "Abiansemal-CO1 CCTV1",
+          "nama_alias": "Abiansemal-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Abiansemal-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=abiansemal-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 333,
+      "id_kota": 5103,
+      "nomor_urut": 333,
+      "nama_lokasi": "Pantai Jerman-CO2 CCTV1",
+      "ket_lokasi": "Pantai Jerman-CO2 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.73625,
+      "lon_lokasi": 115.163004,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 333,
+          "nama": "Pantai Jerman-CO2 CCTV1",
+          "nama_alias": "Pantai Jerman-CO2 CCTV1",
+          "deskripsi": "Kamera CCTV Pantai Jerman-CO2 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-jerman-co2-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 334,
+      "id_kota": 5103,
+      "nomor_urut": 334,
+      "nama_lokasi": "Pantai Jimbaran-CO1 CCTV1",
+      "ket_lokasi": "Pantai Jimbaran-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7750576,
+      "lon_lokasi": 115.1598931,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 334,
+          "nama": "Pantai Jimbaran-CO1 CCTV1",
+          "nama_alias": "Pantai Jimbaran-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Pantai Jimbaran-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-jimbaran-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 335,
+      "id_kota": 5103,
+      "nomor_urut": 335,
+      "nama_lokasi": "Pantai Kuta-C04 CCTV1",
+      "ket_lokasi": "Pantai Kuta-C04 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7226496,
+      "lon_lokasi": 115.1669655,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 335,
+          "nama": "Pantai Kuta-C04 CCTV1",
+          "nama_alias": "Pantai Kuta-C04 CCTV1",
+          "deskripsi": "Kamera CCTV Pantai Kuta-C04 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-kuta-c04-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 336,
+      "id_kota": 5103,
+      "nomor_urut": 336,
+      "nama_lokasi": "Pantai Jerman-CO2 CCTV2",
+      "ket_lokasi": "Pantai Jerman-CO2 CCTV2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.73625,
+      "lon_lokasi": 115.163004,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 336,
+          "nama": "Pantai Jerman-CO2 CCTV2",
+          "nama_alias": "Pantai Jerman-CO2 CCTV2",
+          "deskripsi": "Kamera CCTV Pantai Jerman-CO2 CCTV2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-jerman-co2-cctv2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 337,
+      "id_kota": 5103,
+      "nomor_urut": 337,
+      "nama_lokasi": "Pantai Jimbaran-CO1 CCTV2",
+      "ket_lokasi": "Pantai Jimbaran-CO1 CCTV2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7750576,
+      "lon_lokasi": 115.1598931,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 337,
+          "nama": "Pantai Jimbaran-CO1 CCTV2",
+          "nama_alias": "Pantai Jimbaran-CO1 CCTV2",
+          "deskripsi": "Kamera CCTV Pantai Jimbaran-CO1 CCTV2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-jimbaran-co1-cctv2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 338,
+      "id_kota": 5103,
+      "nomor_urut": 338,
+      "nama_lokasi": "Pantai Kuta-C05 CCTV1",
+      "ket_lokasi": "Pantai Kuta-C05 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7226496,
+      "lon_lokasi": 115.1669655,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 338,
+          "nama": "Pantai Kuta-C05 CCTV1",
+          "nama_alias": "Pantai Kuta-C05 CCTV1",
+          "deskripsi": "Kamera CCTV Pantai Kuta-C05 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-kuta-c05-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 339,
+      "id_kota": 5103,
+      "nomor_urut": 339,
+      "nama_lokasi": "Pantai Jerman-CO3 CCTV1",
+      "ket_lokasi": "Pantai Jerman-CO3 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.734832,
+      "lon_lokasi": 115.163455,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 339,
+          "nama": "Pantai Jerman-CO3 CCTV1",
+          "nama_alias": "Pantai Jerman-CO3 CCTV1",
+          "deskripsi": "Kamera CCTV Pantai Jerman-CO3 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-jerman-co3-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 340,
+      "id_kota": 5103,
+      "nomor_urut": 340,
+      "nama_lokasi": "Pantai Kuta-C05 CCTV2",
+      "ket_lokasi": "Pantai Kuta-C05 CCTV2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7226496,
+      "lon_lokasi": 115.1669655,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 340,
+          "nama": "Pantai Kuta-C05 CCTV2",
+          "nama_alias": "Pantai Kuta-C05 CCTV2",
+          "deskripsi": "Kamera CCTV Pantai Kuta-C05 CCTV2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-kuta-c05-cctv2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 341,
+      "id_kota": 5103,
+      "nomor_urut": 341,
+      "nama_lokasi": "Baruna Disaster Shelter-CO1 CCTV1",
+      "ket_lokasi": "Baruna Disaster Shelter-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7247333,
+      "lon_lokasi": 115.1667578,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 341,
+          "nama": "Baruna Disaster Shelter-CO1 CCTV1",
+          "nama_alias": "Baruna Disaster Shelter-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Baruna Disaster Shelter-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=baruna-disaster-shelter-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 342,
+      "id_kota": 5103,
+      "nomor_urut": 342,
+      "nama_lokasi": "Taman Bencingah Mengwi-CO1 CCTV1",
+      "ket_lokasi": "Taman Bencingah Mengwi-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.5440595,
+      "lon_lokasi": 115.1676477,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 342,
+          "nama": "Taman Bencingah Mengwi-CO1 CCTV1",
+          "nama_alias": "Taman Bencingah Mengwi-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Taman Bencingah Mengwi-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=taman-bencingah-mengwi-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 343,
+      "id_kota": 5103,
+      "nomor_urut": 343,
+      "nama_lokasi": "Pasar Seni Kuta-C01 CCTV1",
+      "ket_lokasi": "Pasar Seni Kuta-C01 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.72467,
+      "lon_lokasi": 115.169594,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 343,
+          "nama": "Pasar Seni Kuta-C01 CCTV1",
+          "nama_alias": "Pasar Seni Kuta-C01 CCTV1",
+          "deskripsi": "Kamera CCTV Pasar Seni Kuta-C01 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pasar-seni-kuta-c01-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 344,
+      "id_kota": 5103,
+      "nomor_urut": 344,
+      "nama_lokasi": "Baruna Disaster Shelter-CO1 CCTV2",
+      "ket_lokasi": "Baruna Disaster Shelter-CO1 CCTV2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7247333,
+      "lon_lokasi": 115.1667578,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 344,
+          "nama": "Baruna Disaster Shelter-CO1 CCTV2",
+          "nama_alias": "Baruna Disaster Shelter-CO1 CCTV2",
+          "deskripsi": "Kamera CCTV Baruna Disaster Shelter-CO1 CCTV2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=baruna-disaster-shelter-co1-cctv2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 345,
+      "id_kota": 5103,
+      "nomor_urut": 345,
+      "nama_lokasi": "Petang-CO1 CCTV1",
+      "ket_lokasi": "Petang-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.4071042,
+      "lon_lokasi": 115.2149301,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 345,
+          "nama": "Petang-CO1 CCTV1",
+          "nama_alias": "Petang-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Petang-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=petang-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 346,
+      "id_kota": 5103,
+      "nomor_urut": 346,
+      "nama_lokasi": "Pasar Seni Kuta-C01 CCTV2",
+      "ket_lokasi": "Pasar Seni Kuta-C01 CCTV2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.72467,
+      "lon_lokasi": 115.169594,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 346,
+          "nama": "Pasar Seni Kuta-C01 CCTV2",
+          "nama_alias": "Pasar Seni Kuta-C01 CCTV2",
+          "deskripsi": "Kamera CCTV Pasar Seni Kuta-C01 CCTV2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pasar-seni-kuta-c01-cctv2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 347,
+      "id_kota": 5103,
+      "nomor_urut": 347,
+      "nama_lokasi": "Pantai Kedongan-CO1 CCTV1",
+      "ket_lokasi": "Pantai Kedongan-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7617951,
+      "lon_lokasi": 115.1633473,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 347,
+          "nama": "Pantai Kedongan-CO1 CCTV1",
+          "nama_alias": "Pantai Kedongan-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Pantai Kedongan-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-kedongan-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 348,
+      "id_kota": 5103,
+      "nomor_urut": 348,
+      "nama_lokasi": "Tanjung Benoa-CO1 CCTV1",
+      "ket_lokasi": "Tanjung Benoa-CO1 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7543556,
+      "lon_lokasi": 115.2171647,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina Pratama Tanjung Benoa",
+      "jarak_spbu_meter": 220,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 348,
+          "nama": "Tanjung Benoa-CO1 CCTV1",
+          "nama_alias": "Tanjung Benoa-CO1 CCTV1",
+          "deskripsi": "Kamera CCTV Tanjung Benoa-CO1 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=tanjung-benoa-co1-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 349,
+      "id_kota": 5103,
+      "nomor_urut": 349,
+      "nama_lokasi": "Pantai Kedongan-CO1 CCTV2",
+      "ket_lokasi": "Pantai Kedongan-CO1 CCTV2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7617951,
+      "lon_lokasi": 115.1633473,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 349,
+          "nama": "Pantai Kedongan-CO1 CCTV2",
+          "nama_alias": "Pantai Kedongan-CO1 CCTV2",
+          "deskripsi": "Kamera CCTV Pantai Kedongan-CO1 CCTV2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-kedongan-co1-cctv2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 350,
+      "id_kota": 5103,
+      "nomor_urut": 350,
+      "nama_lokasi": "Pantai Kuta-C01 CCTV1",
+      "ket_lokasi": "Pantai Kuta-C01 CCTV1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7226496,
+      "lon_lokasi": 115.1669655,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 350,
+          "nama": "Pantai Kuta-C01 CCTV1",
+          "nama_alias": "Pantai Kuta-C01 CCTV1",
+          "deskripsi": "Kamera CCTV Pantai Kuta-C01 CCTV1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pantai-kuta-c01-cctv1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 351,
+      "id_kota": 5102,
+      "nomor_urut": 351,
+      "nama_lokasi": "CCTV GEDUNG MARIO 1",
+      "ket_lokasi": "CCTV GEDUNG MARIO 1, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5375507,
+      "lon_lokasi": 115.1232428,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 351,
+          "nama": "CCTV GEDUNG MARIO 1",
+          "nama_alias": "CCTV GEDUNG MARIO 1",
+          "deskripsi": "Kamera CCTV CCTV GEDUNG MARIO 1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-gedung-mario-1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 352,
+      "id_kota": 5102,
+      "nomor_urut": 352,
+      "nama_lokasi": "CCTV BALE BENGONG",
+      "ket_lokasi": "CCTV BALE BENGONG, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5375507,
+      "lon_lokasi": 115.1232428,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 352,
+          "nama": "CCTV BALE BENGONG",
+          "nama_alias": "CCTV BALE BENGONG",
+          "deskripsi": "Kamera CCTV CCTV BALE BENGONG",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-bale-bengong",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 353,
+      "id_kota": 5103,
+      "nomor_urut": 353,
+      "nama_lokasi": "CCTV WIFI CORNER GEDUNG MAARIO 2",
+      "ket_lokasi": "CCTV WIFI CORNER GEDUNG MAARIO 2, KABUPATEN BADUNG",
+      "lat_lokasi": -8.5375507,
+      "lon_lokasi": 115.1232428,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 353,
+          "nama": "CCTV WIFI CORNER GEDUNG MAARIO 2",
+          "nama_alias": "CCTV WIFI CORNER GEDUNG MAARIO 2",
+          "deskripsi": "Kamera CCTV CCTV WIFI CORNER GEDUNG MAARIO 2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-wifi-corner-gedung-maario-2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 354,
+      "id_kota": 5102,
+      "nomor_urut": 354,
+      "nama_lokasi": "CCTV GEDUNG MARIO 2",
+      "ket_lokasi": "CCTV GEDUNG MARIO 2, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5373669,
+      "lon_lokasi": 115.0434148,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 354,
+          "nama": "CCTV GEDUNG MARIO 2",
+          "nama_alias": "CCTV GEDUNG MARIO 2",
+          "deskripsi": "Kamera CCTV CCTV GEDUNG MARIO 2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-gedung-mario-2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 355,
+      "id_kota": 5102,
+      "nomor_urut": 355,
+      "nama_lokasi": "CCTV TAMAN KOTA 1",
+      "ket_lokasi": "CCTV TAMAN KOTA 1, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5374871,
+      "lon_lokasi": 115.1238308,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 355,
+          "nama": "CCTV TAMAN KOTA 1",
+          "nama_alias": "CCTV TAMAN KOTA 1",
+          "deskripsi": "Kamera CCTV CCTV TAMAN KOTA 1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-taman-kota-1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 356,
+      "id_kota": 5102,
+      "nomor_urut": 356,
+      "nama_lokasi": "CCTV BELAKANG GARUDA",
+      "ket_lokasi": "CCTV BELAKANG GARUDA, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5374871,
+      "lon_lokasi": 115.1238308,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 356,
+          "nama": "CCTV BELAKANG GARUDA",
+          "nama_alias": "CCTV BELAKANG GARUDA",
+          "deskripsi": "Kamera CCTV CCTV BELAKANG GARUDA",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-belakang-garuda",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 357,
+      "id_kota": 5102,
+      "nomor_urut": 357,
+      "nama_lokasi": "CCTV TAMAN KOTA 2",
+      "ket_lokasi": "CCTV TAMAN KOTA 2, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5374871,
+      "lon_lokasi": 115.1238308,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 357,
+          "nama": "CCTV TAMAN KOTA 2",
+          "nama_alias": "CCTV TAMAN KOTA 2",
+          "deskripsi": "Kamera CCTV CCTV TAMAN KOTA 2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-taman-kota-2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 358,
+      "id_kota": 5102,
+      "nomor_urut": 358,
+      "nama_lokasi": "CCTV GEDUNG MARIO 3",
+      "ket_lokasi": "CCTV GEDUNG MARIO 3, KABUPATEN TABANAN",
+      "lat_lokasi": -8.537556,
+      "lon_lokasi": 115.1258177,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 358,
+          "nama": "CCTV GEDUNG MARIO 3",
+          "nama_alias": "CCTV GEDUNG MARIO 3",
+          "deskripsi": "Kamera CCTV CCTV GEDUNG MARIO 3",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-gedung-mario-3",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 359,
+      "id_kota": 5102,
+      "nomor_urut": 359,
+      "nama_lokasi": "CCTV WIFI CORNE DANGIN CARIK 1",
+      "ket_lokasi": "CCTV WIFI CORNE DANGIN CARIK 1, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5375955,
+      "lon_lokasi": 115.1328805,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 359,
+          "nama": "CCTV WIFI CORNE DANGIN CARIK 1",
+          "nama_alias": "CCTV WIFI CORNE DANGIN CARIK 1",
+          "deskripsi": "Kamera CCTV CCTV WIFI CORNE DANGIN CARIK 1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-wifi-corne-dangin-carik-1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 360,
+      "id_kota": 5103,
+      "nomor_urut": 360,
+      "nama_lokasi": "CCTV WIFI CORNER GEDUNG MAARIO 1",
+      "ket_lokasi": "CCTV WIFI CORNER GEDUNG MAARIO 1, KABUPATEN BADUNG",
+      "lat_lokasi": -8.5375507,
+      "lon_lokasi": 115.1232428,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 360,
+          "nama": "CCTV WIFI CORNER GEDUNG MAARIO 1",
+          "nama_alias": "CCTV WIFI CORNER GEDUNG MAARIO 1",
+          "deskripsi": "Kamera CCTV CCTV WIFI CORNER GEDUNG MAARIO 1",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-wifi-corner-gedung-maario-1",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 361,
+      "id_kota": 5102,
+      "nomor_urut": 361,
+      "nama_lokasi": "CCTV SELATAN GARUDA",
+      "ket_lokasi": "CCTV SELATAN GARUDA, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5374871,
+      "lon_lokasi": 115.1217923,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 361,
+          "nama": "CCTV SELATAN GARUDA",
+          "nama_alias": "CCTV SELATAN GARUDA",
+          "deskripsi": "Kamera CCTV CCTV SELATAN GARUDA",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-selatan-garuda",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 362,
+      "id_kota": 5102,
+      "nomor_urut": 362,
+      "nama_lokasi": "CCTV WIFI CORNER DANGIN CARIK 2",
+      "ket_lokasi": "CCTV WIFI CORNER DANGIN CARIK 2, KABUPATEN TABANAN",
+      "lat_lokasi": -8.5375955,
+      "lon_lokasi": 115.130842,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 362,
+          "nama": "CCTV WIFI CORNER DANGIN CARIK 2",
+          "nama_alias": "CCTV WIFI CORNER DANGIN CARIK 2",
+          "deskripsi": "Kamera CCTV CCTV WIFI CORNER DANGIN CARIK 2",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=cctv-wifi-corner-dangin-carik-2",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5102",
+        "nama_kota": "KABUPATEN TABANAN",
+        "lat_kota": "-8.537",
+        "lon_kota": "115.123",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 364,
+      "id_kota": 5107,
+      "nomor_urut": 364,
+      "nama_lokasi": "CCTV Parkir Besakih",
+      "ket_lokasi": "CCTV Parkir Besakih, KABUPATEN KARANGASEM",
+      "lat_lokasi": -8.380386,
+      "lon_lokasi": 115.446331,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 364,
+          "nama": "CCTV Parkir Besakih",
+          "nama_alias": "CCTV Parkir Besakih",
+          "deskripsi": "Kamera CCTV CCTV Parkir Besakih",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=parkir-besakih",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5107",
+        "nama_kota": "KABUPATEN KARANGASEM",
+        "lat_kota": "-8.448",
+        "lon_kota": "115.608",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 365,
+      "id_kota": 5171,
+      "nomor_urut": 365,
+      "nama_lokasi": "Simpang tirtanadi",
+      "ket_lokasi": "Simpang tirtanadi, KOTA DENPASAR",
+      "lat_lokasi": -8.704274,
+      "lon_lokasi": 115.254092,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 365,
+          "nama": "Simpang tirtanadi",
+          "nama_alias": "Simpang tirtanadi",
+          "deskripsi": "Kamera CCTV Simpang tirtanadi",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-tirtanadi",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 366,
+      "id_kota": 5171,
+      "nomor_urut": 366,
+      "nama_lokasi": "Simpang pamelisan",
+      "ket_lokasi": "Simpang pamelisan, KOTA DENPASAR",
+      "lat_lokasi": -8.712501,
+      "lon_lokasi": 115.225663,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina 54.802.40 Bypass Ngurah Rai Suwung Pamelisan",
+      "jarak_spbu_meter": 125,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 366,
+          "nama": "Simpang pamelisan",
+          "nama_alias": "Simpang pamelisan",
+          "deskripsi": "Kamera CCTV Simpang pamelisan",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-pamelisan",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 367,
+      "id_kota": 5171,
+      "nomor_urut": 367,
+      "nama_lokasi": "Simpang benoa",
+      "ket_lokasi": "Simpang benoa, KOTA DENPASAR",
+      "lat_lokasi": -8.717156,
+      "lon_lokasi": 115.215044,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina 54.802.26 Pelabuhan Benoa",
+      "jarak_spbu_meter": 305,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 367,
+          "nama": "Simpang benoa",
+          "nama_alias": "Simpang benoa",
+          "deskripsi": "Kamera CCTV Simpang benoa",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-benoa",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5171",
+        "nama_kota": "KOTA DENPASAR",
+        "lat_kota": "-8.6726833",
+        "lon_kota": "115.2242733",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 368,
+      "id_kota": 5103,
+      "nomor_urut": 368,
+      "nama_lokasi": "Simpang patung kuda",
+      "ket_lokasi": "Simpang patung kuda, KABUPATEN BADUNG",
+      "lat_lokasi": -8.744676,
+      "lon_lokasi": 115.179105,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 368,
+          "nama": "Simpang patung kuda",
+          "nama_alias": "Simpang patung kuda",
+          "deskripsi": "Kamera CCTV Simpang patung kuda",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-patung-kuda",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 369,
+      "id_kota": 5103,
+      "nomor_urut": 369,
+      "nama_lokasi": "Simpang Kedonganan",
+      "ket_lokasi": "Simpang Kedonganan, KABUPATEN BADUNG",
+      "lat_lokasi": -8.761071,
+      "lon_lokasi": 115.178897,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 369,
+          "nama": "Simpang Kedonganan",
+          "nama_alias": "Simpang Kedonganan",
+          "deskripsi": "Kamera CCTV Simpang Kedonganan",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-kedonganan",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 370,
+      "id_kota": 5103,
+      "nomor_urut": 370,
+      "nama_lokasi": "Simpang UNUD",
+      "ket_lokasi": "Simpang UNUD, KABUPATEN BADUNG",
+      "lat_lokasi": -8.781462,
+      "lon_lokasi": 115.178751,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 370,
+          "nama": "Simpang UNUD",
+          "nama_alias": "Simpang UNUD",
+          "deskripsi": "Kamera CCTV Simpang UNUD",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-unud",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 371,
+      "id_kota": 5103,
+      "nomor_urut": 371,
+      "nama_lokasi": "Simpang Taman Griya",
+      "ket_lokasi": "Simpang Taman Griya, KABUPATEN BADUNG",
+      "lat_lokasi": -8.783959,
+      "lon_lokasi": 115.187741,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina 54.803.07 Taman Griya Jimbaran",
+      "jarak_spbu_meter": 65,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 371,
+          "nama": "Simpang Taman Griya",
+          "nama_alias": "Simpang Taman Griya",
+          "deskripsi": "Kamera CCTV Simpang Taman Griya",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-taman-griya",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 372,
+      "id_kota": 5103,
+      "nomor_urut": 372,
+      "nama_lokasi": "Simpang Pintu Tol",
+      "ket_lokasi": "Simpang Pintu Tol, KABUPATEN BADUNG",
+      "lat_lokasi": -8.790174,
+      "lon_lokasi": 115.212275,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina 54.803.18 By Pass Ngurah Rai Nusa Dua",
+      "jarak_spbu_meter": 295,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 372,
+          "nama": "Simpang Pintu Tol",
+          "nama_alias": "Simpang Pintu Tol",
+          "deskripsi": "Kamera CCTV Simpang Pintu Tol",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-pintu-tol",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 373,
+      "id_kota": 5103,
+      "nomor_urut": 373,
+      "nama_lokasi": "Simpang Tanjung Benoa",
+      "ket_lokasi": "Simpang Tanjung Benoa, KABUPATEN BADUNG",
+      "lat_lokasi": -8.793432,
+      "lon_lokasi": 115.215653,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina By Pass Ngurah Rai Nusa Dua",
+      "jarak_spbu_meter": 50,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 373,
+          "nama": "Simpang Tanjung Benoa",
+          "nama_alias": "Simpang Tanjung Benoa",
+          "deskripsi": "Kamera CCTV Simpang Tanjung Benoa",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-tanjung-benoa",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 374,
+      "id_kota": 5103,
+      "nomor_urut": 374,
+      "nama_lokasi": "Simpang BTDC",
+      "ket_lokasi": "Simpang BTDC, KABUPATEN BADUNG",
+      "lat_lokasi": -8.798432,
+      "lon_lokasi": 115.222988,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 374,
+          "nama": "Simpang BTDC",
+          "nama_alias": "Simpang BTDC",
+          "deskripsi": "Kamera CCTV Simpang BTDC",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=simpang-btdc",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 375,
+      "id_kota": 5103,
+      "nomor_urut": 375,
+      "nama_lokasi": "Underpass ngurah rai selatan",
+      "ket_lokasi": "Underpass ngurah rai selatan, KABUPATEN BADUNG",
+      "lat_lokasi": -8.745413,
+      "lon_lokasi": 115.183008,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 375,
+          "nama": "Underpass ngurah rai selatan",
+          "nama_alias": "Underpass ngurah rai selatan",
+          "deskripsi": "Kamera CCTV Underpass ngurah rai selatan",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=underpass-ngurah-rai-selatan",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 376,
+      "id_kota": 5103,
+      "nomor_urut": 376,
+      "nama_lokasi": "Underpass ngurah rai utara",
+      "ket_lokasi": "Underpass ngurah rai utara, KABUPATEN BADUNG",
+      "lat_lokasi": -8.7445615,
+      "lon_lokasi": 115.182959,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 376,
+          "nama": "Underpass ngurah rai utara",
+          "nama_alias": "Underpass ngurah rai utara",
+          "deskripsi": "Kamera CCTV Underpass ngurah rai utara",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=underpass-ngurah-rai-utara",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5103",
+        "nama_kota": "KABUPATEN BADUNG",
+        "lat_kota": "-8.583",
+        "lon_kota": "115.183",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 377,
+      "id_kota": 5107,
+      "nomor_urut": 377,
+      "nama_lokasi": "Besakih (Tangga Masuk Utama)",
+      "ket_lokasi": "Besakih (Tangga Masuk Utama), KABUPATEN KARANGASEM",
+      "lat_lokasi": -8.3745885,
+      "lon_lokasi": 115.4506989,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 377,
+          "nama": "Besakih (Tangga Masuk Utama)",
+          "nama_alias": "Besakih (Tangga Masuk Utama)",
+          "deskripsi": "Kamera CCTV Besakih (Tangga Masuk Utama)",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pura-besakih-tangga-masuk-utama",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5107",
+        "nama_kota": "KABUPATEN KARANGASEM",
+        "lat_kota": "-8.448",
+        "lon_kota": "115.608",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 378,
+      "id_kota": 5107,
+      "nomor_urut": 378,
+      "nama_lokasi": "Besakih (Pintu Keluar Pewaregan)",
+      "ket_lokasi": "Besakih (Pintu Keluar Pewaregan), KABUPATEN KARANGASEM",
+      "lat_lokasi": -8.373550912625147,
+      "lon_lokasi": 115.4518599252701,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 378,
+          "nama": "Besakih (Pintu Keluar Pewaregan)",
+          "nama_alias": "Besakih (Pintu Keluar Pewaregan)",
+          "deskripsi": "Kamera CCTV Besakih (Pintu Keluar Pewaregan)",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pura-besakih-pintu-keluar-pewaregan",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5107",
+        "nama_kota": "KABUPATEN KARANGASEM",
+        "lat_kota": "-8.448",
+        "lon_kota": "115.608",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 379,
+      "id_kota": 5107,
+      "nomor_urut": 379,
+      "nama_lokasi": "Besakih (Pos Polisi)",
+      "ket_lokasi": "Besakih (Pos Polisi), KABUPATEN KARANGASEM",
+      "lat_lokasi": -8.3744892,
+      "lon_lokasi": 115.4505046,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 379,
+          "nama": "Besakih (Pos Polisi)",
+          "nama_alias": "Besakih (Pos Polisi)",
+          "deskripsi": "Kamera CCTV Besakih (Pos Polisi)",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pura-besakih-pos-polisi",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5107",
+        "nama_kota": "KABUPATEN KARANGASEM",
+        "lat_kota": "-8.448",
+        "lon_kota": "115.608",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 380,
+      "id_kota": 5107,
+      "nomor_urut": 380,
+      "nama_lokasi": "Besakih (Jalan Masuk Utama)",
+      "ket_lokasi": "Besakih (Jalan Masuk Utama), KABUPATEN KARANGASEM",
+      "lat_lokasi": -8.374565280923317,
+      "lon_lokasi": 115.45064190305861,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 380,
+          "nama": "Besakih (Jalan Masuk Utama)",
+          "nama_alias": "Besakih (Jalan Masuk Utama)",
+          "deskripsi": "Kamera CCTV Besakih (Jalan Masuk Utama)",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pura-besakih-jalan-masuk-utama",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5107",
+        "nama_kota": "KABUPATEN KARANGASEM",
+        "lat_kota": "-8.448",
+        "lon_kota": "115.608",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 381,
+      "id_kota": 5106,
+      "nomor_urut": 381,
+      "nama_lokasi": "Pura Batur",
+      "ket_lokasi": "Pura Batur, KABUPATEN BANGLI",
+      "lat_lokasi": -8.255079,
+      "lon_lokasi": 115.335439,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 381,
+          "nama": "Pura Batur",
+          "nama_alias": "Pura Batur",
+          "deskripsi": "Kamera CCTV Pura Batur",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pura-batur",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5106",
+        "nama_kota": "KABUPATEN BANGLI",
+        "lat_kota": "-8.255",
+        "lon_kota": "115.335",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 382,
+      "id_kota": 5108,
+      "nomor_urut": 382,
+      "nama_lokasi": "Taman Yuwana Asri",
+      "ket_lokasi": "Taman Yuwana Asri, KABUPATEN BULELENG",
+      "lat_lokasi": -8.1154022,
+      "lon_lokasi": 115.0799082,
+      "is_active": true,
+      "dekat_spbu": true,
+      "nama_spbu": "SPBU Pertamina Banyuasri (Jl. Sudirman / A. Yani)",
+      "jarak_spbu_meter": 25,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 382,
+          "nama": "Taman Yuwana Asri",
+          "nama_alias": "Taman Yuwana Asri",
+          "deskripsi": "Kamera CCTV Taman Yuwana Asri",
+          "url_proxy_hls": "https://shinobi.bulelengkab.go.id/Amk60KFacq87lQMvTCMHu17u00ONuC/mp4/admin/isOvCBwVIA80/s.mp4",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5108",
+        "nama_kota": "KABUPATEN BULELENG",
+        "lat_kota": "-8.112",
+        "lon_kota": "115.088",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 383,
+      "id_kota": 5108,
+      "nomor_urut": 383,
+      "nama_lokasi": "Pasar Anyar",
+      "ket_lokasi": "Pasar Anyar, KABUPATEN BULELENG",
+      "lat_lokasi": -8.1081054258762,
+      "lon_lokasi": 115.08896156872,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 383,
+          "nama": "Pasar Anyar",
+          "nama_alias": "Pasar Anyar",
+          "deskripsi": "Kamera CCTV Pasar Anyar",
+          "url_proxy_hls": "https://shinobi.bulelengkab.go.id/Amk60KFacq87lQMvTCMHu17u00ONuC/mp4/admin/44Z85N153j80/s.mp4",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5108",
+        "nama_kota": "KABUPATEN BULELENG",
+        "lat_kota": "-8.112",
+        "lon_kota": "115.088",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 384,
+      "id_kota": 5108,
+      "nomor_urut": 384,
+      "nama_lokasi": "Simpang Udayana",
+      "ket_lokasi": "Simpang Udayana, KABUPATEN BULELENG",
+      "lat_lokasi": -8.114964,
+      "lon_lokasi": 115.091754,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 384,
+          "nama": "Simpang Udayana",
+          "nama_alias": "Simpang Udayana",
+          "deskripsi": "Kamera CCTV Simpang Udayana",
+          "url_proxy_hls": "https://shinobi.bulelengkab.go.id/Amk60KFacq87lQMvTCMHu17u00ONuC/mp4/admin/jRuL9udZUp80/s.mp4",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5108",
+        "nama_kota": "KABUPATEN BULELENG",
+        "lat_kota": "-8.112",
+        "lon_kota": "115.088",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 385,
+      "id_kota": 5108,
+      "nomor_urut": 385,
+      "nama_lokasi": "Simpang Ponogoro",
+      "ket_lokasi": "Simpang Ponogoro, KABUPATEN BULELENG",
+      "lat_lokasi": -8.1096296208022,
+      "lon_lokasi": 115.08974209154,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 385,
+          "nama": "Simpang Ponogoro",
+          "nama_alias": "Simpang Ponogoro",
+          "deskripsi": "Kamera CCTV Simpang Ponogoro",
+          "url_proxy_hls": "https://shinobi.bulelengkab.go.id/Amk60KFacq87lQMvTCMHu17u00ONuC/mp4/admin/VmqTvLw4ki80/s.mp4",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5108",
+        "nama_kota": "KABUPATEN BULELENG",
+        "lat_kota": "-8.112",
+        "lon_kota": "115.088",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 386,
+      "id_kota": 5108,
+      "nomor_urut": 386,
+      "nama_lokasi": "PTZ Laksmigraha",
+      "ket_lokasi": "PTZ Laksmigraha, KABUPATEN BULELENG",
+      "lat_lokasi": -8.12444,
+      "lon_lokasi": 115.092659,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 386,
+          "nama": "PTZ Laksmigraha",
+          "nama_alias": "PTZ Laksmigraha",
+          "deskripsi": "Kamera CCTV PTZ Laksmigraha",
+          "url_proxy_hls": "https://shinobi.bulelengkab.go.id/Amk60KFacq87lQMvTCMHu17u00ONuC/mp4/admin/0RRzM22qNF80/s.mp4",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5108",
+        "nama_kota": "KABUPATEN BULELENG",
+        "lat_kota": "-8.112",
+        "lon_kota": "115.088",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 387,
+      "id_kota": 5108,
+      "nomor_urut": 387,
+      "nama_lokasi": "Barat Tugu Singa",
+      "ket_lokasi": "Barat Tugu Singa, KABUPATEN BULELENG",
+      "lat_lokasi": -8.124906,
+      "lon_lokasi": 115.092331,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 387,
+          "nama": "Barat Tugu Singa",
+          "nama_alias": "Barat Tugu Singa",
+          "deskripsi": "Kamera CCTV Barat Tugu Singa",
+          "url_proxy_hls": "https://shinobi.bulelengkab.go.id/Amk60KFacq87lQMvTCMHu17u00ONuC/mp4/admin/d4LXaKRi2380/s.mp4",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5108",
+        "nama_kota": "KABUPATEN BULELENG",
+        "lat_kota": "-8.112",
+        "lon_kota": "115.088",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 388,
+      "id_kota": 5108,
+      "nomor_urut": 388,
+      "nama_lokasi": "Yudistira",
+      "ket_lokasi": "Yudistira, KABUPATEN BULELENG",
+      "lat_lokasi": -8.119706,
+      "lon_lokasi": 115.09343,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 388,
+          "nama": "Yudistira",
+          "nama_alias": "Yudistira",
+          "deskripsi": "Kamera CCTV Yudistira",
+          "url_proxy_hls": "https://shinobi.bulelengkab.go.id/Amk60KFacq87lQMvTCMHu17u00ONuC/mp4/admin/XB9YtCug4880/s.mp4",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5108",
+        "nama_kota": "KABUPATEN BULELENG",
+        "lat_kota": "-8.112",
+        "lon_kota": "115.088",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
+    },
+    {
+      "id_lokasi": 389,
+      "id_kota": 5107,
+      "nomor_urut": 389,
+      "nama_lokasi": "Besakih (Tangga Timur Penataran)",
+      "ket_lokasi": "Besakih (Tangga Timur Penataran), KABUPATEN KARANGASEM",
+      "lat_lokasi": -8.373808,
+      "lon_lokasi": 115.452788,
+      "is_active": true,
+      "dekat_spbu": false,
+      "nama_spbu": null,
+      "jarak_spbu_meter": null,
+      "tb_device_lokasi": [
+        {
+          "id_lokasi": 389,
+          "nama": "Besakih (Tangga Timur Penataran)",
+          "nama_alias": "Besakih (Tangga Timur Penataran)",
+          "deskripsi": "Kamera CCTV Besakih (Tangga Timur Penataran)",
+          "url_proxy_hls": "https://transcode.baliprov.go.id/cctv-player.html?id=pura-besakih-tangga-timur-penataran",
+          "poster": null,
+          "capture_url": null,
+          "type_cam": 1,
+          "cam_mp": 1,
+          "tipe_merk": 1
+        }
+      ],
+      "tb_lokasi_kota": {
+        "kode_kota": "5107",
+        "nama_kota": "KABUPATEN KARANGASEM",
+        "lat_kota": "-8.448",
+        "lon_kota": "115.608",
+        "tb_kota_provinsi": {
+          "kode_provinsi": "57",
+          "nama_provinsi": "BALI"
+        }
+      },
+      "sumber": "Bali Satu Data",
+      "kategori_sumber": "Bali Satu Data"
     }
   ],
   "meta": {
-    "pages": 16,
+    "pages": 31,
     "paginate": 6,
-    "total": 94
+    "total": 185,
+    "total_spbu": 31,
+    "total_atcs": 94,
+    "total_bali_satu_data": 91
   }
 }

@@ -33,6 +33,12 @@ export default function CctvModal({ location, deviceIndex = 0, onClose }: CctvMo
   const streamUrl = cleanStreamUrl(currentDevice?.url_proxy_hls);
   const cameraName = currentDevice?.nama_alias || currentDevice?.nama || location.nama_lokasi;
 
+  const isBaliSatuData = (location.sumber || "").toLowerCase().includes("bali");
+  const sourceUrl = isBaliSatuData
+    ? "https://balisatudata.baliprov.go.id/peta-cctv"
+    : "https://atcs.denpasarkota.go.id/";
+  const sourceName = isBaliSatuData ? "Bali Satu Data" : "ATCS Denpasar";
+
   return (
     <div
       className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 animate-fadeIn"
@@ -47,6 +53,20 @@ export default function CctvModal({ location, deviceIndex = 0, onClose }: CctvMo
             <span className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-500/20 text-rose-400 border border-rose-500/30">
               <Radio className="w-3 h-3 animate-pulse" /> LIVE STREAM
             </span>
+            <a
+              href={sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold transition hover:opacity-85 cursor-pointer ${
+                isBaliSatuData
+                  ? "bg-emerald-600/30 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600/50"
+                  : "bg-blue-600/30 text-blue-400 border border-blue-500/30 hover:bg-blue-600/50"
+              }`}
+              title={`Buka situs resmi ${sourceName}`}
+            >
+              <span>{sourceName}</span>
+              <ExternalLink className="w-3 h-3" />
+            </a>
             <div>
               <h2 className="text-sm sm:text-base font-bold text-white line-clamp-1">
                 {cameraName}
@@ -69,13 +89,24 @@ export default function CctvModal({ location, deviceIndex = 0, onClose }: CctvMo
         {/* Video Player Feed */}
         <div className="relative w-full aspect-video bg-black flex items-center justify-center">
           {streamUrl ? (
-            <iframe
-              src={streamUrl}
-              className="w-full h-full border-0"
-              allow="autoplay; fullscreen"
-              allowFullScreen
-              title={cameraName}
-            />
+            streamUrl.endsWith(".mp4") || streamUrl.includes(".mp4") ? (
+              <video
+                src={streamUrl}
+                className="w-full h-full object-contain"
+                autoPlay
+                controls
+                playsInline
+                title={cameraName}
+              />
+            ) : (
+              <iframe
+                src={streamUrl}
+                className="w-full h-full border-0"
+                allow="autoplay; fullscreen"
+                allowFullScreen
+                title={cameraName}
+              />
+            )
           ) : (
             <div className="text-center text-slate-400 p-8">
               <p className="text-base font-semibold text-white mb-1">
@@ -93,20 +124,33 @@ export default function CctvModal({ location, deviceIndex = 0, onClose }: CctvMo
           <div className="flex items-center gap-4">
             <span>📍 Lat: {location.lat_lokasi}</span>
             <span>Lon: {location.lon_lokasi}</span>
-            <span>Kota: Denpasar, Bali</span>
+            <span>Kota: {location.tb_lokasi_kota?.nama_kota || "Bali"}</span>
           </div>
 
-          {streamUrl && (
+          <div className="flex items-center gap-4">
             <a
-              href={streamUrl}
+              href={sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-blue-400 hover:text-blue-300 transition font-medium"
+              className="inline-flex items-center gap-1.5 text-slate-400 hover:text-white transition font-medium"
+              title={`Kunjungi portal resmi ${sourceName}`}
             >
-              <span>Buka di Tab Baru</span>
+              <span>Sumber: <span className={isBaliSatuData ? "text-emerald-400 font-semibold" : "text-blue-400 font-semibold"}>{sourceName}</span></span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
-          )}
+
+            {streamUrl && (
+              <a
+                href={streamUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-blue-400 hover:text-blue-300 transition font-medium"
+              >
+                <span>Buka di Tab Baru</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </div>
