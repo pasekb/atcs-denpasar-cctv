@@ -9,6 +9,7 @@ interface CctvMapProps {
   selectedLocation: number | null;
   onLocationSelect: (id: number) => void;
   onPlayStream?: (location: CctvLocation) => void;
+  isMobile?: boolean;
 }
 
 export default function CctvMap({
@@ -16,6 +17,7 @@ export default function CctvMap({
   selectedLocation,
   onLocationSelect,
   onPlayStream,
+  isMobile = false,
 }: CctvMapProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<any>(null);
@@ -24,27 +26,32 @@ export default function CctvMap({
   const onPlayStreamRef = useRef(onPlayStream);
   onPlayStreamRef.current = onPlayStream;
 
+  const onLocationSelectRef = useRef(onLocationSelect);
+  onLocationSelectRef.current = onLocationSelect;
+
   const locationsRef = useRef(locations);
   locationsRef.current = locations;
 
   const BALI_LAT = -8.50;
   const BALI_LON = 115.18;
 
-  // Expose global window handler for popup button click
+  // Expose global window handlers for popup button click
   useEffect(() => {
     if (typeof window !== "undefined") {
-      (window as any).__openCctvStream = (id: number) => {
-        const target = locationsRef.current.find((l) => l.id_lokasi === id);
+      (window as any).__openCctvStream = (id: number | string) => {
+        const numId = Number(id);
+        const target = locationsRef.current.find((l) => l.id_lokasi === numId || String(l.id_lokasi) === String(id));
         if (target && onPlayStreamRef.current) {
           onPlayStreamRef.current(target);
         }
       };
+      (window as any).__selectCctv = (id: number | string) => {
+        const numId = Number(id);
+        if (onLocationSelectRef.current) {
+          onLocationSelectRef.current(numId);
+        }
+      };
     }
-    return () => {
-      if (typeof window !== "undefined") {
-        delete (window as any).__openCctvStream;
-      }
-    };
   }, []);
 
   // Helper for generating custom marker pin HTML
@@ -72,7 +79,69 @@ export default function CctvMap({
     `;
   };
 
-  // Initialize Map & Markers (only re-runs when locations list changes)
+  // Helper for generating popup HTML with dynamic streaming button state
+  const createPopupHtml = (loc: CctvLocation, isSelected: boolean, isMobileView: boolean) => {
+    const isBaliSatuData = (loc.sumber || "").toLowerCase().includes("bali");
+    const isNearSpbu = Boolean(loc.dekat_spbu);
+    const device = loc.tb_device_lokasi && loc.tb_device_lokasi[0];
+    const cameraName = device?.nama_alias || device?.nama || loc.nama_lokasi;
+    const streamUrl = device?.url_proxy_hls?.trim() || "";
+
+    // On mobile: when modal is open for this selected CCTV, disable the button
+    const isStreamingDisabled = isMobileView && isSelected;
+
+    return `
+      <div style="min-width: 230px; font-family: system-ui, sans-serif; padding: 4px;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
+          <div style="display: flex; gap: 4px; align-items: center;">
+            <span style="font-size: 10px; font-weight: 700; background-color: #f1f5f9; color: #475569; padding: 2px 6px; border-radius: 9999px;">
+              #${loc.id_lokasi}
+            </span>
+            <span style="font-size: 10px; font-weight: 700; background-color: ${isBaliSatuData ? '#d1fae5' : '#dbeafe'}; color: ${isBaliSatuData ? '#065f46' : '#1e40af'}; padding: 2px 6px; border-radius: 9999px;">
+              ${loc.sumber || 'ATCS Denpasar'}
+            </span>
+          </div>
+          <div style="display: flex; gap: 4px;">
+            ${
+              isNearSpbu
+                ? `<span style="font-size: 10px; font-weight: 700; background-color: #fef3c7; color: #b45309; padding: 2px 6px; border-radius: 9999px;">⛽ SPBU</span>`
+                : ""
+            }
+            <span style="font-size: 10px; font-weight: 700; background-color: #dcfce7; color: #15803d; padding: 2px 6px; border-radius: 9999px;">
+              LIVE
+            </span>
+          </div>
+        </div>
+        <h3 style="font-size: 14px; font-weight: 700; margin: 0 0 4px 0; color: #0f172a;">
+          ${cameraName}
+        </h3>
+        <p style="font-size: 12px; color: #64748b; margin: 0 0 6px 0; line-height: 1.3;">
+          ${loc.ket_lokasi || "Denpasar, Bali"}
+        </p>
+        ${
+          isNearSpbu
+            ? `<div style="font-size: 11px; background-color: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; padding: 4px 6px; margin-bottom: 6px; color: #92400e;">
+                ⛽ <strong>${loc.nama_spbu || "Dekat SPBU"}</strong> ${loc.jarak_spbu_meter ? `(~${loc.jarak_spbu_meter}m)` : ""}
+              </div>`
+            : ""
+        }
+        <div style="font-size: 11px; color: #94a3b8; margin-bottom: ${isMobileView ? '2px' : '8px'};">
+          📍 Koordinat: ${loc.lat_lokasi.toFixed(5)}, ${loc.lon_lokasi.toFixed(5)}
+        </div>
+        ${
+          isMobileView
+            ? ""
+            : !streamUrl
+            ? `<div style="font-size: 11px; color: #ef4444; font-weight: 500;">Stream offline / pemeliharaan</div>`
+            : `<button type="button" onclick="window.__openCctvStream && window.__openCctvStream(${loc.id_lokasi})" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px 12px; background-color: #2563eb; color: white; border: none; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#1d4ed8'" onmouseout="this.style.backgroundColor='#2563eb'">
+                ▶ Buka Streaming
+              </button>`
+        }
+      </div>
+    `;
+  };
+
+  // 1. Initialize Map Instance with proper cleanup
   useEffect(() => {
     if (typeof window === "undefined" || !mapContainerRef.current) return;
 
@@ -84,19 +153,64 @@ export default function CctvMap({
       return;
     }
 
-    if (!mapInstanceRef.current) {
-      const map = L.map(mapContainerRef.current, {
-        center: [BALI_LAT, BALI_LON],
-        zoom: 10,
-        zoomControl: true,
+    const container = mapContainerRef.current;
+
+    // Clean up any stale leaflet ID if leftover
+    if ((container as any)._leaflet_id) {
+      delete (container as any)._leaflet_id;
+    }
+
+    const map = L.map(container, {
+      center: [BALI_LAT, BALI_LON],
+      zoom: 10,
+      zoomControl: true,
+    });
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | CCTV Bali',
+      maxZoom: 19,
+    }).addTo(map);
+
+    mapInstanceRef.current = map;
+
+    // Use ResizeObserver for instant responsive resize
+    let resizeObserver: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== "undefined") {
+      resizeObserver = new ResizeObserver(() => {
+        if (mapInstanceRef.current) {
+          mapInstanceRef.current.invalidateSize({ animate: false });
+        }
       });
+      resizeObserver.observe(container);
+    }
 
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | CCTV Bali',
-        maxZoom: 19,
-      }).addTo(map);
+    const t1 = setTimeout(() => map.invalidateSize({ animate: false }), 100);
+    const t2 = setTimeout(() => map.invalidateSize({ animate: false }), 400);
 
-      mapInstanceRef.current = map;
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+      if (resizeObserver) {
+        resizeObserver.disconnect();
+      }
+      map.remove();
+      mapInstanceRef.current = null;
+      markersRef.current = {};
+      if ((container as any)._leaflet_id) {
+        delete (container as any)._leaflet_id;
+      }
+    };
+  }, []);
+
+  // 2. Render / Update Markers when locations change
+  useEffect(() => {
+    if (!mapInstanceRef.current || typeof window === "undefined") return;
+
+    let L: any;
+    try {
+      L = require("leaflet");
+    } catch {
+      return;
     }
 
     const map = mapInstanceRef.current;
@@ -113,8 +227,6 @@ export default function CctvMap({
 
       const isSelected = selectedLocation === loc.id_lokasi;
       const isNearSpbu = Boolean(loc.dekat_spbu);
-      const device = loc.tb_device_lokasi && loc.tb_device_lokasi[0];
-      const cameraName = device?.nama_alias || device?.nama || loc.nama_lokasi;
 
       const customIcon = L.divIcon({
         className: "cctv-custom-marker",
@@ -126,54 +238,7 @@ export default function CctvMap({
 
       const marker = L.marker([loc.lat_lokasi, loc.lon_lokasi], { icon: customIcon }).addTo(map);
 
-      const streamUrl = device?.url_proxy_hls?.trim() || "";
-      const popupHtml = `
-        <div style="min-width: 230px; font-family: system-ui, sans-serif; padding: 4px;">
-          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;">
-            <div style="display: flex; gap: 4px; align-items: center;">
-              <span style="font-size: 10px; font-weight: 700; background-color: #f1f5f9; color: #475569; padding: 2px 6px; border-radius: 9999px;">
-                #${loc.id_lokasi}
-              </span>
-              <span style="font-size: 10px; font-weight: 700; background-color: ${loc.sumber === 'Bali Satu Data' ? '#d1fae5' : '#dbeafe'}; color: ${loc.sumber === 'Bali Satu Data' ? '#065f46' : '#1e40af'}; padding: 2px 6px; border-radius: 9999px;">
-                ${loc.sumber || 'ATCS Denpasar'}
-              </span>
-            </div>
-            <div style="display: flex; gap: 4px;">
-              ${
-                isNearSpbu
-                  ? `<span style="font-size: 10px; font-weight: 700; background-color: #fef3c7; color: #b45309; padding: 2px 6px; border-radius: 9999px;">⛽ SPBU</span>`
-                  : ""
-              }
-              <span style="font-size: 10px; font-weight: 700; background-color: #dcfce7; color: #15803d; padding: 2px 6px; border-radius: 9999px;">
-                LIVE
-              </span>
-            </div>
-          </div>
-          <h3 style="font-size: 14px; font-weight: 700; margin: 0 0 4px 0; color: #0f172a;">
-            ${cameraName}
-          </h3>
-          <p style="font-size: 12px; color: #64748b; margin: 0 0 6px 0; line-height: 1.3;">
-            ${loc.ket_lokasi || "Denpasar, Bali"}
-          </p>
-          ${
-            isNearSpbu
-              ? `<div style="font-size: 11px; background-color: #fffbeb; border: 1px solid #fde68a; border-radius: 6px; padding: 4px 6px; margin-bottom: 6px; color: #92400e;">
-                  ⛽ <strong>${loc.nama_spbu || "Dekat SPBU"}</strong> ${loc.jarak_spbu_meter ? `(~${loc.jarak_spbu_meter}m)` : ""}
-                </div>`
-              : ""
-          }
-          <div style="font-size: 11px; color: #94a3b8; margin-bottom: 8px;">
-            📍 Koordinat: ${loc.lat_lokasi.toFixed(5)}, ${loc.lon_lokasi.toFixed(5)}
-          </div>
-          ${
-            streamUrl
-              ? `<button type="button" onclick="window.__openCctvStream && window.__openCctvStream(${loc.id_lokasi})" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px 12px; background-color: #2563eb; color: white; border: none; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#1d4ed8'" onmouseout="this.style.backgroundColor='#2563eb'">
-                  ▶ Buka Streaming
-                </button>`
-              : `<div style="font-size: 11px; color: #ef4444; font-weight: 500;">Stream offline / pemeliharaan</div>`
-          }
-        </div>
-      `;
+      const popupHtml = createPopupHtml(loc, isSelected, isMobile);
 
       marker.bindPopup(popupHtml, {
         autoPan: true,
@@ -181,33 +246,32 @@ export default function CctvMap({
         offset: [0, -10],
       });
 
-      // On marker click: select location and ensure popup opens
       marker.on("click", () => {
-        onLocationSelect(loc.id_lokasi);
-        marker.openPopup();
+        onLocationSelectRef.current(loc.id_lokasi);
       });
 
       markersRef.current[loc.id_lokasi] = marker;
     });
-  }, [locations]);
+  }, [locations, isMobile]);
 
-  // Handle selectedLocation change: update marker icons & flyTo without destroying all markers!
+  // 3. Update active marker styling and popup content when selectedLocation changes
   useEffect(() => {
     if (!mapInstanceRef.current || typeof window === "undefined") return;
 
     let L: any;
     try {
       L = require("leaflet");
-    } catch (e) {
+    } catch {
       return;
     }
 
-    // Update icons for all markers according to current selection
     locations.forEach((loc) => {
       const marker = markersRef.current[loc.id_lokasi];
       if (marker) {
         const isSelected = selectedLocation === loc.id_lokasi;
         const isNearSpbu = Boolean(loc.dekat_spbu);
+
+        // Update icon
         const updatedIcon = L.divIcon({
           className: "cctv-custom-marker",
           html: createMarkerHtml(isSelected, isNearSpbu, loc.sumber),
@@ -216,56 +280,57 @@ export default function CctvMap({
           popupAnchor: [0, -18],
         });
         marker.setIcon(updatedIcon);
+
+        // Dynamically update popup button: disabled if selected on mobile!
+        marker.setPopupContent(createPopupHtml(loc, isSelected, isMobile));
       }
     });
 
     if (selectedLocation && markersRef.current[selectedLocation]) {
-      const selectedMarker = markersRef.current[selectedLocation];
       const targetLoc = locations.find((l) => l.id_lokasi === selectedLocation);
-      if (targetLoc) {
+      if (
+        targetLoc &&
+        typeof targetLoc.lat_lokasi === "number" &&
+        typeof targetLoc.lon_lokasi === "number" &&
+        !isNaN(targetLoc.lat_lokasi) &&
+        !isNaN(targetLoc.lon_lokasi)
+      ) {
         const map = mapInstanceRef.current;
-
-        const openPopupSafely = () => {
-          if (markersRef.current[selectedLocation]) {
-            markersRef.current[selectedLocation].openPopup();
-          }
-        };
-
-        // Buka popup saat animasi zoom/pan (flyTo) selesai
-        map.once("moveend", openPopupSafely);
-
-        map.flyTo([targetLoc.lat_lokasi, targetLoc.lon_lokasi], 16, {
-          animate: true,
-          duration: 0.8,
-        });
-
-        // Backup timer agar popup selalu terbuka
-        setTimeout(openPopupSafely, 200);
-        setTimeout(openPopupSafely, 900);
+        try {
+          map.flyTo([targetLoc.lat_lokasi, targetLoc.lon_lokasi], 16, {
+            animate: true,
+            duration: 0.8,
+          });
+        } catch (e) {
+          console.warn("flyTo failed:", e);
+        }
       }
     }
-  }, [selectedLocation, locations]);
+  }, [selectedLocation, locations, isMobile]);
 
   return (
-    <div className="relative w-full h-full min-h-[500px] rounded-xl overflow-hidden shadow-inner border border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-900">
-      <div ref={mapContainerRef} className="w-full h-full" />
+    <div
+      className="relative w-full h-full rounded-xl overflow-hidden shadow-inner border border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-900"
+      style={{ height: "100%", width: "100%", minHeight: "350px" }}
+    >
+      <div ref={mapContainerRef} style={{ height: "100%", width: "100%", minHeight: "350px" }} />
 
       {/* Floating Map Legend */}
-      <div className="absolute bottom-4 left-4 z-[400] bg-white/95 dark:bg-slate-900/95 backdrop-blur px-3 py-2 rounded-lg shadow-md border border-slate-200 dark:border-slate-800 text-xs flex flex-wrap items-center gap-3">
-        <div className="flex items-center gap-1.5">
-          <span className="w-3 h-3 rounded-full bg-blue-600 inline-block" />
+      <div className="absolute bottom-3 left-3 z-[400] bg-white/95 dark:bg-slate-900/95 backdrop-blur px-2.5 py-1.5 rounded-lg shadow-md border border-slate-200 dark:border-slate-800 text-[10px] flex flex-wrap items-center gap-2.5 pointer-events-none">
+        <div className="flex items-center gap-1">
+          <span className="w-2.5 h-2.5 rounded-full bg-blue-600 inline-block" />
           <span className="text-slate-600 dark:text-slate-300 font-medium">ATCS Denpasar</span>
         </div>
-        <div className="flex items-center gap-1.5">
-          <span className="w-3 h-3 rounded-full bg-emerald-600 inline-block" />
+        <div className="flex items-center gap-1">
+          <span className="w-2.5 h-2.5 rounded-full bg-emerald-600 inline-block" />
           <span className="text-slate-600 dark:text-slate-300 font-medium">Bali Satu Data</span>
         </div>
-        <div className="flex items-center gap-1.5">
-          <span className="w-3 h-3 rounded-full bg-amber-500 inline-block" />
-          <span className="text-slate-600 dark:text-slate-300 font-medium">⛽ Dekat SPBU</span>
+        <div className="flex items-center gap-1">
+          <span className="w-2.5 h-2.5 rounded-full bg-amber-500 inline-block" />
+          <span className="text-slate-600 dark:text-slate-300 font-medium">⛽ SPBU</span>
         </div>
-        <div className="flex items-center gap-1.5">
-          <span className="w-3 h-3 rounded-full bg-red-500 inline-block" />
+        <div className="flex items-center gap-1">
+          <span className="w-2.5 h-2.5 rounded-full bg-red-500 inline-block" />
           <span className="text-slate-600 dark:text-slate-300 font-medium">Terpilih</span>
         </div>
       </div>
