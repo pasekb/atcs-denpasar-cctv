@@ -4,22 +4,50 @@ import path from "path";
 import { CctvApiResponse, CctvLocation } from "@/types/cctv";
 import { supabase, isSupabaseConfigured } from "@/lib/supabase";
 
-const dataFilePath = path.join(process.cwd(), "src/data/cctv-locations.json");
+const bundledFilePath = path.join(process.cwd(), "src/data/cctv-locations.json");
+const tmpFilePath = path.join("/tmp", "cctv-locations.json");
+
+// In-memory cache for serverless environments
+let memoryLocationsCache: CctvLocation[] | null = null;
 
 function getLocalCctvData(): CctvLocation[] {
+  if (memoryLocationsCache && memoryLocationsCache.length > 0) {
+    return memoryLocationsCache;
+  }
+
+  // 1. Coba baca dari /tmp (jika ada modifikasi sebelumnya di lingkungan serverless)
   try {
-    if (fs.existsSync(dataFilePath)) {
-      const fileContent = fs.readFileSync(dataFilePath, "utf-8");
+    if (fs.existsSync(tmpFilePath)) {
+      const fileContent = fs.readFileSync(tmpFilePath, "utf-8");
       const parsed = JSON.parse(fileContent);
-      return parsed.data || [];
+      if (parsed.data && parsed.data.length > 0) {
+        memoryLocationsCache = parsed.data;
+        return memoryLocationsCache || [];
+      }
+    }
+  } catch (err) {
+    console.warn("Gagal membaca cache /tmp:", err);
+  }
+
+  // 2. Baca dari file bundled lokal
+  try {
+    if (fs.existsSync(bundledFilePath)) {
+      const fileContent = fs.readFileSync(bundledFilePath, "utf-8");
+      const parsed = JSON.parse(fileContent);
+      memoryLocationsCache = parsed.data || [];
+      return memoryLocationsCache || [];
     }
   } catch (err) {
     console.error("Error reading local cctv data:", err);
   }
+
   return [];
 }
 
 function saveLocalCctvData(locations: CctvLocation[]) {
+  // Update in-memory cache seketika
+  memoryLocationsCache = locations;
+
   const jsonContent = {
     success: true,
     message: "Req. Success",
@@ -30,7 +58,49 @@ function saveLocalCctvData(locations: CctvLocation[]) {
       total: locations.length,
     },
   };
-  fs.writeFileSync(dataFilePath, JSON.stringify(jsonContent, null, 2), "utf-8");
+  const stringified = JSON.stringify(jsonContent, null, 2);
+
+  // 1. Coba tulis ke file bundled lokal (berhasil di localhost / server biasa)
+  let wroteToBundled = false;
+  try {
+    fs.writeFileSync(bundledFilePath, stringified, "utf-8");
+    wroteToBundled = true;
+  } catch (err: any) {
+    // EROFS di serverless (Vercel / AWS Lambda / cloud)
+    console.warn("Tidak dapat menulis ke bundled file (read-only filesystem):", err?.message);
+  }
+
+  // 2. Jika di serverless (read-only), fallback tulis ke /tmp (selalu writable)
+  if (!wroteToBundled) {
+    try {
+      fs.writeFileSync(tmpFilePath, stringified, "utf-8");
+    } catch (tmpErr: any) {
+      console.warn("Tidak dapat menulis ke /tmp path:", tmpErr?.message);
+    }
+  }
+}
+
+async function getAllLocations(): Promise<CctvLocation[]> {
+  // 1. Cek Supabase jika sudah dikonfigurasi
+  if (isSupabaseConfigured && supabase) {
+    try {
+      const { data, error } = await supabase
+        .from("cctv_locations")
+        .select("*")
+        .order("id_lokasi", { ascending: true });
+
+      if (!error && data && data.length > 0) {
+        const mapped = data as unknown as CctvLocation[];
+        memoryLocationsCache = mapped;
+        return mapped;
+      }
+    } catch (e) {
+      console.warn("Supabase fetch fallback:", e);
+    }
+  }
+
+  // 2. Fallback ke file JSON lokal / /tmp / memory
+  return getLocalCctvData();
 }
 
 export async function GET(request: NextRequest) {
@@ -43,28 +113,7 @@ export async function GET(request: NextRequest) {
     const spbuOnly = searchParams.get("spbu") === "true";
     const sumberParam = (searchParams.get("sumber") || "").toLowerCase().trim();
 
-    let locations: CctvLocation[] = [];
-
-    // 1. Cek Supabase jika sudah dikonfigurasi
-    if (isSupabaseConfigured && supabase) {
-      try {
-        const { data, error } = await supabase
-          .from("cctv_locations")
-          .select("*")
-          .order("id_lokasi", { ascending: true });
-
-        if (!error && data && data.length > 0) {
-          locations = data as unknown as CctvLocation[];
-        }
-      } catch (e) {
-        console.warn("Supabase fallback:", e);
-      }
-    }
-
-    // 2. Fallback ke file JSON lokal
-    if (locations.length === 0) {
-      locations = getLocalCctvData();
-    }
+    let locations = await getAllLocations();
 
     const totalSpbu = locations.filter((loc) => loc.dekat_spbu).length;
     const totalAtcs = locations.filter((loc) => (loc.sumber || "").toLowerCase().includes("atcs")).length;
@@ -144,7 +193,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const locations = getLocalCctvData();
+    const locations = await getAllLocations();
 
     const maxId = locations.reduce((max, l) => Math.max(max, l.id_lokasi || 0), 0);
     const newId = body.id_lokasi ? Number(body.id_lokasi) : maxId + 1;
@@ -189,22 +238,26 @@ export async function POST(request: NextRequest) {
 
     // Sync ke Supabase jika terhubung
     if (isSupabaseConfigured && supabase) {
-      await supabase.from("cctv_locations").upsert([
-        {
-          id_lokasi: newLocation.id_lokasi,
-          nama_lokasi: newLocation.nama_lokasi,
-          ket_lokasi: newLocation.ket_lokasi,
-          lat_lokasi: newLocation.lat_lokasi,
-          lon_lokasi: newLocation.lon_lokasi,
-          is_active: newLocation.is_active,
-          dekat_spbu: newLocation.dekat_spbu,
-          nama_spbu: newLocation.nama_spbu,
-          jarak_spbu_meter: newLocation.jarak_spbu_meter,
-          status_streaming: "READY",
-          tb_device_lokasi: newLocation.tb_device_lokasi,
-          tb_lokasi_kota: newLocation.tb_lokasi_kota,
-        },
-      ]);
+      try {
+        await supabase.from("cctv_locations").upsert([
+          {
+            id_lokasi: newLocation.id_lokasi,
+            nama_lokasi: newLocation.nama_lokasi,
+            ket_lokasi: newLocation.ket_lokasi,
+            lat_lokasi: newLocation.lat_lokasi,
+            lon_lokasi: newLocation.lon_lokasi,
+            is_active: newLocation.is_active,
+            dekat_spbu: newLocation.dekat_spbu,
+            nama_spbu: newLocation.nama_spbu,
+            jarak_spbu_meter: newLocation.jarak_spbu_meter,
+            status_streaming: "READY",
+            tb_device_lokasi: newLocation.tb_device_lokasi,
+            tb_lokasi_kota: newLocation.tb_lokasi_kota,
+          },
+        ]);
+      } catch (sbErr) {
+        console.warn("Supabase upsert warning:", sbErr);
+      }
     }
 
     return NextResponse.json({
@@ -226,7 +279,7 @@ export async function PUT(request: NextRequest) {
       return NextResponse.json({ success: false, message: "ID Lokasi wajib diisi" }, { status: 400 });
     }
 
-    const locations = getLocalCctvData();
+    const locations = await getAllLocations();
     const index = locations.findIndex((l) => l.id_lokasi === id);
 
     if (index === -1) {
@@ -271,20 +324,24 @@ export async function PUT(request: NextRequest) {
 
     // Sync ke Supabase jika terhubung
     if (isSupabaseConfigured && supabase) {
-      await supabase.from("cctv_locations").upsert([
-        {
-          id_lokasi: updatedLocation.id_lokasi,
-          nama_lokasi: updatedLocation.nama_lokasi,
-          ket_lokasi: updatedLocation.ket_lokasi,
-          lat_lokasi: updatedLocation.lat_lokasi,
-          lon_lokasi: updatedLocation.lon_lokasi,
-          is_active: updatedLocation.is_active,
-          dekat_spbu: updatedLocation.dekat_spbu,
-          nama_spbu: updatedLocation.nama_spbu,
-          jarak_spbu_meter: updatedLocation.jarak_spbu_meter,
-          tb_device_lokasi: updatedLocation.tb_device_lokasi,
-        },
-      ]);
+      try {
+        await supabase.from("cctv_locations").upsert([
+          {
+            id_lokasi: updatedLocation.id_lokasi,
+            nama_lokasi: updatedLocation.nama_lokasi,
+            ket_lokasi: updatedLocation.ket_lokasi,
+            lat_lokasi: updatedLocation.lat_lokasi,
+            lon_lokasi: updatedLocation.lon_lokasi,
+            is_active: updatedLocation.is_active,
+            dekat_spbu: updatedLocation.dekat_spbu,
+            nama_spbu: updatedLocation.nama_spbu,
+            jarak_spbu_meter: updatedLocation.jarak_spbu_meter,
+            tb_device_lokasi: updatedLocation.tb_device_lokasi,
+          },
+        ]);
+      } catch (sbErr) {
+        console.warn("Supabase upsert warning:", sbErr);
+      }
     }
 
     return NextResponse.json({
@@ -307,7 +364,7 @@ export async function DELETE(request: NextRequest) {
       return NextResponse.json({ success: false, message: "ID Lokasi wajib diisi" }, { status: 400 });
     }
 
-    let locations = getLocalCctvData();
+    let locations = await getAllLocations();
     const target = locations.find((l) => l.id_lokasi === id);
     if (!target) {
       return NextResponse.json({ success: false, message: "CCTV tidak ditemukan" }, { status: 404 });
@@ -317,7 +374,11 @@ export async function DELETE(request: NextRequest) {
     saveLocalCctvData(locations);
 
     if (isSupabaseConfigured && supabase) {
-      await supabase.from("cctv_locations").delete().eq("id_lokasi", id);
+      try {
+        await supabase.from("cctv_locations").delete().eq("id_lokasi", id);
+      } catch (sbErr) {
+        console.warn("Supabase delete warning:", sbErr);
+      }
     }
 
     return NextResponse.json({
