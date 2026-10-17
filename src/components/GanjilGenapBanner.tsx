@@ -293,7 +293,7 @@ export default function GanjilGenapBanner({
                   {todayInfo.headerFormatted}: BBM subsidi pelat {todayInfo.statusText}
                 </h2>
                 <p className="text-[11px] sm:text-xs text-blue-600 dark:text-blue-400 font-normal leading-tight">
-                  Ketuk di sini untuk diingatkan saat beli bensin
+                  Ketuk di sini untuk cek pelat kendaraan
                 </p>
               </>
             )}
@@ -318,7 +318,7 @@ export default function GanjilGenapBanner({
             <span className="font-semibold text-slate-900 dark:text-white">
               {todayInfo.headerFormatted}: BBM subsidi untuk pelat {todayInfo.statusText}.
             </span>{" "}
-            Pertamax dan BBM non-subsidi bisa diisi semua pelat.
+            Pertamax dan BBM non-subsidi tidak mengikuti ganjil genap.
           </p>
 
           {/* 3 Day Schedule Pills */}
@@ -389,7 +389,7 @@ export default function GanjilGenapBanner({
                 type="text"
                 value={plateInput}
                 onChange={(e) => handlePlateChange(e.target.value)}
-                placeholder="DK 1234 AB"
+                placeholder="DK 1234 MN"
                 className="w-full px-3.5 py-2.5 rounded-xl border border-blue-400/80 dark:border-blue-500/60 bg-white dark:bg-slate-950 text-slate-900 dark:text-white placeholder-slate-400 text-xs sm:text-sm font-medium focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-500 transition tracking-wider"
               />
             </div>
