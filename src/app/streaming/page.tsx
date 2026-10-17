@@ -9,6 +9,7 @@ import CctvModal from "@/components/CctvModal";
 import MobileBottomNav, { MobileTab } from "@/components/MobileBottomNav";
 import MobileStreamCard from "@/components/MobileStreamCard";
 import Footer from "@/components/Footer";
+import GanjilGenapBanner from "@/components/GanjilGenapBanner";
 import { CctvLocation, DeviceLokasi } from "@/types/cctv";
 import { cleanStreamUrl } from "@/lib/utils";
 import {
@@ -254,6 +255,7 @@ export default function StreamingPage() {
 
               {/* 1-column list with inline stream player */}
               <div className="flex-1 overflow-y-auto px-3 py-3 space-y-3">
+                <GanjilGenapBanner className="mb-2" />
                 {isLoading ? (
                   <div className="flex flex-col items-center justify-center py-16 gap-3 text-slate-400">
                     <Loader2 className="w-8 h-8 animate-spin text-blue-600" />
@@ -487,6 +489,7 @@ export default function StreamingPage() {
 
       {/* ==================== DESKTOP LAYOUT ==================== */}
       <main className="hidden md:flex flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-col gap-5">
+        <GanjilGenapBanner />
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-3">
           <div className="flex items-center gap-2">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 text-xs font-bold shadow-sm">

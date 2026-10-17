@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GanjilGenapBanner from "@/components/GanjilGenapBanner";
 import { Fuel, RefreshCw, ExternalLink, Video, ShieldCheck, Loader2 } from "lucide-react";
 
 export default function BaliFuelPage() {
@@ -45,6 +46,9 @@ export default function BaliFuelPage() {
 
       {/* Main Content Area */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col gap-4">
+        {/* Pemberitahuan Ganjil Genap */}
+        <GanjilGenapBanner />
+
         {/* Header Bar */}
         <div className="bg-white dark:bg-slate-900 rounded-xl p-4 sm:p-5 border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1">
