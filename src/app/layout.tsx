@@ -1,18 +1,10 @@
 import type { Metadata } from "next";
+// @ts-ignore -- Next.js handles global CSS imports at build time.
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "CCTV Bali",
   description: "Pantau lalu lintas Bali secara real-time - CCTV Bali",
-  icons: {
-    icon: [
-      { url: "/icon.png" },
-      { url: "/favicon.ico" },
-    ],
-    apple: [
-      { url: "/apple-icon.png" },
-    ],
-  },
 };
 
 export default function RootLayout({
