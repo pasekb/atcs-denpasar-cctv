@@ -243,9 +243,14 @@ export default function GanjilGenapBanner({
               <Clock className="w-5 h-5 sm:w-6 sm:h-6 stroke-[2]" />
             </div>
           ) : (
-            /* Default Megaphone Icon when no plate is entered */
-            <div className="w-8 h-8 rounded-lg bg-rose-50 dark:bg-rose-950/40 flex items-center justify-center flex-shrink-0 text-rose-800 dark:text-rose-400">
-              <Megaphone className="w-4 h-4 transform -rotate-12" />
+            /* Megaphone Icon with blue pulse animation ONLY outside the background box */
+            <div className="relative flex items-center justify-center flex-shrink-0">
+              {/* Outer blue pulsing aura/ring outside the box */}
+              <span className="absolute -inset-1 rounded-xl bg-blue-400/25 dark:bg-blue-500/25 ring-2 ring-blue-500/40 dark:ring-blue-400/40 animate-pulse pointer-events-none" />
+              {/* The solid background box & megaphone icon */}
+              <div className="relative w-8 h-8 rounded-lg bg-blue-50 dark:bg-blue-950/70 border border-blue-200/90 dark:border-blue-800/70 flex items-center justify-center text-blue-600 dark:text-blue-400">
+                <Megaphone className="w-4 h-4 text-blue-600 dark:text-blue-400 transform -rotate-12" />
+              </div>
             </div>
           )}
 
@@ -287,9 +292,9 @@ export default function GanjilGenapBanner({
                 <h2 className="text-xs sm:text-sm font-bold text-slate-900 dark:text-white leading-tight">
                   {todayInfo.headerFormatted}: BBM subsidi pelat {todayInfo.statusText}
                 </h2>
-                {/* <p className="text-[11px] sm:text-xs text-rose-800 dark:text-rose-400 font-normal leading-tight">
+                <p className="text-[11px] sm:text-xs text-blue-600 dark:text-blue-400 font-normal leading-tight">
                   Ketuk di sini untuk diingatkan saat beli bensin
-                </p> */}
+                </p>
               </>
             )}
           </div>
@@ -442,7 +447,7 @@ export default function GanjilGenapBanner({
           </div>
 
           {/* Collapsible 'Aturan 70%' */}
-          <div className="pt-1 border-t border-slate-200/60 dark:border-slate-800">
+          {/* <div className="pt-1 border-t border-slate-200/60 dark:border-slate-800">
             <button
               type="button"
               onClick={() => setIsAturanOpen((prev) => !prev)}
@@ -479,21 +484,21 @@ export default function GanjilGenapBanner({
                 </ul>
               </div>
             )}
-          </div>
+          </div> */}
 
           {/* Reference Notice Footer */}
-          <div className="pt-2 text-[11px] text-slate-500 dark:text-slate-400 leading-normal">
+          {/* <div className="pt-2 text-[11px] text-slate-500 dark:text-slate-400 leading-normal">
             Surat Gubernur Bali B.21.500.1/16673/V/DISNAKER.ESDM, Jumat 16 Okt. Berlaku Sabtu 17 Okt sampai Senin 19 Okt, lalu dievaluasi.{" "}
             <a
               href="https://bali.antaranews.com/berita/357678/gubernur-bali-terbitkan-surat-tangani-antrean-bbm"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-rose-800 dark:text-rose-400 underline font-medium hover:text-rose-900 dark:hover:text-rose-300 inline-flex items-center gap-0.5"
+              className="text-blue-600 dark:text-blue-400 underline font-medium hover:text-blue-700 dark:hover:text-blue-300 inline-flex items-center gap-0.5"
             >
               <span>Sumber berita</span>
               <ExternalLink className="w-2.5 h-2.5" />
             </a>
-          </div>
+          </div> */}
         </div>
       )}
     </div>
