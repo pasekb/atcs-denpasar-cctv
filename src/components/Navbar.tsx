@@ -42,8 +42,8 @@ export default function Navbar({ totalCount, totalSpbu, isLoading }: NavbarProps
 
           {/* Logo & Judul */}
           <div className="flex items-center gap-2.5">
-            <Link href="/streaming" className="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center shadow-md shadow-blue-500/20 hover:bg-blue-700 transition flex-shrink-0">
-              <Video className="w-4 h-4" />
+            <Link href="/streaming" className="w-9 h-9 rounded-full overflow-hidden shadow-md shadow-sky-500/20 hover:scale-105 transition flex-shrink-0 flex items-center justify-center">
+              <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
             </Link>
             <div>
               <div className="flex items-center gap-1.5 flex-wrap">

@@ -56,8 +56,8 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-8 animate-fadeIn">
         {/* Brand Header */}
         <div className="flex flex-col items-center text-center mb-6">
-          <div className="w-14 h-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center shadow-lg shadow-blue-500/30 mb-3">
-            <Video className="w-7 h-7" />
+          <div className="w-14 h-14 rounded-full overflow-hidden shadow-lg shadow-sky-500/30 mb-3 flex items-center justify-center">
+            <img src="/logo.png" alt="Logo" className="w-full h-full object-cover" />
           </div>
           <h1 className="text-xl font-extrabold text-slate-900 dark:text-white">
             Login Administrator
